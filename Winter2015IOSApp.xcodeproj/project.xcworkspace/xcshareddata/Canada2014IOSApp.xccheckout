@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>50A2E6C9-39EC-4B59-8522-7D28BEE2B039</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Canada2014IOSApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4CA1B12F-5D2F-42AA-BB5F-F5279A66713E</key>
+		<string>https://github.com/bachma0507/Canada2014iOSApp</string>
+		<key>D2C80239-FFE7-4A33-9ECA-334E27F68DBB</key>
+		<string>https://github.com/bachma0507/Winter2014IOSApp</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Canada2014IOSApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4CA1B12F-5D2F-42AA-BB5F-F5279A66713E</key>
+		<string>../..</string>
+		<key>D2C80239-FFE7-4A33-9ECA-334E27F68DBB</key>
+		<string>../../../Winter2014IOSApp</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bachma0507/Canada2014iOSApp</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4CA1B12F-5D2F-42AA-BB5F-F5279A66713E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4CA1B12F-5D2F-42AA-BB5F-F5279A66713E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Canada2014IOSApp - gimbal</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D2C80239-FFE7-4A33-9ECA-334E27F68DBB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Winter2014IOSApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,7 @@
+[{"id":"2","scheduleDate":"Monday February 3","sessionName":"Exhibit Hall Ribbon Cutting Ceremony","sessionTime":"4:30PM"},
+ {"id":"7","scheduleDate":"Monday February 3","sessionName":"Exhibit Hall Open","sessionTime":"4:30 - 7:30PM"},
+ {"id":"8","scheduleDate":"Monday February 3","sessionName":"Exhibition Hall Reception","sessionTime":"4:30 - 7:30PM"},
+ {"id":"3","scheduleDate":"Tuesday February 4","sessionName":"Exhibit Hall Open","sessionTime":"2:00 - 7:30PM"},
+ {"id":"4","scheduleDate":"Tuesday February 4","sessionName":"Exhibition Hall Reception","sessionTime":"4:30 - 7:30PM"},{"id":"5","scheduleDate":"Wednesday February 5","sessionName":"Exhibit Hall Open","sessionTime":"7:30AM - 1:00PM"},
+ {"id":"6","scheduleDate":"Wednesday February 5","sessionName":"Exhibit Hall Continental Breakfast","sessionTime":"7:30AM - 8:30AM"},
+ {"id":"5","scheduleDate":"Wednesday February 5","sessionName":"Exhibit Hall Lunch","sessionTime":"11:30AM - 1:00PM"}]
