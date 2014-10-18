@@ -110,17 +110,17 @@
 }
 
 
-- (void)tableView: (UITableView*)tableView willDisplayCell: (UITableViewCell*)cell forRowAtIndexPath: (NSIndexPath*)indexPath
-{
-    
-    if(indexPath.row % 2 == 0){
-        UIColor *altCellColor = [UIColor colorWithRed:246/255.0 green:235/255.0 blue:253/255.0 alpha:1.0];
-        cell.backgroundColor = altCellColor;
-    }
-    else{
-        cell.backgroundColor = [UIColor whiteColor];
-    }
-}
+//- (void)tableView: (UITableView*)tableView willDisplayCell: (UITableViewCell*)cell forRowAtIndexPath: (NSIndexPath*)indexPath
+//{
+//    
+//    if(indexPath.row % 2 == 0){
+//        UIColor *altCellColor = [UIColor colorWithRed:246/255.0 green:235/255.0 blue:253/255.0 alpha:1.0];
+//        cell.backgroundColor = altCellColor;
+//    }
+//    else{
+//        cell.backgroundColor = [UIColor whiteColor];
+//    }
+//}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -167,7 +167,7 @@
     //myexhibitors = [exhibitorsArray objectAtIndex:indexPath.row];
     cell.textLabel.text = [object valueForKey:@"name"];
     //cell.textLabel.font = [UIFont fontWithName:@"Arial" size:15.0];
-    //cell.textLabel.textColor = [UIColor brownColor];
+    //cell.textLabel.textColor = [UIColor colorWithRed:152/255.0 green:142/255.0 blue:79/255.0 alpha:1.0];
         NSString * fav = [NSString stringWithFormat:@"%@", [object valueForKey:@"fav"]];
         //NSString * favName = [NSString stringWithFormat:@"%@", [object valueForKey:@"name"]];
         
@@ -177,11 +177,12 @@
         }
         else{
         
-        cell.textLabel.textColor = [UIColor brownColor];
+        cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
         }
         
     NSString * booth = [NSString stringWithFormat:@"Booth Number: %@", [object valueForKey:@"boothLabel"]];
     cell.detailTextLabel.text = booth;
+    cell.detailTextLabel.textColor = [UIColor whiteColor];
     //cell.detailTextLabel.font = [UIFont fontWithName:@"Arial" size:13.0];
     }
     else{
@@ -199,11 +200,12 @@
         }
         else{
             
-            cell.textLabel.textColor = [UIColor brownColor];
+            cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
         }
         
     NSString * booth = [NSString stringWithFormat:@"Booth Number: %@", [object valueForKey:@"boothLabel"]];
     cell.detailTextLabel.text = booth;
+    cell.detailTextLabel.textColor = [UIColor whiteColor];
     //cell.detailTextLabel.font = [UIFont fontWithName:@"Arial" size:13.0];
     }
     

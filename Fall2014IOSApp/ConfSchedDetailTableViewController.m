@@ -80,18 +80,18 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)tableView: (UITableView*)tableView willDisplayCell: (UITableViewCell*)cell forRowAtIndexPath: (NSIndexPath*)indexPath
-{
-    
-    if(indexPath.row % 2 == 0){
-        //UIColor *altCellColor = [UIColor colorWithRed:235/255.0 green:240/255.0 blue:233/255.0 alpha:1.0];
-        UIColor *altCellColor = [UIColor colorWithRed:246/255.0 green:235/255.0 blue:253/255.0 alpha:1.0];
-        cell.backgroundColor = altCellColor;
-    }
-    else{
-        cell.backgroundColor = [UIColor whiteColor];
-    }
-}
+//- (void)tableView: (UITableView*)tableView willDisplayCell: (UITableViewCell*)cell forRowAtIndexPath: (NSIndexPath*)indexPath
+//{
+//    
+//    if(indexPath.row % 2 == 0){
+//        //UIColor *altCellColor = [UIColor colorWithRed:235/255.0 green:240/255.0 blue:233/255.0 alpha:1.0];
+//        UIColor *altCellColor = [UIColor colorWithRed:246/255.0 green:235/255.0 blue:253/255.0 alpha:1.0];
+//        cell.backgroundColor = altCellColor;
+//    }
+//    else{
+//        cell.backgroundColor = [UIColor whiteColor];
+//    }
+//}
 
 #pragma mark - Table view data source
 
@@ -142,7 +142,7 @@
     }
     else{
         
-        cell.sessionName.textColor = [UIColor brownColor];
+        cell.sessionName.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
     }
     
     

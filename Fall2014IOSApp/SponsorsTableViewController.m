@@ -192,17 +192,18 @@
     
     cell.sponsorName.text = [object valueForKey:@"sponsorName"];
     cell.sponsorName.font = [UIFont fontWithName:@"Arial" size:13.0];
-    cell.sponsorName.textColor = [UIColor blueColor];
+    cell.sponsorName.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
     
     cell.sponsorLevel.text = [object valueForKey:@"sponsorLevel"];
     cell.sponsorLevel.font = [UIFont fontWithName:@"Arial" size:12.0];
-    cell.sponsorLevel.textColor = [UIColor brownColor];
+    cell.sponsorLevel.textColor = [UIColor whiteColor];
     
     cell.sponsorSpecial.text = [object valueForKey:@"sponsorSpecial"];
     cell.sponsorSpecial.font = [UIFont fontWithName:@"Arial" size:8.0];
     
     cell.boothNumber.text = [object valueForKey:@"boothNumber"];
     cell.boothNumber.font = [UIFont fontWithName:@"Arial" size:11.0];
+    cell.boothNumber.textColor = [UIColor whiteColor];
     
 
 
@@ -223,15 +224,15 @@
 //	[[UIApplication sharedApplication] openURL:url];
 //}
 
-- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if(indexPath.row % 2 == 0){
-        UIColor *altCellColor = [UIColor colorWithRed:246/255.0 green:235/255.0 blue:253/255.0 alpha:1.0];
-        cell.backgroundColor = altCellColor;
-    }
-    else{
-        cell.backgroundColor = [UIColor whiteColor];
-    }
-}
+//- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+//    if(indexPath.row % 2 == 0){
+//        UIColor *altCellColor = [UIColor colorWithRed:246/255.0 green:235/255.0 blue:253/255.0 alpha:1.0];
+//        cell.backgroundColor = altCellColor;
+//    }
+//    else{
+//        cell.backgroundColor = [UIColor whiteColor];
+//    }
+//}
 
 
 /*

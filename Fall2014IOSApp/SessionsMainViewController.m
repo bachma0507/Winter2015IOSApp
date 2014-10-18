@@ -286,7 +286,7 @@
         }
         else{
             
-            cell.textLabel.textColor = [UIColor brownColor];
+            cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
         }
         
         
@@ -318,7 +318,7 @@
         cell.detailTextLabel.text = sessionTime;
         //cell.detailTextLabel.font = [UIFont fontWithName:@"Arial" size:10.0];
         //cell.textLabel.font = [UIFont fontWithName:@"Arial-Bold" size:10.0];
-        //cell.textLabel.textColor = [UIColor brownColor];
+        cell.detailTextLabel.textColor = [UIColor whiteColor];
         //cell.textLabel.font = [UIFont systemFontOfSize:11.0];
         //cell.textLabel.textColor = [UIColor brownColor];
         
@@ -339,7 +339,7 @@
         }
         else{
             
-            cell.textLabel.textColor = [UIColor brownColor];
+            cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
         }
         
         
@@ -371,7 +371,7 @@
         cell.detailTextLabel.text = sessionTime;
         //cell.detailTextLabel.font = [UIFont fontWithName:@"Arial" size:11.0];
         //cell.textLabel.font = [UIFont fontWithName:@"Arial-Bold" size:10.0];
-        //cell.textLabel.textColor = [UIColor brownColor];
+        cell.detailTextLabel.textColor = [UIColor whiteColor];
         //cell.textLabel.font = [UIFont systemFontOfSize:13.0];
         //cell.textLabel.textColor = [UIColor brownColor];
         
@@ -384,18 +384,18 @@
 }
 
 
-- (void)tableView: (UITableView*)tableView willDisplayCell: (UITableViewCell*)cell forRowAtIndexPath: (NSIndexPath*)indexPath
-{
-    
-    if(indexPath.row % 2 == 0){
-        UIColor *altCellColor = [UIColor colorWithRed:246/255.0 green:235/255.0 blue:253/255.0 alpha:1.0];
-        cell.backgroundColor = altCellColor;
-    }
-    else{
-        cell.backgroundColor = [UIColor whiteColor];
-    }
-
-}
+//- (void)tableView: (UITableView*)tableView willDisplayCell: (UITableViewCell*)cell forRowAtIndexPath: (NSIndexPath*)indexPath
+//{
+//    
+//    if(indexPath.row % 2 == 0){
+//        UIColor *altCellColor = [UIColor colorWithRed:246/255.0 green:235/255.0 blue:253/255.0 alpha:1.0];
+//        cell.backgroundColor = altCellColor;
+//    }
+//    else{
+//        cell.backgroundColor = [UIColor whiteColor];
+//    }
+//
+//}
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {

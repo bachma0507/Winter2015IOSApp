@@ -11,6 +11,8 @@
 
 #define HEXCOLOR(c) [UIColor colorWithRed:((c>>24)&0xFF)/255.0 green:((c>>16)&0xFF)/255.0 blue:((c>>8)&0xFF)/255.0 alpha:((c)&0xFF)/255.0]
 
+#define		PF_ALERTS_CREATEDAT					@"createdAt"
+
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 #define		COLOR_NAVBAR_TITLE					HEXCOLOR(0xFFFFFFFF)
 #define		COLOR_NAVBAR_BUTTON					HEXCOLOR(0xFFFFFFFF)

@@ -852,7 +852,7 @@
     
     CGRect statusBarFrame = [[UIApplication sharedApplication] statusBarFrame];
     
-    UIImageView *tutImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlay4"]];
+    UIImageView *tutImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlay5"]];
     [tutImageView setFrame:CGRectMake(0, (-1) * statusBarFrame.size.height, self.view.frame.size.width, self.view.frame.size.height)];
     
     

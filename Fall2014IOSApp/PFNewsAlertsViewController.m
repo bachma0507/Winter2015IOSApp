@@ -8,6 +8,7 @@
 
 #import "PFNewsAlertsViewController.h"
 #import "Fall2013IOSAppAppDelegate.h"
+#import "AppConstant.h"
 
 extern int iNotificationCounter;
 
@@ -58,7 +59,7 @@ extern int iNotificationCounter;
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.view.backgroundColor = [UIColor clearColor];
     
-    UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"billow"]];
+    UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"candela"]];
     [tempImageView setFrame:self.tableView.frame];
     
     self.tableView.backgroundView = tempImageView;
@@ -129,9 +130,18 @@ extern int iNotificationCounter;
     cell.textLabel.text = [object objectForKey:@"text"];
     cell.textLabel.font = [UIFont systemFontOfSize:14.0];
     cell.textLabel.numberOfLines = 4;
-    //cell.detailTextLabel.text = [NSString stringWithFormat:@"Priority: %@",
-    //[object objectForKey:@"priority"]];
-    //cell.detailTextLabel.text = @"Priority";
+    
+    
+//    NSDateFormatter *timeFormatter1 = [[NSDateFormatter alloc] init];
+//    [timeFormatter1 setDateFormat:@"MMM dd yyyy, hh:mm"];
+//    NSDate * cDate = [object objectForKey:@"createdAt"];
+//    NSString *mycDate = [timeFormatter1 stringFromDate:cDate];
+//    
+//    NSLog(@"PF_ALERTS_CREATEDAT is: %@", mycDate);
+//    
+//    cell.detailTextLabel.text = mycDate;
+//    cell.detailTextLabel.font = [UIFont systemFontOfSize:10.0];
+   
     
     //NSLog(@"UITableView method is called");
     
