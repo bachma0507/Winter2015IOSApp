@@ -12,6 +12,7 @@
 #import "ProgressHUD.h"
 #import "AFNetworking.h"
 #import "utilities.h"
+#import <ParseFacebookUtils/PFFacebookUtils.h>
 
 
 #import <Parse/Parse.h>

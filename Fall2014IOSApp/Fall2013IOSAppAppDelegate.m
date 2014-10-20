@@ -16,6 +16,7 @@
 #import "StartPageViewController.h"
 #import <AdSupport/AdSupport.h>
 #import "TestFlight.h"
+#import <ParseFacebookUtils/PFFacebookUtils.h>
 //#import <FYX/FYX.h>
 
 

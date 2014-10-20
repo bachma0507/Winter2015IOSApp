@@ -115,7 +115,6 @@
 		4C326EB81963407B006D4B76 /* NightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326EB71963407B006D4B76 /* NightViewController.m */; };
 		4C326EBB19634139006D4B76 /* YelpAPIServiceShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326EBA19634139006D4B76 /* YelpAPIServiceShop.m */; };
 		4C326EBE1963414F006D4B76 /* YelpAPIServiceNight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326EBD1963414F006D4B76 /* YelpAPIServiceNight.m */; };
-		4C36453D180875BC00882ECA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C36453C180875BC00882ECA /* Parse.framework */; };
 		4C36453F180875CC00882ECA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C36453E180875CC00882ECA /* StoreKit.framework */; };
 		4C36C697192F766F0018AB39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C36C696192F766F0018AB39 /* Images.xcassets */; };
 		4C384F3817A46009003C9063 /* ExhibitorNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C384F3717A46009003C9063 /* ExhibitorNotesViewController.m */; };
@@ -426,6 +425,9 @@
 		4CCD3F711777F811002E11DC /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD3F6B1777F811002E11DC /* SVWebViewController.m */; };
 		4CCEF9F617D281620024E854 /* ProgramPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEF9F517D281620024E854 /* ProgramPDFViewController.m */; };
 		4CCEF9F817D28C1C0024E854 /* ProgramFall2013.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEF9F717D28C1C0024E854 /* ProgramFall2013.pdf */; };
+		4CD0599619F58FC00062C1EC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599519F58FC00062C1EC /* Parse.framework */; };
+		4CD0599819F58FCB0062C1EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599719F58FCB0062C1EC /* Bolts.framework */; };
+		4CD0599A19F58FF80062C1EC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */; };
 		4CD36C4919F0099E004C2872 /* amazonas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C4419F0099E004C2872 /* amazonas.png */; };
 		4CD36C4A19F0099E004C2872 /* amazonas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C4519F0099E004C2872 /* amazonas@2x.png */; };
 		4CD36C4B19F0099E004C2872 /* amazonas@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C4619F0099E004C2872 /* amazonas@2x~ipad.png */; };
@@ -865,7 +867,6 @@
 		4C326EBA19634139006D4B76 /* YelpAPIServiceShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpAPIServiceShop.m; sourceTree = "<group>"; };
 		4C326EBC1963414F006D4B76 /* YelpAPIServiceNight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpAPIServiceNight.h; sourceTree = "<group>"; };
 		4C326EBD1963414F006D4B76 /* YelpAPIServiceNight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpAPIServiceNight.m; sourceTree = "<group>"; };
-		4C36453C180875BC00882ECA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		4C36453E180875CC00882ECA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		4C36C696192F766F0018AB39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4C384F3617A46008003C9063 /* ExhibitorNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhibitorNotesViewController.h; sourceTree = "<group>"; };
@@ -1327,6 +1328,9 @@
 		4CCEF9F417D281620024E854 /* ProgramPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramPDFViewController.h; sourceTree = "<group>"; };
 		4CCEF9F517D281620024E854 /* ProgramPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramPDFViewController.m; sourceTree = "<group>"; };
 		4CCEF9F717D28C1C0024E854 /* ProgramFall2013.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ProgramFall2013.pdf; sourceTree = "<group>"; };
+		4CD0599519F58FC00062C1EC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		4CD0599719F58FCB0062C1EC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		4CD36C4419F0099E004C2872 /* amazonas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amazonas.png; sourceTree = "<group>"; };
 		4CD36C4519F0099E004C2872 /* amazonas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amazonas@2x.png"; sourceTree = "<group>"; };
 		4CD36C4619F0099E004C2872 /* amazonas@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amazonas@2x~ipad.png"; sourceTree = "<group>"; };
@@ -1652,6 +1656,7 @@
 				4C42864019475CE1007A5A11 /* Accelerate.framework in Frameworks */,
 				4CD8E04B1937E36000A4326C /* SpeechKit.framework in Frameworks */,
 				4CD8E03E1937DD4900A4326C /* AVFoundation.framework in Frameworks */,
+				4CD0599A19F58FF80062C1EC /* ParseFacebookUtils.framework in Frameworks */,
 				4C6456C818EC95280011D002 /* CoreBluetooth.framework in Frameworks */,
 				4C9B9AD8183AB2FC00EEE162 /* AddressBook.framework in Frameworks */,
 				4C8E885A182C24E2001204D9 /* AdSupport.framework in Frameworks */,
@@ -1661,9 +1666,10 @@
 				4C69E60918086E7B00FEE035 /* AudioToolbox.framework in Frameworks */,
 				4C69E60718086E6600FEE035 /* libz.1.1.3.dylib in Frameworks */,
 				4C69E60518086E5400FEE035 /* CFNetwork.framework in Frameworks */,
+				4CD0599619F58FC00062C1EC /* Parse.framework in Frameworks */,
 				4C86A61A17BEA9D800E8E9BB /* EventKit.framework in Frameworks */,
 				4C4A456D18E9D7DA003A14C3 /* libCrittercism_v4_1_1.a in Frameworks */,
-				4C36453D180875BC00882ECA /* Parse.framework in Frameworks */,
+				4CD0599819F58FCB0062C1EC /* Bolts.framework in Frameworks */,
 				4C1B9B1817A2269000267303 /* CoreTelephony.framework in Frameworks */,
 				4C01EEDD17931F1F00D49A99 /* MapKit.framework in Frameworks */,
 				4C3FFAF817650B6700166BD7 /* MessageUI.framework in Frameworks */,
@@ -1838,14 +1844,16 @@
 		4C2D69F7174541100053BCC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */,
+				4CD0599719F58FCB0062C1EC /* Bolts.framework */,
+				4CD0599519F58FC00062C1EC /* Parse.framework */,
 				4C42863F19475CE1007A5A11 /* Accelerate.framework */,
-				4CD8E04A1937E36000A4326C /* SpeechKit.framework */,
-				4CD8E03D1937DD4900A4326C /* AVFoundation.framework */,
-				4C6456C718EC95280011D002 /* CoreBluetooth.framework */,
 				4C9B9AD7183AB2FC00EEE162 /* AddressBook.framework */,
 				4C8E8859182C24E2001204D9 /* AdSupport.framework */,
 				4C69E60818086E7B00FEE035 /* AudioToolbox.framework */,
+				4CD8E03D1937DD4900A4326C /* AVFoundation.framework */,
 				4C69E60418086E5400FEE035 /* CFNetwork.framework */,
+				4C6456C718EC95280011D002 /* CoreBluetooth.framework */,
 				4C7459341756801600A76417 /* CoreData.framework */,
 				4C2D69FC174541100053BCC0 /* CoreGraphics.framework */,
 				4C43CE94174741A7008AAA9D /* CoreLocation.framework */,
@@ -1859,10 +1867,10 @@
 				4C01EEDC17931F1F00D49A99 /* MapKit.framework */,
 				4C3FFAF717650B6700166BD7 /* MessageUI.framework */,
 				4C7459361756802F00A76417 /* MobileCoreServices.framework */,
-				4C36453C180875BC00882ECA /* Parse.framework */,
 				4C69E60A18086E8F00FEE035 /* QuartzCore.framework */,
 				4C74593217567FF800A76417 /* Security.framework */,
 				4C3EC0CE1764287D002E7415 /* Social.framework */,
+				4CD8E04A1937E36000A4326C /* SpeechKit.framework */,
 				4C36453E180875CC00882ECA /* StoreKit.framework */,
 				4C43CE96174741B0008AAA9D /* SystemConfiguration.framework */,
 				4C2D69F8174541100053BCC0 /* UIKit.framework */,
