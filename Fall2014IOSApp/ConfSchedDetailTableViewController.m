@@ -121,6 +121,7 @@
     
     confSchedDetailViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 
+    cell.backgroundColor = [UIColor colorWithRed:16/255.0 green:29/255.0 blue:60/255.0 alpha:1.0];
     
     if (!cell)
     {
@@ -161,6 +162,7 @@
     NSString * sessionTime = [[NSString alloc] initWithFormat:@"%@ - %@", sTimeStr, eTimeStr];
     
     cell.sessionTime.text = sessionTime;
+    cell.sessionTime.textColor = [UIColor whiteColor];
     cell.itscecs.hidden = YES;
     cell.sessionStatus.hidden = YES;
     //cell.sessionStatus.text = [object valueForKey:@"sessionStatus"];

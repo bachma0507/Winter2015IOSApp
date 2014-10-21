@@ -268,7 +268,7 @@ static RNFrostedSidebar *rn_frostedMenu;
         
         _width = 250;
         _animationDuration = 0.25f;
-        _itemSize = CGSizeMake(_width/2, _width/2);
+        _itemSize = CGSizeMake(_width/1.25, _width/1.25);
         _itemViews = [NSMutableArray array];
         _tintColor = [UIColor colorWithWhite:0.2 alpha:0.73];
         _borderWidth = 2;
@@ -316,7 +316,7 @@ static RNFrostedSidebar *rn_frostedMenu;
         
         _width = 150;
         _animationDuration = 0.25f;
-        _itemSize = CGSizeMake(_width/2, _width/2);
+        _itemSize = CGSizeMake(_width/1.25, _width/1.25);
         _itemViews = [NSMutableArray array];
         _tintColor = [UIColor colorWithWhite:0.2 alpha:0.73];
         _borderWidth = 2;

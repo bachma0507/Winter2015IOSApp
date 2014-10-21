@@ -465,7 +465,7 @@
     
     else{
         NSArray *images = @[
-                            [UIImage imageNamed:@"cecinfo"],
+                            [UIImage imageNamed:@"cecinfoW15"],
                             [UIImage imageNamed:@"trainingexams"],
                             [UIImage imageNamed:@"committee"],
                             [UIImage imageNamed:@"hotelinfo"],
