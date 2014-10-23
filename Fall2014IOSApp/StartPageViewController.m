@@ -465,15 +465,15 @@
     
     else{
         NSArray *images = @[
-                            [UIImage imageNamed:@"cecinfoW15"],
-                            [UIImage imageNamed:@"trainingexams"],
+                            [UIImage imageNamed:@"cecinfo-ipad"],
+                            [UIImage imageNamed:@"trainingexams-ipad"],
                             [UIImage imageNamed:@"committee"],
-                            [UIImage imageNamed:@"hotelinfo"],
+                            [UIImage imageNamed:@"hotelinfo-ipad"],
                             [UIImage imageNamed:@"floormaps"],
-                            [UIImage imageNamed:@"presentations"],
+                            [UIImage imageNamed:@"presentations-ipad"],
                             [UIImage imageNamed:@"findactivity"],
-                            [UIImage imageNamed:@"contactus"],
-                            [UIImage imageNamed:@"email"],
+                            [UIImage imageNamed:@"contactus-ipad"],
+                            [UIImage imageNamed:@"email-ipad"],
                             
                             //                        [UIImage imageNamed:@"sponsors"],
                             //                        [UIImage imageNamed:@"sessions"],

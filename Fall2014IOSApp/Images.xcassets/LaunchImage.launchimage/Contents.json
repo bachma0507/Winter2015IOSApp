@@ -22,7 +22,7 @@
       "idiom" : "ipad",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "Default-iOS7-Portrait~ipad.png",
+      "filename" : "2015-Winter-splash-ipad.png",
       "scale" : "1x"
     },
     {
@@ -37,7 +37,7 @@
       "idiom" : "ipad",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "Default-iOS7-Portrait@2x~ipad.png",
+      "filename" : "2015-Winter-splash-ipad@2x.png",
       "scale" : "2x"
     },
     {
@@ -73,7 +73,6 @@
       "orientation" : "portrait",
       "idiom" : "ipad",
       "extent" : "to-status-bar",
-      "filename" : "Default-Portrait~ipad.png",
       "scale" : "1x"
     },
     {
@@ -87,7 +86,6 @@
       "orientation" : "portrait",
       "idiom" : "ipad",
       "extent" : "to-status-bar",
-      "filename" : "Default-Portrait@2x~ipad.png",
       "scale" : "2x"
     },
     {
