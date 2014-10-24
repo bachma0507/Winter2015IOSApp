@@ -351,7 +351,7 @@
         <!--Agenda Detail View Controller-->
         <scene sceneID="1vx-zk-eY9">
             <objects>
-                <viewController id="UtQ-mB-Aud" customClass="AgendaDetailViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="UtQ-mB-Aud" customClass="AgendaDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0ey-UX-qJi">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1159,7 +1159,7 @@
         <!--Sponsors Detail View Controller-->
         <scene sceneID="a4N-Wl-xCZ">
             <objects>
-                <viewController id="ClZ-Ew-QNn" customClass="SponsorsDetailViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="ClZ-Ew-QNn" customClass="SponsorsDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gMv-92-J4z">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1212,17 +1212,17 @@
             <objects>
                 <viewController id="dy6-g4-Jyw" customClass="FindAreaActivitiesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zgF-p3-YTu">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2sQ-k1-fHb">
-                                <rect key="frame" x="12" y="95" width="295" height="263"/>
+                                <rect key="frame" x="12" y="119" width="295" height="263"/>
                                 <color key="backgroundColor" red="0.63137254899999995" green="0.73333333329999995" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y5d-Iu-VqP">
-                                <rect key="frame" x="60" y="165" width="176" height="30"/>
+                                <rect key="frame" x="60" y="184" width="176" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Touch Commands">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1232,7 +1232,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nqn-xh-voF">
-                                <rect key="frame" x="58" y="230" width="180" height="30"/>
+                                <rect key="frame" x="58" y="257" width="180" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Voice Commands">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1242,26 +1242,25 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find area activities by:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hjF-kI-1Qb">
-                                <rect key="frame" x="58" y="132" width="226" height="29"/>
+                                <rect key="frame" x="58" y="147" width="226" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered By Yelp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="t97-5B-8hD">
-                                <rect key="frame" x="100" y="249" width="97" height="21"/>
+                                <rect key="frame" x="100" y="277" width="97" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yelp_logo.png" id="uir-3m-ihK">
-                                <rect key="frame" x="97" y="265" width="100" height="50"/>
+                                <rect key="frame" x="97" y="297" width="100" height="50"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="powered-by-google-on-white.png" id="ekl-8O-gbS">
-                                <rect key="frame" x="95" y="189" width="104" height="16"/>
+                                <rect key="frame" x="95" y="210" width="104" height="16"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <navigationItem key="navigationItem" title="Find Area Activities" id="zlx-0P-N10"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cp9-0h-63C" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1534,9 +1533,9 @@
         <!--Exhibitor Notes View Controller-->
         <scene sceneID="1mR-Qa-hXw">
             <objects>
-                <viewController id="vrH-64-TgI" customClass="ExhibitorNotesViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="vrH-64-TgI" customClass="ExhibitorNotesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zxx-0J-NQk">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="boothNumberlabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qnP-oH-xeH">
@@ -1608,7 +1607,6 @@
                         </subviews>
                         <color key="backgroundColor" red="0.1333333333" green="0.08235294118" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <navigationItem key="navigationItem" id="x0c-um-CI8"/>
                     <connections>
                         <outlet property="boothNumberlabel" destination="qnP-oH-xeH" id="OMO-Mi-ohd"/>
@@ -1656,7 +1654,7 @@
         <!--Exhibitors Detail View Controller-->
         <scene sceneID="Sae-KV-tv8">
             <objects>
-                <viewController id="YyU-lg-W2b" customClass="ExhibitorsDetailViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="YyU-lg-W2b" customClass="ExhibitorsDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pur-JC-eWK">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1798,11 +1796,11 @@
             <objects>
                 <viewController id="cBX-aT-2Ui" customClass="FloorMapsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UPl-gK-fTb">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2fW-Vu-ZOs">
-                                <rect key="frame" x="88" y="65" width="145" height="38"/>
+                                <rect key="frame" x="88" y="31" width="145" height="38"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1811,16 +1809,16 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fall2014_new_session_rooms_iphone.png" id="BPo-oe-jnp">
-                                <rect key="frame" x="88" y="61" width="145" height="38"/>
+                                <rect key="frame" x="88" y="27" width="145" height="38"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Session Rooms Floor Map (Tap)" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aWX-C3-bTk">
-                                <rect key="frame" x="103" y="91" width="114" height="57"/>
+                                <rect key="frame" x="103" y="61" width="114" height="57"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rvp-qH-zP9">
-                                <rect key="frame" x="88" y="145" width="145" height="243"/>
+                                <rect key="frame" x="88" y="133" width="145" height="243"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1829,10 +1827,10 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f14_exhibithall_floorplan_icon_iphone.png" id="7Wh-3a-nKp">
-                                <rect key="frame" x="88" y="158" width="145" height="244"/>
+                                <rect key="frame" x="88" y="149" width="145" height="244"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exhibit Hall Floor Map (Tap)" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aZk-dJ-MfC">
-                                <rect key="frame" x="103" y="390" width="114" height="57"/>
+                                <rect key="frame" x="103" y="396" width="114" height="57"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1840,7 +1838,6 @@
                         </subviews>
                         <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <navigationItem key="navigationItem" title="Floor Maps" id="HA3-Na-IKR"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -2514,7 +2511,7 @@
         <!--Speaker Detail View Controller-->
         <scene sceneID="FOy-zt-Vp4">
             <objects>
-                <viewController id="NUB-XF-HAE" customClass="SpeakerDetailViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="NUB-XF-HAE" customClass="SpeakerDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="No0-o4-Jav">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2653,7 +2650,7 @@
         <!--Sessions View Controller-->
         <scene sceneID="UP4-Ht-gfc">
             <objects>
-                <viewController id="JcY-Cp-Idr" customClass="SessionsViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="JcY-Cp-Idr" customClass="SessionsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7sc-1Y-iZG">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2782,7 +2779,7 @@
         <!--Session2 View Controller-->
         <scene sceneID="6N5-YY-qhU">
             <objects>
-                <viewController id="UkH-8D-b78" customClass="Session2ViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="UkH-8D-b78" customClass="Session2ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Us8-rj-uoV">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2931,7 +2928,7 @@
         <!--Sessions Detail View Controller-->
         <scene sceneID="M8h-b1-54R">
             <objects>
-                <viewController id="PAX-wY-J2E" customClass="SessionsDetailViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="PAX-wY-J2E" customClass="SessionsDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iA5-qi-lg4">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3097,9 +3094,9 @@
         <!--Notes View Controller-->
         <scene sceneID="pRO-Wv-4ap">
             <objects>
-                <viewController id="ia6-sb-L6e" customClass="NotesViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="ia6-sb-L6e" customClass="NotesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DQC-57-aup">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" text="sessionNameLabel" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="azq-AC-VLz">
@@ -3127,7 +3124,7 @@
                                 <rect key="frame" x="20" y="108" width="45" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0ys-Xa-FEP">
@@ -3164,7 +3161,6 @@
                         </subviews>
                         <color key="backgroundColor" red="0.1333333333" green="0.08235294118" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <navigationItem key="navigationItem" id="nku-L6-BuI"/>
                     <connections>
                         <outlet property="notesTextField" destination="soO-PC-cp2" id="Po9-20-xko"/>
@@ -3257,7 +3253,7 @@
         <!--Locate On Map View Controller-->
         <scene sceneID="LJz-J2-nzX">
             <objects>
-                <viewController id="mIG-o6-5nX" customClass="LocateOnMapViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="mIG-o6-5nX" customClass="LocateOnMapViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6QB-3L-xy6">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3265,7 +3261,7 @@
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="elX-D8-UvP">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.63137254899999995" green="0.73333333329999995" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" id="w5L-0U-IOY">
@@ -3290,7 +3286,7 @@
         <!--My Favorites Detail View Controller-->
         <scene sceneID="7I7-vY-sFf">
             <objects>
-                <viewController id="dKm-9b-5P8" customClass="MyFavoritesDetailViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="dKm-9b-5P8" customClass="MyFavoritesDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mC8-3l-pv9">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3950,9 +3946,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="v11-zK-g7b"/>
         <segue reference="9cZ-Dy-QTD"/>
+        <segue reference="3a1-YG-Me0"/>
+        <segue reference="TFl-4O-UXk"/>
         <segue reference="kta-Nv-RwY"/>
         <segue reference="XS1-ta-yNk"/>
-        <segue reference="Dsf-md-SSX"/>
-        <segue reference="XSx-XV-6K8"/>
     </inferredMetricsTieBreakers>
 </document>

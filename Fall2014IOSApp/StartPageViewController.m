@@ -424,12 +424,12 @@
     {
     
     NSArray *images = @[
-                        [UIImage imageNamed:@"cecinfo-ipad"],
-                        [UIImage imageNamed:@"trainingexams-ipad"],
-                        [UIImage imageNamed:@"hotelinfo-ipad"],
-                        [UIImage imageNamed:@"contactus-ipad"],
-                        [UIImage imageNamed:@"email-ipad"],
-                        [UIImage imageNamed:@"presentations-ipad"],
+                        [UIImage imageNamed:@"cecinfoW15_550x550.png"],
+                        [UIImage imageNamed:@"trainingexamsW15_550x550.png"],
+                        [UIImage imageNamed:@"hotelW15_550x550.png"],
+                        [UIImage imageNamed:@"contactW15_550x550.png"],
+                        [UIImage imageNamed:@"emailW15_550x550.png"],
+                        [UIImage imageNamed:@"presentationsW15_600x600.png"],
 //                        [UIImage imageNamed:@"sponsors"],
 //                        [UIImage imageNamed:@"sessions"],
 //                        [UIImage imageNamed:@"exhibitors"],
@@ -465,15 +465,15 @@
     
     else{
         NSArray *images = @[
-                            [UIImage imageNamed:@"cecinfo-ipad"],
-                            [UIImage imageNamed:@"trainingexams-ipad"],
-                            [UIImage imageNamed:@"committee"],
-                            [UIImage imageNamed:@"hotelinfo-ipad"],
-                            [UIImage imageNamed:@"floormaps"],
-                            [UIImage imageNamed:@"presentations-ipad"],
-                            [UIImage imageNamed:@"findactivity"],
-                            [UIImage imageNamed:@"contactus-ipad"],
-                            [UIImage imageNamed:@"email-ipad"],
+                            [UIImage imageNamed:@"cecinfoW15_550x550.png"],
+                            [UIImage imageNamed:@"trainingexamsW15_550x550.png"],
+                            [UIImage imageNamed:@"committeeW15_550x550.png"],
+                            [UIImage imageNamed:@"hotelW15_550x550.png"],
+                            [UIImage imageNamed:@"floormapsW15_550x550.png"],
+                            [UIImage imageNamed:@"presentationsW15_600x600.png"],
+                            [UIImage imageNamed:@"activitiesW15_550x550.png"],
+                            [UIImage imageNamed:@"contactW15_550x550.png"],
+                            [UIImage imageNamed:@"emailW15_550x550.png"],
                             
                             //                        [UIImage imageNamed:@"sponsors"],
                             //                        [UIImage imageNamed:@"sessions"],
