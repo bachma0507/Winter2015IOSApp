@@ -8,6 +8,8 @@
 
 #import "IpadRegisterViewController.h"
 
+#import "AppConstant.h"
+
 #import <Parse/Parse.h>
 
 @interface IpadRegisterViewController ()
@@ -16,7 +18,7 @@
 
 @implementation IpadRegisterViewController
 
-@synthesize userRegisterTextField = _userRegisterTextField, passwordRegisterTextField = _passwordRegisterTextField;
+@synthesize userRegisterTextField = _userRegisterTextField, passwordRegisterTextField = _passwordRegisterTextField, emailRegisterTextField = _emailRegisterTextField;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -50,6 +52,7 @@
     // Release any retained subviews of the main view.
     self.userRegisterTextField = nil;
     self.passwordRegisterTextField = nil;
+    self.emailRegisterTextField = nil;
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
@@ -65,12 +68,15 @@
 ////Sign Up Button pressed
 -(IBAction)signUpUserPressed:(id)sender
 {
-   
-    [TestFlight passCheckpoint:@"GalleryIpadRegButton-pressed"];
+    [TestFlight passCheckpoint:@"GalleryRegButton-pressed"];
     
     PFUser *user = [PFUser user];
     user.username = self.userRegisterTextField.text;
     user.password = self.passwordRegisterTextField.text;
+    user.email = self.emailRegisterTextField.text;
+    user[PF_USER_EMAILCOPY] = self.emailRegisterTextField.text;
+    user[PF_USER_FULLNAME] = self.userRegisterTextField.text;
+    user[PF_USER_FULLNAME_LOWER] = [self.userRegisterTextField.text lowercaseString];
     
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {

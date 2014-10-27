@@ -221,12 +221,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rCN-i0-d86" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4099" y="1646"/>
+            <point key="canvasLocation" x="-4122" y="1646"/>
         </scene>
         <!--Find Area Activities-->
         <scene sceneID="sDp-ks-qws">
             <objects>
-                <viewController id="yOR-dG-9HU" customClass="GooglePlacesViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="yOR-dG-9HU" customClass="GooglePlacesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tBI-wS-Bia">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <subviews>
@@ -265,7 +265,7 @@
                                 </items>
                             </toolbar>
                         </subviews>
-                        <color key="backgroundColor" red="0.63137254899999995" green="0.73333333329999995" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <navigationItem key="navigationItem" title="Find Area Activities" id="tUU-VF-Hf0"/>
@@ -1622,7 +1622,7 @@
         <!--Session Rooms Floor Map-->
         <scene sceneID="DXN-wx-rrZ">
             <objects>
-                <viewController id="Wvj-Fe-nCb" customClass="EntranceHallFloorPlanViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="Wvj-Fe-nCb" customClass="EntranceHallFloorPlanViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pt8-75-7jo">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1630,7 +1630,7 @@
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="WAz-e1-gqd">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.63137254899999995" green="0.73333333329999995" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" id="2Mw-zK-tB8">
                                 <rect key="frame" x="142" y="233" width="37" height="37"/>
@@ -1800,7 +1800,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2fW-Vu-ZOs">
-                                <rect key="frame" x="88" y="31" width="145" height="38"/>
+                                <rect key="frame" x="88" y="54" width="145" height="38"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1809,16 +1809,16 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fall2014_new_session_rooms_iphone.png" id="BPo-oe-jnp">
-                                <rect key="frame" x="88" y="27" width="145" height="38"/>
+                                <rect key="frame" x="88" y="50" width="145" height="38"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Session Rooms Floor Map (Tap)" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aWX-C3-bTk">
-                                <rect key="frame" x="103" y="61" width="114" height="57"/>
+                                <rect key="frame" x="103" y="84" width="114" height="57"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rvp-qH-zP9">
-                                <rect key="frame" x="88" y="133" width="145" height="243"/>
+                                <rect key="frame" x="88" y="139" width="145" height="243"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1852,7 +1852,7 @@
         <!--Exhibit Hall Floor Plan-->
         <scene sceneID="jRG-kd-Xn7">
             <objects>
-                <viewController id="0F4-70-PsM" customClass="ExhibitHallFloorPlanViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="0F4-70-PsM" customClass="ExhibitHallFloorPlanViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GDW-Uh-clH">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1860,7 +1860,7 @@
                             <webView multipleTouchEnabled="YES" contentMode="scaleToFill" scalesPageToFit="YES" id="LBL-Hb-aeQ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.63137254899999995" green="0.73333333329999995" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outlet property="delegate" destination="0F4-70-PsM" id="ldE-7k-ada"/>
@@ -3944,11 +3944,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="v11-zK-g7b"/>
+        <segue reference="Bmv-kT-R6k"/>
         <segue reference="9cZ-Dy-QTD"/>
+        <segue reference="94R-k8-XlG"/>
+        <segue reference="ia9-ZG-dp5"/>
         <segue reference="3a1-YG-Me0"/>
         <segue reference="TFl-4O-UXk"/>
-        <segue reference="kta-Nv-RwY"/>
-        <segue reference="XS1-ta-yNk"/>
     </inferredMetricsTieBreakers>
 </document>
