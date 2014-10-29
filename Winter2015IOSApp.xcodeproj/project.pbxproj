@@ -440,6 +440,8 @@
 		4CCFD96519F9587700464E3D /* activitiesW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD96419F9587700464E3D /* activitiesW15_550x550.png */; };
 		4CCFD96719F9592500464E3D /* contactW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD96619F9592500464E3D /* contactW15_550x550.png */; };
 		4CCFD96919F959B800464E3D /* emailW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD96819F959B800464E3D /* emailW15_550x550.png */; };
+		4CCFD96C1A006CE100464E3D /* star_red_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD96A1A006CE100464E3D /* star_red_120.png */; };
+		4CCFD96D1A006CE100464E3D /* star_pink_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD96B1A006CE100464E3D /* star_pink_120.png */; };
 		4CD0599619F58FC00062C1EC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599519F58FC00062C1EC /* Parse.framework */; };
 		4CD0599819F58FCB0062C1EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599719F58FCB0062C1EC /* Bolts.framework */; };
 		4CD0599A19F58FF80062C1EC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */; };
@@ -1358,6 +1360,8 @@
 		4CCFD96419F9587700464E3D /* activitiesW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activitiesW15_550x550.png; sourceTree = "<group>"; };
 		4CCFD96619F9592500464E3D /* contactW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactW15_550x550.png; sourceTree = "<group>"; };
 		4CCFD96819F959B800464E3D /* emailW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emailW15_550x550.png; sourceTree = "<group>"; };
+		4CCFD96A1A006CE100464E3D /* star_red_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_red_120.png; sourceTree = "<group>"; };
+		4CCFD96B1A006CE100464E3D /* star_pink_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_pink_120.png; sourceTree = "<group>"; };
 		4CD0599519F58FC00062C1EC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		4CD0599719F58FCB0062C1EC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
@@ -2093,6 +2097,8 @@
 		4C3F576B19EF62DE00998BBA /* Winter_2015_images */ = {
 			isa = PBXGroup;
 			children = (
+				4CCFD96A1A006CE100464E3D /* star_red_120.png */,
+				4CCFD96B1A006CE100464E3D /* star_pink_120.png */,
 				4CCFD96819F959B800464E3D /* emailW15_550x550.png */,
 				4CCFD96619F9592500464E3D /* contactW15_550x550.png */,
 				4CCFD96419F9587700464E3D /* activitiesW15_550x550.png */,
@@ -3861,6 +3867,7 @@
 				4CF45E7917822769000F6A5D /* twitterfeed-568h@2x.png in Resources */,
 				4CF45E7B17822778000F6A5D /* facebookpost-568h@2xpng.png in Resources */,
 				4CCFD96119F9570100464E3D /* floormapsW15_550x550.png in Resources */,
+				4CCFD96C1A006CE100464E3D /* star_red_120.png in Resources */,
 				4CD8DFA2193781C900A4326C /* floormapsglow_568h@2x.png in Resources */,
 				4C576112178AF65600DB6824 /* view_website_icon.png in Resources */,
 				4C326E9C1961E4A2006D4B76 /* trainingexams-ipad.png in Resources */,
@@ -3942,6 +3949,7 @@
 				4CD36C5C19F011DC004C2872 /* billow@2x.png in Resources */,
 				4CD8DF62193781AB00A4326C /* sessions-ipad.png in Resources */,
 				4C0427391854AB6500C5FCBE /* com_cables_bronze.png in Resources */,
+				4CCFD96D1A006CE100464E3D /* star_pink_120.png in Resources */,
 				4CBDD4B21848DA70007A9002 /* duraline_lanyards.png in Resources */,
 				4CF08421181ECE5800FF6978 /* createuser_button_568h@2x.png in Resources */,
 				4CD8DF041937818900A4326C /* contactusglow@2x.png in Resources */,
