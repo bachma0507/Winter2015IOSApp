@@ -41,4 +41,6 @@
 - (IBAction)mapButtonPressed:(id)sender;
 
 - (IBAction)buttonPressed:(id)sender;
+
+-(void) favPressed;
 @end

@@ -34,7 +34,7 @@
     _webview.delegate = self;
     
     //NSString *httpSource = @"http://www.speedyreference.com/bicsiappcms/hotelinformation.html";
-    NSString *httpSource = @"http://www.bicsi.org/directory/uplink/default.aspx?id=7011";
+    NSString *httpSource = @"http://www.bicsi.org/directory/uplink/default.aspx?id=7343";
     NSURL *fullUrl = [NSURL URLWithString:httpSource];
     NSURLRequest *httpRequest = [NSURLRequest requestWithURL:fullUrl];
     [ _webview loadRequest:httpRequest];

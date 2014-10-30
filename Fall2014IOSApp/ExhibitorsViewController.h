@@ -25,6 +25,7 @@
 
 @property (strong, nonatomic) NSArray *objects;
 
+//- (IBAction)starPressed:(id)sender;
 
 
 //- (void)fetchedData:(NSData *)responseData;

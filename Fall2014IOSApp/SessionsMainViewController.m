@@ -13,6 +13,7 @@
 #import <CoreData/CoreData.h>
 #import "StartPageViewController.h"
 #import "SVWebViewController.h"
+#import "SessionsMainViewCell.h"
 
 @interface SessionsMainViewController ()
 
@@ -261,13 +262,13 @@
     
     static NSString *CellIdentifier = @"Cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    SessionsMainViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     cell.backgroundColor = [UIColor colorWithRed:16/255.0 green:29/255.0 blue:60/255.0 alpha:1.0];
     
     if (!cell)
     {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        cell = [[SessionsMainViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
@@ -285,10 +286,18 @@
         if ([planner isEqualToString:@"Yes"]) {
             
             cell.textLabel.textColor = [UIColor redColor];
+            
+            UIImage * myImage = [UIImage imageNamed:@"star_red_120.png"];
+            
+            [cell.starUnSel setImage:myImage];
         }
         else{
             
             cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
+            
+            UIImage * myImage2 = [UIImage imageNamed:@"transparent.png"];
+            
+            [cell.starUnSel setImage:myImage2];
         }
         
         
@@ -338,10 +347,18 @@
         if ([planner isEqualToString:@"Yes"]) {
             
             cell.textLabel.textColor = [UIColor redColor];
+            
+            UIImage * myImage = [UIImage imageNamed:@"star_red_120.png"];
+            
+            [cell.starUnSel setImage:myImage];
         }
         else{
             
             cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
+            
+            UIImage * myImage2 = [UIImage imageNamed:@"transparent.png"];
+            
+            [cell.starUnSel setImage:myImage2];
         }
         
         
@@ -383,6 +400,32 @@
     
     
     return cell;
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Sessions" inManagedObjectContext:self.managedObjectContext];
+    
+    [fetchRequest setEntity:entity];
+    
+    [fetchRequest setPredicate:[NSPredicate predicateWithFormat:@"sessionID CONTAINS 'CONCSES'"]];
+    
+    NSSortDescriptor *sortDescriptor1 = [[NSSortDescriptor alloc] initWithKey:@"sessionDate" ascending:YES];
+    NSSortDescriptor *sortDescriptor2 = [[NSSortDescriptor alloc] initWithKey:@"startTime" ascending:YES];
+    NSArray *sortDescriptors = [NSArray arrayWithObjects:sortDescriptor1, sortDescriptor2, nil];
+    [fetchRequest setSortDescriptors:sortDescriptors];
+    
+    NSArray *myResults = [self.managedObjectContext executeFetchRequest:fetchRequest error:nil];
+    
+        
+        UIRefreshControl *refreshControl = [[UIRefreshControl alloc]
+                                            init];
+        
+        [refreshControl endRefreshing];
+        self.objects = myResults;
+    [self.myTableView reloadData];
 }
 
 

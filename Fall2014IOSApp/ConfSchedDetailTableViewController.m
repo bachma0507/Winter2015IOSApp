@@ -140,10 +140,19 @@
     if ([planner isEqualToString:@"Yes"]) {
         
         cell.sessionName.textColor = [UIColor redColor];
+        
+        UIImage * myImage = [UIImage imageNamed:@"star_red_120.png"];
+        
+        [cell.starUnSel setImage:myImage];
+        
     }
     else{
         
         cell.sessionName.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
+        
+        UIImage * myImage2 = [UIImage imageNamed:@"transparent.png"];
+        
+        [cell.starUnSel setImage:myImage2];
     }
     
     
@@ -247,6 +256,45 @@
     }
     
     [self.tableView reloadData];
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Sessions" inManagedObjectContext:self.managedObjectContext];
+    
+    [fetchRequest setEntity:entity];
+    
+    
+    [fetchRequest setPredicate:[NSPredicate predicateWithFormat:@"NOT(sessionID CONTAINS 'EXHV' || sessionID CONTAINS 'EXHX' || sessionID CONTAINS 'DRIN' || sessionID CONTAINS 'BADG' || sessionID CONTAINS 'CRED_H' || sessionID CONTAINS 'FTA' || sessionID CONTAINS 'GUES' || sessionID CONTAINS 'INTL' || sessionID CONTAINS 'NEW_' || sessionID CONTAINS 'GS_TUESA' || sessionID CONTAINS 'GS_TUESP' || sessionID CONTAINS 'GS_THURA' || sessionID CONTAINS 'OD_') && sessionDate == %@",cschedule.trueDate]];
+    
+    //[fetchRequest setPredicate:[NSPredicate predicateWithFormat:@"NOT(sessionID CONTAINS 'BODMC')"]];
+    
+    
+    NSLog(@"cshedule date in refreshtable is: %@",cschedule.date);
+    
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"startTime" ascending:YES];
+    NSArray *sortDescriptors = [NSArray arrayWithObjects:sortDescriptor, nil];
+    
+    [fetchRequest setSortDescriptors:sortDescriptors];
+    
+    
+    NSArray *myResults = [self.managedObjectContext executeFetchRequest:fetchRequest error:nil];
+    
+    self.myObjects = myResults;
+    
+    
+        UIRefreshControl *refreshControl = [[UIRefreshControl alloc]
+                                            init];
+        
+        [refreshControl endRefreshing];
+        self.myObjects = myResults;
+    
+    [self.tableView reloadData];
+
     
 }
 

@@ -11,6 +11,7 @@
 #import "MBProgressHUD.h"
 #import "Fall2013IOSAppAppDelegate.h"
 #import "StartPageViewController.h"
+#import "ExhibitorViewCell.h"
 
 @interface ExhibitorsViewController ()
 
@@ -149,16 +150,16 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *simpleTableIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"ExhibitorsCell";
     
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+     ExhibitorViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     cell.backgroundColor = [UIColor colorWithRed:16/255.0 green:29/255.0 blue:60/255.0 alpha:1.0];
     
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:simpleTableIdentifier];
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        cell = [[ExhibitorViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
     //exhibitors * myexhibitors = nil;
@@ -175,10 +176,18 @@
         if ([fav isEqualToString:@"Yes"]) {
             
             cell.textLabel.textColor = [UIColor redColor];
+            
+            UIImage * myImage = [UIImage imageNamed:@"star_red_120.png"];
+            
+            [cell.starUnSel setImage:myImage];
         }
         else{
         
         cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
+            
+            UIImage * myImage2 = [UIImage imageNamed:@"transparent.png"];
+            
+            [cell.starUnSel setImage:myImage2];
         }
         
     NSString * booth = [NSString stringWithFormat:@"Booth Number: %@", [object valueForKey:@"boothLabel"]];
@@ -198,10 +207,18 @@
         if ([fav isEqualToString:@"Yes"]) {
             
             cell.textLabel.textColor = [UIColor redColor];
+            
+            UIImage * myImage = [UIImage imageNamed:@"star_red_120.png"];
+            
+            [cell.starUnSel setImage:myImage];
         }
         else{
             
             cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
+            
+            UIImage * myImage2 = [UIImage imageNamed:@"transparent.png"];
+            
+            [cell.starUnSel setImage:myImage2];
         }
         
     NSString * booth = [NSString stringWithFormat:@"Booth Number: %@", [object valueForKey:@"boothLabel"]];
@@ -294,6 +311,34 @@
     }
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Exhibitors" inManagedObjectContext:self.managedObjectContext];
+    
+    [fetchRequest setEntity:entity];
+    
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+    NSArray *sortDescriptors = [NSArray arrayWithObjects:sortDescriptor, nil];
+    
+    [fetchRequest setSortDescriptors:sortDescriptors];
+    
+    NSArray *myResults = [self.managedObjectContext executeFetchRequest:fetchRequest error:nil];
+    
+    
+        UIRefreshControl *refreshControl = [[UIRefreshControl alloc]
+                                            init];
+        
+        [refreshControl endRefreshing];
+        self.objects = myResults;
+        [self.myTableView reloadData];
+    
+    
+}
+
 //-(void)updateData{
 //    StartPageViewController * startPage = [[StartPageViewController alloc] init];
 //    
@@ -304,5 +349,11 @@
 //}
 
 
+//- (IBAction)starPressed:(id)sender {
+//    
+//    ExhibitorsDetailViewController * exDetail = [[ExhibitorsDetailViewController alloc] init];
+//    
+//    [exDetail favPressed];
+//}
 @end
 
