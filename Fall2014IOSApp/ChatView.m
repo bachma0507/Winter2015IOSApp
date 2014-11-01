@@ -11,6 +11,7 @@
 
 #import "AppConstant.h"
 #import "ChatView.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface ChatView ()
 {
@@ -138,6 +139,14 @@
          if (error == nil)
          {
              [JSQSystemSoundPlayer jsq_playMessageSentSound];
+             
+             //AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+             
+             //NSURL *fileURL = [NSURL URLWithString:@"/System/Library/Audio/UISounds/Modern/sms_alert_bamboo.caf"]; // see list below
+             SystemSoundID soundID = 0;
+             //AudioServicesCreateSystemSoundID((__bridge_retained CFURLRef)fileURL,&soundID);
+             AudioServicesPlaySystemSound(soundID);
+             
              [self loadMessages];
          }
          else [ProgressHUD showError:@"Network error"];;

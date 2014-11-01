@@ -45,7 +45,7 @@
     self.title = sponsors.sponsorName;
     
     //set our labels
-    sponsorsNameLabel.text = sponsors.sponsorName;
+    //sponsorsNameLabel.text = sponsors.sponsorName;
     sponsorsNameLabel.font = [UIFont fontWithName:@"Arial" size:17.0];
     sponsorsNameLabel.textColor = [UIColor blueColor];
     

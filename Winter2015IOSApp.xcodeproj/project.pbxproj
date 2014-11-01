@@ -446,6 +446,15 @@
 		4CCFD9721A01677C00464E3D /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD9711A01677C00464E3D /* transparent.png */; };
 		4CCFD9751A016BF400464E3D /* SessionsMainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFD9741A016BF400464E3D /* SessionsMainViewCell.m */; };
 		4CCFD9771A029BD200464E3D /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD9761A029BD200464E3D /* backbutton.png */; };
+		4CCFD9821A0540CD00464E3D /* exhibitors@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD9791A0540CD00464E3D /* exhibitors@3x.png */; };
+		4CCFD9831A0540CD00464E3D /* favexhibitors@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD97A1A0540CD00464E3D /* favexhibitors@3x.png */; };
+		4CCFD9841A0540CD00464E3D /* myagenda@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD97B1A0540CD00464E3D /* myagenda@3x.png */; };
+		4CCFD9851A0540CD00464E3D /* mynotes@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD97C1A0540CD00464E3D /* mynotes@3x.png */; };
+		4CCFD9861A0540CD00464E3D /* sessions@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD97D1A0540CD00464E3D /* sessions@3x.png */; };
+		4CCFD9871A0540CD00464E3D /* speakers@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD97E1A0540CD00464E3D /* speakers@3x.png */; };
+		4CCFD9881A0540CD00464E3D /* sponsors@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD97F1A0540CD00464E3D /* sponsors@3x.png */; };
+		4CCFD9891A0540CD00464E3D /* ehschedule@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD9801A0540CD00464E3D /* ehschedule@3x.png */; };
+		4CCFD98A1A0540CD00464E3D /* confsched@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD9811A0540CD00464E3D /* confsched@3x.png */; };
 		4CD0599619F58FC00062C1EC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599519F58FC00062C1EC /* Parse.framework */; };
 		4CD0599819F58FCB0062C1EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599719F58FCB0062C1EC /* Bolts.framework */; };
 		4CD0599A19F58FF80062C1EC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */; };
@@ -1371,6 +1380,15 @@
 		4CCFD9731A016BF400464E3D /* SessionsMainViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionsMainViewCell.h; sourceTree = "<group>"; };
 		4CCFD9741A016BF400464E3D /* SessionsMainViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionsMainViewCell.m; sourceTree = "<group>"; };
 		4CCFD9761A029BD200464E3D /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
+		4CCFD9791A0540CD00464E3D /* exhibitors@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exhibitors@3x.png"; sourceTree = "<group>"; };
+		4CCFD97A1A0540CD00464E3D /* favexhibitors@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favexhibitors@3x.png"; sourceTree = "<group>"; };
+		4CCFD97B1A0540CD00464E3D /* myagenda@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myagenda@3x.png"; sourceTree = "<group>"; };
+		4CCFD97C1A0540CD00464E3D /* mynotes@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mynotes@3x.png"; sourceTree = "<group>"; };
+		4CCFD97D1A0540CD00464E3D /* sessions@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sessions@3x.png"; sourceTree = "<group>"; };
+		4CCFD97E1A0540CD00464E3D /* speakers@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speakers@3x.png"; sourceTree = "<group>"; };
+		4CCFD97F1A0540CD00464E3D /* sponsors@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sponsors@3x.png"; sourceTree = "<group>"; };
+		4CCFD9801A0540CD00464E3D /* ehschedule@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ehschedule@3x.png"; sourceTree = "<group>"; };
+		4CCFD9811A0540CD00464E3D /* confsched@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "confsched@3x.png"; sourceTree = "<group>"; };
 		4CD0599519F58FC00062C1EC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		4CD0599719F58FCB0062C1EC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
@@ -2104,6 +2122,7 @@
 		4C3F576B19EF62DE00998BBA /* Winter_2015_images */ = {
 			isa = PBXGroup;
 			children = (
+				4CCFD9781A0540BC00464E3D /* @3x */,
 				4CCFD9761A029BD200464E3D /* backbutton.png */,
 				4CCFD9711A01677C00464E3D /* transparent.png */,
 				4CCFD96A1A006CE100464E3D /* star_red_120.png */,
@@ -3089,6 +3108,22 @@
 			path = SVWebViewController;
 			sourceTree = "<group>";
 		};
+		4CCFD9781A0540BC00464E3D /* @3x */ = {
+			isa = PBXGroup;
+			children = (
+				4CCFD9791A0540CD00464E3D /* exhibitors@3x.png */,
+				4CCFD97A1A0540CD00464E3D /* favexhibitors@3x.png */,
+				4CCFD97B1A0540CD00464E3D /* myagenda@3x.png */,
+				4CCFD97C1A0540CD00464E3D /* mynotes@3x.png */,
+				4CCFD97D1A0540CD00464E3D /* sessions@3x.png */,
+				4CCFD97E1A0540CD00464E3D /* speakers@3x.png */,
+				4CCFD97F1A0540CD00464E3D /* sponsors@3x.png */,
+				4CCFD9801A0540CD00464E3D /* ehschedule@3x.png */,
+				4CCFD9811A0540CD00464E3D /* confsched@3x.png */,
+			);
+			name = "@3x";
+			sourceTree = "<group>";
+		};
 		4CD8DE931937815000A4326C /* 50 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3613,12 +3648,14 @@
 				4CD8DEFE1937818900A4326C /* cecinfoglow@2x.png in Resources */,
 				4C326EAE1962F0C6006D4B76 /* burger-alt2@2x.png in Resources */,
 				4C6CFCF1197036A900AEB8B2 /* contactus_background_ipad.png in Resources */,
+				4CCFD9831A0540CD00464E3D /* favexhibitors@3x.png in Resources */,
 				4CD8DFD9193781E300A4326C /* cecinfoglow-ipad@2x.png in Resources */,
 				4CD36C6819F023A3004C2872 /* canyon@3x.png in Resources */,
 				4C36C697192F766F0018AB39 /* Images.xcassets in Resources */,
 				4C62A7C419F6A20500B2E9EF /* cecinfoW15@2x.png in Resources */,
 				4CD8DF67193781AB00A4326C /* sponsorsglow-ipad.png in Resources */,
 				4C018E301808E52500A567C6 /* gallery_tab_icon_selected.png in Resources */,
+				4CCFD9891A0540CD00464E3D /* ehschedule@3x.png in Resources */,
 				4CF824A61767B57B005739AD /* confinfo_tabbar_icon_selected.png in Resources */,
 				4C9B1E4119E34847007E0F51 /* background2.png in Resources */,
 				4C6CFCF0197036A900AEB8B2 /* cec_background_ipad@2x.png in Resources */,
@@ -3768,6 +3805,7 @@
 				4CD8DF5F193781AB00A4326C /* mynotesglow-ipad.png in Resources */,
 				4CD8DF91193781C900A4326C /* committee_568h@2x.png in Resources */,
 				4CD8DF64193781AB00A4326C /* speakers-ipad.png in Resources */,
+				4CCFD9821A0540CD00464E3D /* exhibitors@3x.png in Resources */,
 				4C3F577319EF62FF00998BBA /* scenery5@3x.png in Resources */,
 				4CD8DF9B193781C900A4326C /* exhibitors_568h@2x.png in Resources */,
 				4C326E9A1961E308006D4B76 /* cecinfo-ipad@2x.png in Resources */,
@@ -3789,8 +3827,10 @@
 				4C3A0D06177CCDA500DA1D7E /* sponsors-json.json in Resources */,
 				4CBDD4C91848DA70007A9002 /* dymo_diamond.png in Resources */,
 				4C9B1E0A19E34387007E0F51 /* bubble_tailless@2x.png in Resources */,
+				4CCFD9861A0540CD00464E3D /* sessions@3x.png in Resources */,
 				4C62A7C619F6A20E00B2E9EF /* cecinfoW15.png in Resources */,
 				4C3A0D08177CCF9B00DA1D7E /* speakerpic.png in Resources */,
+				4CCFD9871A0540CD00464E3D /* speakers@3x.png in Resources */,
 				4CC0ADEF19E771B700C42CCF /* PrivateView.xib in Resources */,
 				4CCFD96319F957E400464E3D /* presentationsW15_600x600.png in Resources */,
 				4CA0720E17F8EB7F007E856B /* MainStoryboard_iPad.storyboard in Resources */,
@@ -3807,6 +3847,8 @@
 				4CD8DED51937816600A4326C /* sponsorsglow.png in Resources */,
 				4C9B1E0319E34387007E0F51 /* bubble_min_tailless.png in Resources */,
 				4CD8DEBF1937816600A4326C /* emailglow.png in Resources */,
+				4CCFD9841A0540CD00464E3D /* myagenda@3x.png in Resources */,
+				4CCFD9881A0540CD00464E3D /* sponsors@3x.png in Resources */,
 				4CD8DF0E1937818900A4326C /* findactivityglow@2x.png in Resources */,
 				4CD36C5519F00F6C004C2872 /* tabBarBackground@2x.png in Resources */,
 				4CD8DFF6193781E300A4326C /* speakers-ipad@2x.png in Resources */,
@@ -3911,6 +3953,7 @@
 				4CD8DFEE193781E300A4326C /* myagenda-ipad@2x.png in Resources */,
 				4CE1B37C178FA929006EF171 /* beep-beep.aiff in Resources */,
 				4C9B1E4319E34847007E0F51 /* blank_profile@2x.png in Resources */,
+				4CCFD9851A0540CD00464E3D /* mynotes@3x.png in Resources */,
 				4C326EB01962F1FA006D4B76 /* presentations-ipad.png in Resources */,
 				4CD8DE921937812400A4326C /* confsched.png in Resources */,
 				4C2368D417FB2B35001843B4 /* take-survey-568h@2x.png in Resources */,
@@ -3990,6 +4033,7 @@
 				4CCEF9F817D28C1C0024E854 /* ProgramFall2013.pdf in Resources */,
 				4CCFD96519F9587700464E3D /* activitiesW15_550x550.png in Resources */,
 				4C6CFCFE19758E8D00AEB8B2 /* hotel_background_ipad@2x.png in Resources */,
+				4CCFD98A1A0540CD00464E3D /* confsched@3x.png in Resources */,
 				4C8F683D18330CD3007D7CA3 /* comm_meetings_icon_ipad.png in Resources */,
 				4CCFD95B19F9543F00464E3D /* committeeW15_550x550.png in Resources */,
 				4C9B1E2419E34387007E0F51 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */,

@@ -174,6 +174,8 @@
     
     SponsorsViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
+    cell.backgroundColor = [UIColor colorWithRed:16/255.0 green:29/255.0 blue:60/255.0 alpha:1.0];
+    
     if (cell == nil) {
         cell = [[SponsorsViewCell alloc]
                 initWithStyle:UITableViewCellStyleDefault
