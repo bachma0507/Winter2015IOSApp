@@ -994,7 +994,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotel_background_ipad.png" id="sF0-WY-cYo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scenery5-ipad.png" id="sF0-WY-cYo">
                                 <rect key="frame" x="0.0" y="-32" width="768" height="1007"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
@@ -3361,7 +3361,6 @@
         <image name="findactivityglow-ipad.png" width="120" height="120"/>
         <image name="floormaps-ipad.png" width="120" height="120"/>
         <image name="floormapsglow-ipad.png" width="120" height="120"/>
-        <image name="hotel_background_ipad.png" width="768" height="1024"/>
         <image name="myagenda-ipad.png" width="120" height="120"/>
         <image name="myagendaglow-ipad.png" width="120" height="120"/>
         <image name="mynotes-ipad.png" width="120" height="120"/>
@@ -3370,6 +3369,7 @@
         <image name="powered-by-google-on-white.png" width="104" height="16"/>
         <image name="presentation_background_ipad.png" width="768" height="1024"/>
         <image name="reload30x30.png" width="30" height="30"/>
+        <image name="scenery5-ipad.png" width="768" height="1024"/>
         <image name="scenery5.png" width="320" height="480"/>
         <image name="sessions-ipad.png" width="120" height="120"/>
         <image name="sessionsglow-ipad.png" width="120" height="120"/>

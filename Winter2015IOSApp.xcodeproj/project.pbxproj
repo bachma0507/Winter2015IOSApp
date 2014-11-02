@@ -455,6 +455,9 @@
 		4CCFD9881A0540CD00464E3D /* sponsors@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD97F1A0540CD00464E3D /* sponsors@3x.png */; };
 		4CCFD9891A0540CD00464E3D /* ehschedule@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD9801A0540CD00464E3D /* ehschedule@3x.png */; };
 		4CCFD98A1A0540CD00464E3D /* confsched@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD9811A0540CD00464E3D /* confsched@3x.png */; };
+		4CCFD98C1A05F22D00464E3D /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCFD98B1A05F22D00464E3D /* SpeechKit.framework */; };
+		4CCFD98F1A05F6A800464E3D /* scenery5-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD98D1A05F6A800464E3D /* scenery5-ipad.png */; };
+		4CCFD9901A05F6A800464E3D /* scenery5-ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD98E1A05F6A800464E3D /* scenery5-ipad@2x.png */; };
 		4CD0599619F58FC00062C1EC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599519F58FC00062C1EC /* Parse.framework */; };
 		4CD0599819F58FCB0062C1EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599719F58FCB0062C1EC /* Bolts.framework */; };
 		4CD0599A19F58FF80062C1EC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */; };
@@ -645,7 +648,6 @@
 		4CD8DFF8193781E300A4326C /* sponsors-ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD8DFD4193781E300A4326C /* sponsors-ipad@2x.png */; };
 		4CD8DFF9193781E300A4326C /* sponsorsglow-ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD8DFD5193781E300A4326C /* sponsorsglow-ipad@2x.png */; };
 		4CD8E03E1937DD4900A4326C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD8E03D1937DD4900A4326C /* AVFoundation.framework */; };
-		4CD8E04B1937E36000A4326C /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD8E04A1937E36000A4326C /* SpeechKit.framework */; };
 		4CD8E0771937E42F00A4326C /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8E04F1937E42F00A4326C /* NSMutableURLRequest+Parameters.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4CD8E0781937E42F00A4326C /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8E0511937E42F00A4326C /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4CD8E0791937E42F00A4326C /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8E0531937E42F00A4326C /* NSURL+Base.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -1389,6 +1391,9 @@
 		4CCFD97F1A0540CD00464E3D /* sponsors@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sponsors@3x.png"; sourceTree = "<group>"; };
 		4CCFD9801A0540CD00464E3D /* ehschedule@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ehschedule@3x.png"; sourceTree = "<group>"; };
 		4CCFD9811A0540CD00464E3D /* confsched@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "confsched@3x.png"; sourceTree = "<group>"; };
+		4CCFD98B1A05F22D00464E3D /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
+		4CCFD98D1A05F6A800464E3D /* scenery5-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scenery5-ipad.png"; sourceTree = "<group>"; };
+		4CCFD98E1A05F6A800464E3D /* scenery5-ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scenery5-ipad@2x.png"; sourceTree = "<group>"; };
 		4CD0599519F58FC00062C1EC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		4CD0599719F58FCB0062C1EC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
@@ -1581,7 +1586,6 @@
 		4CD8DFD4193781E300A4326C /* sponsors-ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sponsors-ipad@2x.png"; sourceTree = "<group>"; };
 		4CD8DFD5193781E300A4326C /* sponsorsglow-ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sponsorsglow-ipad@2x.png"; sourceTree = "<group>"; };
 		4CD8E03D1937DD4900A4326C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		4CD8E04A1937E36000A4326C /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = ../../DragonMobileSDK_1.4.10/SpeechKit.framework; sourceTree = "<group>"; };
 		4CD8E04E1937E42F00A4326C /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
 		4CD8E04F1937E42F00A4326C /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
 		4CD8E0501937E42F00A4326C /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
@@ -1714,11 +1718,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C42864019475CE1007A5A11 /* Accelerate.framework in Frameworks */,
-				4CD8E04B1937E36000A4326C /* SpeechKit.framework in Frameworks */,
 				4CD8E03E1937DD4900A4326C /* AVFoundation.framework in Frameworks */,
 				4CD0599A19F58FF80062C1EC /* ParseFacebookUtils.framework in Frameworks */,
 				4C6456C818EC95280011D002 /* CoreBluetooth.framework in Frameworks */,
 				4C9B9AD8183AB2FC00EEE162 /* AddressBook.framework in Frameworks */,
+				4CCFD98C1A05F22D00464E3D /* SpeechKit.framework in Frameworks */,
 				4C8E885A182C24E2001204D9 /* AdSupport.framework in Frameworks */,
 				4C1B9B1A17A226AC00267303 /* libz.dylib in Frameworks */,
 				4C36453F180875CC00882ECA /* StoreKit.framework in Frameworks */,
@@ -1904,6 +1908,7 @@
 		4C2D69F7174541100053BCC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CCFD98B1A05F22D00464E3D /* SpeechKit.framework */,
 				4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */,
 				4CD0599719F58FCB0062C1EC /* Bolts.framework */,
 				4CD0599519F58FC00062C1EC /* Parse.framework */,
@@ -1930,7 +1935,6 @@
 				4C69E60A18086E8F00FEE035 /* QuartzCore.framework */,
 				4C74593217567FF800A76417 /* Security.framework */,
 				4C3EC0CE1764287D002E7415 /* Social.framework */,
-				4CD8E04A1937E36000A4326C /* SpeechKit.framework */,
 				4C36453E180875CC00882ECA /* StoreKit.framework */,
 				4C43CE96174741B0008AAA9D /* SystemConfiguration.framework */,
 				4C2D69F8174541100053BCC0 /* UIKit.framework */,
@@ -2122,6 +2126,8 @@
 		4C3F576B19EF62DE00998BBA /* Winter_2015_images */ = {
 			isa = PBXGroup;
 			children = (
+				4CCFD98D1A05F6A800464E3D /* scenery5-ipad.png */,
+				4CCFD98E1A05F6A800464E3D /* scenery5-ipad@2x.png */,
 				4CCFD9781A0540BC00464E3D /* @3x */,
 				4CCFD9761A029BD200464E3D /* backbutton.png */,
 				4CCFD9711A01677C00464E3D /* transparent.png */,
@@ -3584,6 +3590,7 @@
 				4CD8DFDA193781E300A4326C /* committee-ipad@2x.png in Resources */,
 				4C3FD7AD175BC94100B381AA /* tabbar_selected@2x.png in Resources */,
 				4CD8DEC61937816600A4326C /* floormaps.png in Resources */,
+				4CCFD9901A05F6A800464E3D /* scenery5-ipad@2x.png in Resources */,
 				4C9B1E0D19E34387007E0F51 /* typing.png in Resources */,
 				4CBDD4C01848DA70007A9002 /* quicktron_silver.png in Resources */,
 				4C9B1E1019E34387007E0F51 /* message_sent.aiff in Resources */,
@@ -3691,6 +3698,7 @@
 				4CF824AE1767B57B005739AD /* ConfApp_Tabbar_icon_selected@2x.png in Resources */,
 				4CF824AF1767B57B005739AD /* ConfApp_Tabbar_icon_unselected@2x.png in Resources */,
 				4CBDD4C41848DA70007A9002 /* vericom.png in Resources */,
+				4CCFD98F1A05F6A800464E3D /* scenery5-ipad.png in Resources */,
 				4CF824B01767B57B005739AD /* ConfApp_Tabbar_icon_unselected.png in Resources */,
 				4CD36C5E19F011DC004C2872 /* billow@3x.png in Resources */,
 				4CF824B11767B57B005739AD /* ConfApp_Tabbar_icon_selected.png in Resources */,
