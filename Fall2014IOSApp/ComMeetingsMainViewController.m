@@ -385,6 +385,38 @@
     }
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Sessions" inManagedObjectContext:self.managedObjectContext];
+    
+    [fetchRequest setEntity:entity];
+    
+    [fetchRequest setPredicate:[NSPredicate predicateWithFormat:@"sessionID CONTAINS 'COM' && NOT(sessionID CONTAINS 'COMP')"]];
+    
+    NSSortDescriptor *sortDescriptor1 = [[NSSortDescriptor alloc] initWithKey:@"sessionDate" ascending:YES];
+    NSSortDescriptor *sortDescriptor2 = [[NSSortDescriptor alloc] initWithKey:@"startTime" ascending:YES];
+    NSArray *sortDescriptors = [NSArray arrayWithObjects:sortDescriptor1, sortDescriptor2, nil];
+    
+    [fetchRequest setSortDescriptors:sortDescriptors];
+    
+    NSArray *myResults = [self.managedObjectContext executeFetchRequest:fetchRequest error:nil];
+    
+    
+        UIRefreshControl *refreshControl = [[UIRefreshControl alloc]
+                                            init];
+        
+        [refreshControl endRefreshing];
+        self.objects = myResults;
+
+    [self.myTableView reloadData];
+    
+}
+
 //-(void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
 //
 //    //u need to change 0 to other value(,1,2,3) if u have more buttons.then u can check which button was pressed.

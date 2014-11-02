@@ -35,6 +35,15 @@
     //Make this controller the delegate for the location manager.
     [locationManager setDelegate:self];
     
+    // Check for iOS 8. Without this guard the code will crash with "unknown selector" on iOS 7.
+    if ([locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+        [locationManager requestWhenInUseAuthorization];
+    }
+    [locationManager startUpdatingLocation];
+    
+    self.mapView.showsUserLocation = YES;
+    
+    
     //Set some paramater for the location object.
     [locationManager setDistanceFilter:kCLDistanceFilterNone];
     [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];

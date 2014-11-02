@@ -980,7 +980,7 @@
             <objects>
                 <tableViewController id="EgS-ga-Z5d" customClass="ConfSchedTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="vxc-Zb-46M">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1019,7 +1019,6 @@
                             <outlet property="delegate" destination="EgS-ga-Z5d" id="fV1-Qj-jpw"/>
                         </connections>
                     </tableView>
-                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <navigationItem key="navigationItem" title="Conference Schedule" id="sUY-lP-7Hr"/>
                     <connections>
                         <outlet property="myTableView" destination="vxc-Zb-46M" id="T6f-uM-ImA"/>
