@@ -3846,7 +3846,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7B-ez-dmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-672" y="-2537"/>
+            <point key="canvasLocation" x="-911" y="-2550"/>
         </scene>
         <!--Group View Table View Controller-->
         <scene sceneID="Fvs-ay-7Z4">
@@ -3898,28 +3898,28 @@
             <objects>
                 <viewController title="Register" id="wHO-bk-aK1" customClass="ChatRegisterViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZJ6-ge-oug">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="BICSI Username" minimumFontSize="17" id="F3M-Bj-Yuz">
-                                <rect key="frame" x="51" y="257" width="218" height="30"/>
+                                <rect key="frame" x="51" y="283" width="218" height="30"/>
                                 <color key="textColor" red="0.75686274509999996" green="0.27450980390000002" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" minimumFontSize="17" id="Afv-j4-mDw">
-                                <rect key="frame" x="51" y="134" width="218" height="30"/>
+                                <rect key="frame" x="51" y="147" width="218" height="30"/>
                                 <color key="textColor" red="0.75686274509999996" green="0.27450980390000002" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="BICSI Password" minimumFontSize="17" id="SdS-zi-P2D">
-                                <rect key="frame" x="51" y="322" width="218" height="30"/>
+                                <rect key="frame" x="51" y="354" width="218" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PGe-p4-4nD">
-                                <rect key="frame" x="112" y="379" width="97" height="30"/>
+                                <rect key="frame" x="112" y="417" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Sign Up" backgroundImage="button-orange.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -3929,7 +3929,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" minimumFontSize="17" id="m8f-NV-xXo">
-                                <rect key="frame" x="51" y="194" width="218" height="30"/>
+                                <rect key="frame" x="51" y="213" width="218" height="30"/>
                                 <color key="textColor" red="0.75686274509999996" green="0.27450980390000002" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -3937,7 +3937,6 @@
                         </subviews>
                         <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <navigationItem key="navigationItem" title="Sign Up" id="tKb-AS-eZ2"/>
                     <connections>
                         <outlet property="emailRegisterTextField" destination="m8f-NV-xXo" id="5yo-kU-5Q3"/>
@@ -3990,11 +3989,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ia9-ZG-dp5"/>
-        <segue reference="94R-k8-XlG"/>
+        <segue reference="9cZ-Dy-QTD"/>
+        <segue reference="v11-zK-g7b"/>
         <segue reference="Dsf-md-SSX"/>
         <segue reference="XSx-XV-6K8"/>
-        <segue reference="Bmv-kT-R6k"/>
-        <segue reference="9cZ-Dy-QTD"/>
+        <segue reference="94R-k8-XlG"/>
+        <segue reference="ia9-ZG-dp5"/>
     </inferredMetricsTieBreakers>
 </document>

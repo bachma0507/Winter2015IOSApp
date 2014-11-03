@@ -83,7 +83,7 @@
             <objects>
                 <viewController id="XTa-96-trG" customClass="SocialViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WgM-xd-CoV">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scenery5.png" id="SFS-f0-owm">
@@ -144,7 +144,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="x7x-Qu-PUT">
-                                <rect key="frame" x="20" y="90" width="64" height="64"/>
+                                <rect key="frame" x="20" y="95" width="64" height="64"/>
                                 <state key="normal" image="facebook.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -153,7 +153,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sI5-24-Zh9">
-                                <rect key="frame" x="684" y="90" width="64" height="64"/>
+                                <rect key="frame" x="684" y="95" width="64" height="64"/>
                                 <state key="normal" image="twitter.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -169,7 +169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zha-WD-nxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-425" y="2103"/>
+            <point key="canvasLocation" x="-1513" y="2039"/>
         </scene>
         <!--App View Controller-->
         <scene sceneID="MI5-U1-aud">
@@ -401,7 +401,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="AL1-wh-mlU">
-                                                    <rect key="frame" x="691" y="1" width="60" height="60"/>
+                                                    <rect key="frame" x="691" y="-4" width="60" height="60"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -535,7 +535,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4SN-mc-eRs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-780" y="-5230"/>
+            <point key="canvasLocation" x="744" y="-5358"/>
         </scene>
         <!--Ipad Wall Pictures View Controller-->
         <scene sceneID="nYg-xY-woq">
@@ -1040,32 +1040,32 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Booth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="V7W-ra-6pN">
-                                            <rect key="frame" x="626" y="21" width="64" height="21"/>
+                                            <rect key="frame" x="626" y="17" width="64" height="20"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="900" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fws-Xg-zSQ">
-                                            <rect key="frame" x="638" y="41" width="40" height="21"/>
+                                            <rect key="frame" x="638" y="37" width="40" height="20"/>
                                             <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kh5-w2-brx">
-                                            <rect key="frame" x="20" y="42" width="227" height="21"/>
+                                            <rect key="frame" x="20" y="37" width="227" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="amX-vG-7Gf">
-                                            <rect key="frame" x="20" y="21" width="212" height="21"/>
+                                            <rect key="frame" x="20" y="17" width="212" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="03g-1E-Aks">
-                                            <rect key="frame" x="267" y="41" width="351" height="21"/>
+                                            <rect key="frame" x="267" y="37" width="351" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1228,7 +1228,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="veG-49-5A9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2146" y="2428"/>
+            <point key="canvasLocation" x="1714" y="2917"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BMO-Qa-m71">
@@ -1243,12 +1243,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="XTa-96-trG" kind="relationship" relationship="rootViewController" id="4QB-IG-2N7"/>
+                        <segue destination="Nt0-92-uRa" kind="relationship" relationship="rootViewController" id="FyV-Gc-SII"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JQ1-IT-f6A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4525" y="1620"/>
+            <point key="canvasLocation" x="-2547" y="-6452"/>
         </scene>
         <!--Find Area Activities View Controller-->
         <scene sceneID="RS1-ee-KWv">
@@ -1590,7 +1590,7 @@
             <objects>
                 <viewController id="ou8-Oi-pyv" customClass="TwitterFeedViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4nf-Jb-XlF">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" id="RfC-jP-PEw">
@@ -1601,7 +1601,7 @@
                                 </connections>
                             </webView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" animating="YES" style="whiteLarge" id="bKU-AG-ngX">
-                                <rect key="frame" x="366" y="443" width="37" height="37"/>
+                                <rect key="frame" x="366" y="466" width="37" height="37"/>
                                 <color key="color" red="0.57186706509999996" green="0.93949558420000001" blue="0.56136621419999999" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
                         </subviews>
@@ -1791,7 +1791,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" text="sessionName" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SiD-iV-wdE">
-                                            <rect key="frame" x="20" y="-10" width="549" height="52"/>
+                                            <rect key="frame" x="20" y="-5" width="549" height="56"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1818,7 +1818,7 @@
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="pM0-Z6-YsM">
-                                            <rect key="frame" x="660" y="5" width="80" height="80"/>
+                                            <rect key="frame" x="660" y="3" width="80" height="80"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -3331,12 +3331,202 @@
             </objects>
             <point key="canvasLocation" x="-1848" y="-2438"/>
         </scene>
+        <!--Chat Rooms Log In-->
+        <scene sceneID="zHr-aE-2rl">
+            <objects>
+                <viewController storyboardIdentifier="ChatLoginViewController" title="Chat Rooms Log In" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Nt0-92-uRa" customClass="ChatLoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="neC-Ri-OnM">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="billow.png" id="2es-HW-Qqa">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" id="biS-YF-i0f">
+                                <rect key="frame" x="115" y="380" width="539" height="30"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="-20" maxX="0.0" maxY="20"/>
+                                <color key="textColor" red="0.75686274509999996" green="0.27450980390000002" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" id="V7b-hP-pTw">
+                                <rect key="frame" x="115" y="462" width="539" height="30"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="-20" maxX="0.0" maxY="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="H1I-2i-IRQ">
+                                <rect key="frame" x="278" y="526" width="213" height="30"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="-20" maxX="0.0" maxY="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Log In" backgroundImage="button-orange.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="button-orange-pressed.png"/>
+                                <connections>
+                                    <action selector="logInPressed:" destination="Nt0-92-uRa" eventType="touchUpInside" id="s0E-ag-EOq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3Qw-jr-C4s">
+                                <rect key="frame" x="234" y="623" width="301" height="30"/>
+                                <color key="backgroundColor" red="0.14901960780000001" green="0.2274509804" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="-20" maxX="0.0" maxY="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Log in with facebook" backgroundImage="facebook_button.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonTouchHandler:" destination="Nt0-92-uRa" eventType="touchUpInside" id="cLN-3q-Au9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lhk-KM-tER">
+                                <rect key="frame" x="234" y="725" width="301" height="30"/>
+                                <color key="backgroundColor" red="0.24774749090000001" green="0.35757869530000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="-20" maxX="0.0" maxY="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Create a user account" backgroundImage="createuser_button.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nFS-bN-UzF" kind="push" id="5WN-WN-hLb"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.69999999999999996" contentMode="scaleToFill" editable="NO" text="Already have a user account for the Chat Rooms or Photo Gallery? Then sign in below. If not, create a user account." id="Czk-pT-31M">
+                                <rect key="frame" x="9" y="116" width="750" height="111"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="-20" maxX="0.0" maxY="20"/>
+                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8862745098" green="0.98431372549999996" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Chat Rooms Log In" id="yiP-hM-B0d"/>
+                    <connections>
+                        <outlet property="createUserButton" destination="Lhk-KM-tER" id="G27-XL-3Ty"/>
+                        <outlet property="facebookLoginButton" destination="3Qw-jr-C4s" id="EDN-vi-jSM"/>
+                        <outlet property="passwordTextField" destination="V7b-hP-pTw" id="bG2-J0-vR8"/>
+                        <outlet property="userTextField" destination="biS-YF-i0f" id="lqp-BA-XNF"/>
+                        <segue destination="7KN-jB-RUf" kind="push" identifier="LoginSuccesful" id="34m-OW-Lo0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lhs-ni-iJV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1306" y="-6482"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="F7C-IK-c3S">
+            <objects>
+                <viewController title="Register" id="nFS-bN-UzF" customClass="ChatRegisterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="thO-U9-x9b">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="BICSI Username" minimumFontSize="17" id="7JK-Lf-fp9">
+                                <rect key="frame" x="115" y="522" width="539" height="30"/>
+                                <color key="textColor" red="0.75686274509999996" green="0.27450980390000002" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" minimumFontSize="17" id="npJ-aJ-9qR">
+                                <rect key="frame" x="115" y="272" width="539" height="30"/>
+                                <color key="textColor" red="0.75686274509999996" green="0.27450980390000002" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="BICSI Password" minimumFontSize="17" id="bbK-E8-MNI">
+                                <rect key="frame" x="115" y="654" width="539" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" minimumFontSize="17" id="Ej4-pi-xwL">
+                                <rect key="frame" x="115" y="394" width="539" height="30"/>
+                                <color key="textColor" red="0.75686274509999996" green="0.27450980390000002" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0Ny-gB-RLg">
+                                <rect key="frame" x="278" y="758" width="213" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sign Up" backgroundImage="button-orange.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUpUserPressed:" destination="nFS-bN-UzF" eventType="touchUpInside" id="ym5-l7-W6A"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sign Up" id="lvZ-Bs-YZB"/>
+                    <connections>
+                        <outlet property="emailRegisterTextField" destination="Ej4-pi-xwL" id="x2V-zC-jBY"/>
+                        <outlet property="passwordRegisterTextField" destination="bbK-E8-MNI" id="oMx-ER-fpe"/>
+                        <outlet property="userFullNameTextField" destination="npJ-aJ-9qR" id="Hcn-NK-kbf"/>
+                        <outlet property="userRegisterTextField" destination="7JK-Lf-fp9" id="sSl-FE-ZVu"/>
+                        <segue destination="7KN-jB-RUf" kind="push" identifier="SignupSuccesful" id="xdd-lt-WaI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cFp-Zr-5ao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-429" y="-5907"/>
+        </scene>
+        <!--Group View Table View Controller-->
+        <scene sceneID="yhB-po-gZx">
+            <objects>
+                <tableViewController id="7KN-jB-RUf" customClass="GroupViewTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="5iU-Ad-qwf">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <outlet property="dataSource" destination="7KN-jB-RUf" id="UYF-3y-KcI"/>
+                            <outlet property="delegate" destination="7KN-jB-RUf" id="l98-bv-qwS"/>
+                        </connections>
+                    </tableView>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" id="nIC-Gh-mPB">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" id="D02-cK-kSm">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="djK-OS-u6I">
+                                <rect key="frame" x="9" y="7" width="85" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Private Chat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="PrivateButtonPressed:" destination="7KN-jB-RUf" eventType="touchUpInside" id="0bS-sX-b0E"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="83W-2k-mka">
+                            <rect key="frame" x="320" y="7" width="128" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Profile">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="ProfileButtonPressed:" destination="7KN-jB-RUf" eventType="touchUpInside" id="HRP-QR-K5u"/>
+                            </connections>
+                        </button>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sPf-YD-VqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="444" y="-6491"/>
+        </scene>
     </scenes>
     <resources>
         <image name="backbutton-default.png" width="50" height="30"/>
         <image name="backbutton.png" width="50" height="30"/>
         <image name="billow.png" width="1024" height="768"/>
         <image name="button-green_ipad.png" width="224" height="66"/>
+        <image name="button-orange-pressed.png" width="143" height="41"/>
         <image name="button-orange.png" width="143" height="41"/>
         <image name="cec_background_ipad.png" width="768" height="1024"/>
         <image name="comm_meetings_icon_ipad.png" width="120" height="120"/>
@@ -3345,6 +3535,7 @@
         <image name="confsched-ipad.png" width="120" height="120"/>
         <image name="confschedglow-ipad.png" width="120" height="120"/>
         <image name="contactus_background_ipad.png" width="768" height="1024"/>
+        <image name="createuser_button.png" width="111" height="27"/>
         <image name="createuser_button_ipad.png" width="224" height="66"/>
         <image name="ehschedule-ipad.png" width="120" height="120"/>
         <image name="ehscheduleglow-ipad.png" width="120" height="120"/>
@@ -3352,6 +3543,7 @@
         <image name="exhibitorsglow-ipad.png" width="120" height="120"/>
         <image name="f14_exhibithall_floorplan_icon_ipad.png" width="265" height="446"/>
         <image name="facebook.png" width="64" height="64"/>
+        <image name="facebook_button.png" width="111" height="27"/>
         <image name="facebook_button_ipad.png" width="224" height="66"/>
         <image name="facebookpost_ipad.png" width="648" height="120"/>
         <image name="fall2014_new_session_rooms_ipad.png" width="265" height="71"/>
@@ -3389,12 +3581,13 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="llJ-MJ-Tf6"/>
+        <segue reference="xdd-lt-WaI"/>
         <segue reference="d0r-q5-HCK"/>
-        <segue reference="1Pj-Cp-vD7"/>
         <segue reference="muH-WA-dU8"/>
         <segue reference="Gmd-RU-haQ"/>
+        <segue reference="1Pj-Cp-vD7"/>
         <segue reference="Wll-oD-v1N"/>
         <segue reference="AV2-4O-mek"/>
+        <segue reference="SDK-bn-4vP"/>
     </inferredMetricsTieBreakers>
 </document>
