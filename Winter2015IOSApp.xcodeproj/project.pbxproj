@@ -694,6 +694,8 @@
 		4CE1BFDD1774821C000218CE /* twitterfeed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1BFDC1774821C000218CE /* twitterfeed.png */; };
 		4CE1BFE017748528000218CE /* SponsorsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE1BFDF17748528000218CE /* SponsorsDetailViewController.m */; };
 		4CE1C0081774D5E0000218CE /* hotels.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE1C0071774D5E0000218CE /* hotels.m */; };
+		4CE1D0621A082FBA008E67AB /* overlay5-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1D0601A082FBA008E67AB /* overlay5-ipad.png */; };
+		4CE1D0631A082FBA008E67AB /* overlay5-ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1D0611A082FBA008E67AB /* overlay5-ipad@2x.png */; };
 		4CE68DFF176553880082FA84 /* RNCachingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE68DFE176553880082FA84 /* RNCachingURLProtocol.m */; };
 		4CF08415181ECCCF00FF6978 /* facebook_button_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF08410181ECCCF00FF6978 /* facebook_button_ipad.png */; };
 		4CF08416181ECCCF00FF6978 /* facebook_button_568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF08411181ECCCF00FF6978 /* facebook_button_568h@2x.png */; };
@@ -1667,6 +1669,8 @@
 		4CE1BFDF17748528000218CE /* SponsorsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorsDetailViewController.m; sourceTree = "<group>"; };
 		4CE1C0061774D5E0000218CE /* hotels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hotels.h; sourceTree = "<group>"; };
 		4CE1C0071774D5E0000218CE /* hotels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hotels.m; sourceTree = "<group>"; };
+		4CE1D0601A082FBA008E67AB /* overlay5-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay5-ipad.png"; sourceTree = "<group>"; };
+		4CE1D0611A082FBA008E67AB /* overlay5-ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay5-ipad@2x.png"; sourceTree = "<group>"; };
 		4CE68DFD1765537C0082FA84 /* RNCachingURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCachingURLProtocol.h; sourceTree = "<group>"; };
 		4CE68DFE176553880082FA84 /* RNCachingURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCachingURLProtocol.m; sourceTree = "<group>"; };
 		4CE7B2D818A743DD0034A25C /* Fall2013IOSAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Fall2013IOSAppAppDelegate.h; path = Fall2014IOSApp/Fall2013IOSAppAppDelegate.h; sourceTree = "<group>"; };
@@ -2380,6 +2384,8 @@
 		4C9775ED19F05A6400A1C460 /* Overlay */ = {
 			isa = PBXGroup;
 			children = (
+				4CE1D0601A082FBA008E67AB /* overlay5-ipad.png */,
+				4CE1D0611A082FBA008E67AB /* overlay5-ipad@2x.png */,
 				4C9775EE19F05A7F00A1C460 /* overlay5.png */,
 				4C9775EF19F05A7F00A1C460 /* overlay5@2x.png */,
 				4C9775F019F05A7F00A1C460 /* overlay5_568h@2x.png */,
@@ -3591,6 +3597,7 @@
 				4C3FD7AD175BC94100B381AA /* tabbar_selected@2x.png in Resources */,
 				4CD8DEC61937816600A4326C /* floormaps.png in Resources */,
 				4CCFD9901A05F6A800464E3D /* scenery5-ipad@2x.png in Resources */,
+				4CE1D0631A082FBA008E67AB /* overlay5-ipad@2x.png in Resources */,
 				4C9B1E0D19E34387007E0F51 /* typing.png in Resources */,
 				4CBDD4C01848DA70007A9002 /* quicktron_silver.png in Resources */,
 				4C9B1E1019E34387007E0F51 /* message_sent.aiff in Resources */,
@@ -3806,6 +3813,7 @@
 				4CBA1B251965A45300CC792B /* f14_exhibithall_floorplan_icon_ipad.png in Resources */,
 				4CD8DF1E1937818900A4326C /* sponsorsglow@2x.png in Resources */,
 				4CD8DF5E193781AB00A4326C /* mynotes-ipad.png in Resources */,
+				4CE1D0621A082FBA008E67AB /* overlay5-ipad.png in Resources */,
 				4CBDD4B61848DA70007A9002 /* hyperline_gold_001.png in Resources */,
 				4CCFD9721A01677C00464E3D /* transparent.png in Resources */,
 				4CD8DF48193781AB00A4326C /* committee-ipad.png in Resources */,

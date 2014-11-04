@@ -840,6 +840,8 @@
 
 -(void) showTutorialOverlay
 {
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) /* Device is iPad */
+    {
     UIView *topView = [[UIView alloc] initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height)];
     
     UIView *tutView = [[UIView alloc] initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height)];
@@ -852,7 +854,7 @@
     
     CGRect statusBarFrame = [[UIApplication sharedApplication] statusBarFrame];
     
-    UIImageView *tutImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlay5"]];
+    UIImageView *tutImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlay5-ipad@2x.png"]];
     [tutImageView setFrame:CGRectMake(0, (-1) * statusBarFrame.size.height, self.view.frame.size.width, self.view.frame.size.height)];
     
     
@@ -862,6 +864,34 @@
     topView.tag = 12;
     
     [self.view addSubview:topView];
+        
+    }
+    
+    else{
+        
+        UIView *topView = [[UIView alloc] initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height)];
+        
+        UIView *tutView = [[UIView alloc] initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height)];
+        [tutView setBackgroundColor:[UIColor blackColor]];
+        [tutView setAlpha:0.4];
+        
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        button.frame = topView.frame;
+        [button addTarget:self action:@selector(hideTutorialOverlay) forControlEvents:UIControlEventTouchUpInside];
+        
+        CGRect statusBarFrame = [[UIApplication sharedApplication] statusBarFrame];
+        
+        UIImageView *tutImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlay5"]];
+        [tutImageView setFrame:CGRectMake(0, (-1) * statusBarFrame.size.height, self.view.frame.size.width, self.view.frame.size.height)];
+        
+        
+        [tutView addSubview:button];
+        [topView addSubview:tutView];
+        [topView addSubview:tutImageView];
+        topView.tag = 12;
+        
+        [self.view addSubview:topView];
+    }
     
 }
 
