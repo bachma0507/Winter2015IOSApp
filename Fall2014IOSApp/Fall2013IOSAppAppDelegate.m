@@ -1675,7 +1675,7 @@ int iNotificationCounter=0;
         #pragma mark - Create Sponsor Objects
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0),^{
             
-            NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/sponsorsF14.php"];
+            NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/sponsorsW15.php"];
             NSData * data = [NSData dataWithContentsOfURL:url];
             
             dispatch_async(dispatch_get_main_queue(), ^{
