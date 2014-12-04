@@ -1830,15 +1830,6 @@
                                     <segue destination="Wvj-Fe-nCb" kind="push" id="Zpd-Q8-3vg"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fall2014_new_session_rooms_iphone.png" id="BPo-oe-jnp">
-                                <rect key="frame" x="88" y="50" width="145" height="38"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Session Rooms Floor Map (Tap)" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aWX-C3-bTk">
-                                <rect key="frame" x="103" y="84" width="114" height="57"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rvp-qH-zP9">
                                 <rect key="frame" x="88" y="139" width="145" height="243"/>
                                 <state key="normal">
@@ -1848,22 +1839,21 @@
                                     <segue destination="0F4-70-PsM" kind="push" id="SGZ-hB-yeh"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f14_exhibithall_floorplan_icon_iphone.png" id="7Wh-3a-nKp">
-                                <rect key="frame" x="88" y="149" width="145" height="244"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exhibit Hall Floor Map (Tap)" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aZk-dJ-MfC">
-                                <rect key="frame" x="103" y="396" width="114" height="57"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on Exhibit Hall Floor Map below" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aZk-dJ-MfC">
+                                <rect key="frame" x="40" y="109" width="240" height="57"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="W15_exhibithall_floorplan_icon_iphone.png" id="7Wh-3a-nKp">
+                                <rect key="frame" x="38" y="174" width="244" height="156"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Floor Maps" id="HA3-Na-IKR"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="imageView" destination="BPo-oe-jnp" id="cJ3-SD-xpO"/>
                         <outlet property="imageView2" destination="7Wh-3a-nKp" id="IDM-nv-Du6"/>
                     </connections>
                 </viewController>
@@ -3934,6 +3924,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot your BICSI username/password? Tap Here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XWF-Pu-UgA">
+                                <rect key="frame" x="23" y="433" width="274" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qWp-iT-bqI">
+                                <rect key="frame" x="23" y="433" width="274" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ForgotButtonPressed:" destination="wHO-bk-aK1" eventType="touchUpInside" id="Yaw-WJ-9cv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -3952,6 +3959,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="W15_exhibithall_floorplan_icon_iphone.png" width="244" height="156"/>
         <image name="backbutton.png" width="50" height="30"/>
         <image name="backbutton_blue.png" width="50" height="30"/>
         <image name="billow.png" width="320" height="568"/>
@@ -3961,9 +3969,7 @@
         <image name="createuser_button.png" width="111" height="27"/>
         <image name="ehschedule.png" width="50" height="50"/>
         <image name="exhibitors.png" width="50" height="50"/>
-        <image name="f14_exhibithall_floorplan_icon_iphone.png" width="145" height="244"/>
         <image name="facebook_button.png" width="111" height="27"/>
-        <image name="fall2014_new_session_rooms_iphone.png" width="145" height="39"/>
         <image name="favexhibitors.png" width="50" height="50"/>
         <image name="home_tab_icon_unselected.png" width="22" height="22"/>
         <image name="mic_off.png" width="30" height="30"/>
@@ -3989,11 +3995,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9cZ-Dy-QTD"/>
-        <segue reference="v11-zK-g7b"/>
+        <segue reference="ia9-ZG-dp5"/>
+        <segue reference="94R-k8-XlG"/>
         <segue reference="Dsf-md-SSX"/>
         <segue reference="XSx-XV-6K8"/>
-        <segue reference="94R-k8-XlG"/>
-        <segue reference="ia9-ZG-dp5"/>
+        <segue reference="v11-zK-g7b"/>
+        <segue reference="9cZ-Dy-QTD"/>
     </inferredMetricsTieBreakers>
 </document>

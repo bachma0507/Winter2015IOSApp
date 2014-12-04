@@ -14,6 +14,7 @@
 
 #import <CommonCrypto/CommonDigest.h>
 #import "NSString+MD5.h"
+#import "SVWebViewController.h"
 
 @interface ChatRegisterViewController ()
 
@@ -75,6 +76,18 @@
 #pragma mark IB Actions
 
 ////Sign Up Button pressed
+- (IBAction)ForgotButtonPressed:(id)sender {
+    
+    NSString * myURL = [NSString stringWithFormat:@"https://www.bicsi.org/m/forgot.aspx"];
+    //    NSURL *url = [NSURL URLWithString:myURL];
+    //	[[UIApplication sharedApplication] openURL:url];
+    NSURL *URL = [NSURL URLWithString:myURL];
+    SVWebViewController *webViewController = [[SVWebViewController alloc] initWithURL:URL];
+    [self.navigationController pushViewController:webViewController animated:YES];
+    
+    
+}
+
 -(IBAction)signUpUserPressed:(id)sender
 {
     ////////////////BICSI STUFF

@@ -14,6 +14,7 @@
 @property (nonatomic, strong) IBOutlet UITextField *passwordRegisterTextField;
 @property (nonatomic, strong) IBOutlet UITextField *emailRegisterTextField;
 @property (strong, nonatomic) IBOutlet UITextField *userFullNameTextField;
+- (IBAction)ForgotButtonPressed:(id)sender;
 
 
 -(IBAction)signUpUserPressed:(id)sender;

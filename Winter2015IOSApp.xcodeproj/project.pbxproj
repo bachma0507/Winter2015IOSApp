@@ -718,6 +718,8 @@
 		4CF45E7817822769000F6A5D /* twitterpost-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF45E7617822769000F6A5D /* twitterpost-568h@2x.png */; };
 		4CF45E7917822769000F6A5D /* twitterfeed-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF45E7717822769000F6A5D /* twitterfeed-568h@2x.png */; };
 		4CF45E7B17822778000F6A5D /* facebookpost-568h@2xpng.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF45E7A17822778000F6A5D /* facebookpost-568h@2xpng.png */; };
+		4CF74F401A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF74F3E1A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_iphone.png */; };
+		4CF74F411A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF74F3F1A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_ipad.png */; };
 		4CF824A61767B57B005739AD /* confinfo_tabbar_icon_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8249A1767B57B005739AD /* confinfo_tabbar_icon_selected.png */; };
 		4CF824A71767B57B005739AD /* confinfo_tabbar_icon_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8249B1767B57B005739AD /* confinfo_tabbar_icon_selected@2x.png */; };
 		4CF824A81767B57B005739AD /* confinfo_tabbar_icon_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8249C1767B57B005739AD /* confinfo_tabbar_icon_unselected.png */; };
@@ -1696,6 +1698,8 @@
 		4CF45E7617822769000F6A5D /* twitterpost-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitterpost-568h@2x.png"; sourceTree = "<group>"; };
 		4CF45E7717822769000F6A5D /* twitterfeed-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitterfeed-568h@2x.png"; sourceTree = "<group>"; };
 		4CF45E7A17822778000F6A5D /* facebookpost-568h@2xpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookpost-568h@2xpng.png"; sourceTree = "<group>"; };
+		4CF74F3E1A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = W15_exhibithall_floorplan_icon_iphone.png; sourceTree = "<group>"; };
+		4CF74F3F1A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = W15_exhibithall_floorplan_icon_ipad.png; sourceTree = "<group>"; };
 		4CF8249A1767B57B005739AD /* confinfo_tabbar_icon_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confinfo_tabbar_icon_selected.png; sourceTree = "<group>"; };
 		4CF8249B1767B57B005739AD /* confinfo_tabbar_icon_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "confinfo_tabbar_icon_selected@2x.png"; sourceTree = "<group>"; };
 		4CF8249C1767B57B005739AD /* confinfo_tabbar_icon_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confinfo_tabbar_icon_unselected.png; sourceTree = "<group>"; };
@@ -2130,6 +2134,8 @@
 		4C3F576B19EF62DE00998BBA /* Winter_2015_images */ = {
 			isa = PBXGroup;
 			children = (
+				4CF74F3E1A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_iphone.png */,
+				4CF74F3F1A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_ipad.png */,
 				4CCFD98D1A05F6A800464E3D /* scenery5-ipad.png */,
 				4CCFD98E1A05F6A800464E3D /* scenery5-ipad@2x.png */,
 				4CCFD9781A0540BC00464E3D /* @3x */,
@@ -3936,6 +3942,7 @@
 				4CD8DEB91937816600A4326C /* confschedglow.png in Resources */,
 				4CBDD4BD1848DA70007A9002 /* outsource_bronze.png in Resources */,
 				4C9B1E4019E34847007E0F51 /* background.png in Resources */,
+				4CF74F411A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_ipad.png in Resources */,
 				4CF45E7917822769000F6A5D /* twitterfeed-568h@2x.png in Resources */,
 				4CF45E7B17822778000F6A5D /* facebookpost-568h@2xpng.png in Resources */,
 				4CCFD96119F9570100464E3D /* floormapsW15_550x550.png in Resources */,
@@ -3972,6 +3979,7 @@
 				4CCFD9851A0540CD00464E3D /* mynotes@3x.png in Resources */,
 				4C326EB01962F1FA006D4B76 /* presentations-ipad.png in Resources */,
 				4CD8DE921937812400A4326C /* confsched.png in Resources */,
+				4CF74F401A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_iphone.png in Resources */,
 				4C2368D417FB2B35001843B4 /* take-survey-568h@2x.png in Resources */,
 				4CD8DFE4193781E300A4326C /* exhibitors-ipad@2x.png in Resources */,
 				4CBDD4BB1848DA70007A9002 /* occ.png in Resources */,

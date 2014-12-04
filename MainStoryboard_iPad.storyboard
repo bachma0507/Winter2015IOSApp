@@ -308,7 +308,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="AL1-wh-mlU">
-                                                    <rect key="frame" x="691" y="-4" width="60" height="60"/>
+                                                    <rect key="frame" x="691" y="-3" width="60" height="60"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -947,32 +947,32 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Booth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="V7W-ra-6pN">
-                                            <rect key="frame" x="626" y="17" width="64" height="20"/>
+                                            <rect key="frame" x="626" y="16" width="64" height="20"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="900" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fws-Xg-zSQ">
-                                            <rect key="frame" x="638" y="37" width="40" height="20"/>
+                                            <rect key="frame" x="638" y="36" width="40" height="20"/>
                                             <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kh5-w2-brx">
-                                            <rect key="frame" x="20" y="37" width="227" height="20"/>
+                                            <rect key="frame" x="20" y="36" width="227" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="amX-vG-7Gf">
-                                            <rect key="frame" x="20" y="17" width="212" height="20"/>
+                                            <rect key="frame" x="20" y="16" width="212" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="03g-1E-Aks">
-                                            <rect key="frame" x="267" y="37" width="351" height="20"/>
+                                            <rect key="frame" x="267" y="36" width="351" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2036,11 +2036,8 @@
                                     <segue destination="jZU-sb-M1s" kind="push" id="ZL9-KA-lE0"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fall2014_new_session_rooms_ipad.png" id="6d9-6h-gwe">
-                                <rect key="frame" x="252" y="158" width="265" height="69"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X69-h5-tD0">
-                                <rect key="frame" x="252" y="532" width="265" height="247"/>
+                                <rect key="frame" x="161" y="384" width="446" height="247"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2048,28 +2045,21 @@
                                     <segue destination="L9h-9p-2y1" kind="push" id="ZsS-yn-M2d"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f14_exhibithall_floorplan_icon_ipad.png" id="ef6-5c-weu">
-                                <rect key="frame" x="252" y="429" width="265" height="446"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on Session Rooms Floor Map below" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fKK-Xr-4sy">
-                                <rect key="frame" x="215" y="129" width="339" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on Exhibit Hall Floor Map Below" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PVK-SZ-w4t">
-                                <rect key="frame" x="232" y="400" width="304" height="21"/>
+                                <rect key="frame" x="232" y="295" width="304" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="W15_exhibithall_floorplan_icon_ipad.png" id="ef6-5c-weu">
+                                <rect key="frame" x="161" y="345" width="446" height="286"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <navigationItem key="navigationItem" title="Floor Maps" id="gRW-ze-Q5w"/>
                     <connections>
-                        <outlet property="imageView" destination="6d9-6h-gwe" id="PwA-wb-ZDP"/>
                         <outlet property="imageView2" destination="ef6-5c-weu" id="zgi-aB-1aM"/>
                     </connections>
                 </viewController>
@@ -3270,6 +3260,23 @@
                                     <action selector="signUpUserPressed:" destination="nFS-bN-UzF" eventType="touchUpInside" id="ym5-l7-W6A"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8eS-pZ-GxZ">
+                                <rect key="frame" x="193" y="856" width="382" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ForgotButtonPressed:" destination="nFS-bN-UzF" eventType="touchUpInside" id="Ijp-jl-LJc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot your BICSI username/password? Tap Here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8fB-Az-WjP">
+                                <rect key="frame" x="193" y="856" width="382" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -3333,6 +3340,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="W15_exhibithall_floorplan_icon_ipad.png" width="446" height="286"/>
         <image name="backbutton-default.png" width="50" height="30"/>
         <image name="backbutton.png" width="50" height="30"/>
         <image name="billow.png" width="1024" height="768"/>
@@ -3352,10 +3360,8 @@
         <image name="ehscheduleglow-ipad.png" width="120" height="120"/>
         <image name="exhibitors-ipad.png" width="120" height="120"/>
         <image name="exhibitorsglow-ipad.png" width="120" height="120"/>
-        <image name="f14_exhibithall_floorplan_icon_ipad.png" width="265" height="446"/>
         <image name="facebook_button.png" width="111" height="27"/>
         <image name="facebook_button_ipad.png" width="224" height="66"/>
-        <image name="fall2014_new_session_rooms_ipad.png" width="265" height="71"/>
         <image name="favexhibitors-ipad.png" width="120" height="120"/>
         <image name="favexhibitorsglow-ipad.png" width="120" height="120"/>
         <image name="findactivity-ipad.png" width="120" height="120"/>
@@ -3387,10 +3393,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="xdd-lt-WaI"/>
         <segue reference="SDK-bn-4vP"/>
-        <segue reference="muH-WA-dU8"/>
         <segue reference="Gmd-RU-haQ"/>
-        <segue reference="1Pj-Cp-vD7"/>
+        <segue reference="muH-WA-dU8"/>
         <segue reference="Wll-oD-v1N"/>
         <segue reference="AV2-4O-mek"/>
+        <segue reference="1Pj-Cp-vD7"/>
     </inferredMetricsTieBreakers>
 </document>
