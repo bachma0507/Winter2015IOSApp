@@ -17,7 +17,7 @@
 #import <AdSupport/AdSupport.h>
 #import "TestFlight.h"
 #import <ParseFacebookUtils/PFFacebookUtils.h>
-#import "iRate.h"
+//#import "iRate.h"
 //#import <FYX/FYX.h>
 
 
@@ -33,12 +33,12 @@
 NSMutableArray *clName;
 int iNotificationCounter=0;
 
-+ (void)initialize
-{
-    //configure iRate
-    [iRate sharedInstance].daysUntilPrompt = 1;
-    [iRate sharedInstance].usesUntilPrompt = 10;
-}
+//+ (void)initialize
+//{
+//    //configure iRate
+//    [iRate sharedInstance].daysUntilPrompt = 1;
+//    [iRate sharedInstance].usesUntilPrompt = 10;
+//}
 
 - (void)startupAnimationDone:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context {
     [splashView removeFromSuperview];

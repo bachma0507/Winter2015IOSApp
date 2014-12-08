@@ -268,8 +268,6 @@
 		4C9812071A3245880034E338 /* overlay5_568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9812011A3245880034E338 /* overlay5_568h@2x.png */; };
 		4C9812081A3245880034E338 /* overlay5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9812021A3245880034E338 /* overlay5.png */; };
 		4C9812091A3245880034E338 /* overlay5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9812031A3245880034E338 /* overlay5@2x.png */; };
-		4C98120D1A3247970034E338 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98120C1A3247970034E338 /* iRate.m */; };
-		4C98120F1A3247A50034E338 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C98120E1A3247A50034E338 /* iRate.bundle */; };
 		4C9B1D6519E31E99007E0F51 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B1D6219E31E99007E0F51 /* ProgressHUD.bundle */; };
 		4C9B1D6619E31E99007E0F51 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B1D6419E31E99007E0F51 /* ProgressHUD.m */; };
 		4C9B1D8E19E31F4B007E0F51 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B1D6A19E31F4A007E0F51 /* AFHTTPRequestOperation.m */; };
@@ -1118,9 +1116,6 @@
 		4C9812011A3245880034E338 /* overlay5_568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay5_568h@2x.png"; sourceTree = "<group>"; };
 		4C9812021A3245880034E338 /* overlay5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay5.png; sourceTree = "<group>"; };
 		4C9812031A3245880034E338 /* overlay5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay5@2x.png"; sourceTree = "<group>"; };
-		4C98120B1A3247970034E338 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
-		4C98120C1A3247970034E338 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
-		4C98120E1A3247A50034E338 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
 		4C9B1D6019E306A1007E0F51 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 		4C9B1D6219E31E99007E0F51 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		4C9B1D6319E31E99007E0F51 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
@@ -1921,7 +1916,6 @@
 		4C2D69F7174541100053BCC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C98120E1A3247A50034E338 /* iRate.bundle */,
 				4CCFD98B1A05F22D00464E3D /* SpeechKit.framework */,
 				4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */,
 				4CD0599719F58FCB0062C1EC /* Bolts.framework */,
@@ -2247,7 +2241,6 @@
 		4C48759F176CEDE200059E21 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				4C98120A1A3247810034E338 /* iRate */,
 				4CAF0D9919EDFCBB00961A3A /* NSString+MD5.h */,
 				4CAF0D9A19EDFCBB00961A3A /* NSString+MD5.m */,
 				4C9B1E3019E343A2007E0F51 /* JSQSystemSoundPlayer */,
@@ -2405,15 +2398,6 @@
 				4C9812031A3245880034E338 /* overlay5@2x.png */,
 			);
 			name = Overlay;
-			sourceTree = "<group>";
-		};
-		4C98120A1A3247810034E338 /* iRate */ = {
-			isa = PBXGroup;
-			children = (
-				4C98120B1A3247970034E338 /* iRate.h */,
-				4C98120C1A3247970034E338 /* iRate.m */,
-			);
-			name = iRate;
 			sourceTree = "<group>";
 		};
 		4C9B1D5F19E30656007E0F51 /* Constants */ = {
@@ -3777,7 +3761,6 @@
 				4C9812041A3245880034E338 /* overlay5@3x.png in Resources */,
 				4C326EB21962F202006D4B76 /* presentations-ipad@2x.png in Resources */,
 				4CD8DED61937816600A4326C /* trainingexams.png in Resources */,
-				4C98120F1A3247A50034E338 /* iRate.bundle in Resources */,
 				4CD36C5B19F011DC004C2872 /* billow.png in Resources */,
 				4CF08417181ECCCF00FF6978 /* facebook_button@2x.png in Resources */,
 				4C326EAA1962EF2B006D4B76 /* burger-alt@2x.png in Resources */,
@@ -4143,7 +4126,6 @@
 				4CC05AA8180C76F90082A141 /* IpadRegisterViewController.m in Sources */,
 				4C6088C11770DB190055719C /* ExhibitHallFloorPlanViewController.m in Sources */,
 				4C6088C41770F33F0055719C /* EHSchedule.m in Sources */,
-				4C98120D1A3247970034E338 /* iRate.m in Sources */,
 				4CA605491772108300EC36C2 /* ExhibitHallScheduleViewController.m in Sources */,
 				4CA6054C1772126A00EC36C2 /* ExhibitHallScheduleCell.m in Sources */,
 				4C9B1E1219E34387007E0F51 /* NSString+JSQMessages.m in Sources */,
@@ -4374,7 +4356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4402,7 +4384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
