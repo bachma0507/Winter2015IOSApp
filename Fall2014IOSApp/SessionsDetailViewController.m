@@ -541,6 +541,7 @@
     NSURL *URL = [NSURL URLWithString:myURL];
 	SVWebViewController *webViewController = [[SVWebViewController alloc] initWithURL:URL];
 	[self.navigationController pushViewController:webViewController animated:YES];
+        
     }
 }
 

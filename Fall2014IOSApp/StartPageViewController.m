@@ -424,6 +424,7 @@
     {
     
     NSArray *images = @[
+                        [UIImage imageNamed:@"surveysW15_550x550.png"],
                         [UIImage imageNamed:@"cecinfoW15_550x550.png"],
                         [UIImage imageNamed:@"trainingexamsW15_550x550.png"],
                         [UIImage imageNamed:@"hotelW15_550x550.png"],
@@ -441,6 +442,7 @@
                         
                         ];
     NSArray *colors = @[
+                        [UIColor colorWithRed:119/255.f green:152/255.f blue:255/255.f alpha:1],
                         [UIColor colorWithRed:240/255.f green:159/255.f blue:254/255.f alpha:1],
                         [UIColor colorWithRed:255/255.f green:137/255.f blue:167/255.f alpha:1],
                         [UIColor colorWithRed:126/255.f green:242/255.f blue:195/255.f alpha:1],
@@ -465,6 +467,7 @@
     
     else{
         NSArray *images = @[
+                            [UIImage imageNamed:@"surveysW15_550x550.png"],
                             [UIImage imageNamed:@"cecinfoW15_550x550.png"],
                             [UIImage imageNamed:@"trainingexamsW15_550x550.png"],
                             [UIImage imageNamed:@"committeeW15_550x550.png"],
@@ -486,6 +489,7 @@
                             
                             ];
         NSArray *colors = @[
+                            [UIColor colorWithRed:119/255.f green:152/255.f blue:255/255.f alpha:1],
                             [UIColor colorWithRed:240/255.f green:159/255.f blue:254/255.f alpha:1],
                             [UIColor colorWithRed:255/255.f green:137/255.f blue:167/255.f alpha:1],
                             [UIColor colorWithRed:126/255.f green:242/255.f blue:195/255.f alpha:1],
@@ -518,30 +522,36 @@
     NSLog(@"Tapped item at index %lu",(unsigned long)index);
     switch (index) {
         case 0:
-            [self performSegueWithIdentifier:@"segueToCECInfo" sender:self];
+            [self performSegueWithIdentifier:@"segueToSurveys" sender:self];
             
             [sidebar dismissAnimated:YES completion:nil];
             break;
             
         case 1:
-            [self performSegueWithIdentifier:@"segueToExams" sender:self];
+            [self performSegueWithIdentifier:@"segueToCECInfo" sender:self];
             
             [sidebar dismissAnimated:YES completion:nil];
             break;
             
         case 2:
-            [self performSegueWithIdentifier:@"segueToHotel" sender:self];
+            [self performSegueWithIdentifier:@"segueToExams" sender:self];
             
             [sidebar dismissAnimated:YES completion:nil];
             break;
             
         case 3:
-            [self performSegueWithIdentifier:@"segueToContactUs" sender:self];
+            [self performSegueWithIdentifier:@"segueToHotel" sender:self];
             
             [sidebar dismissAnimated:YES completion:nil];
             break;
             
         case 4:
+            [self performSegueWithIdentifier:@"segueToContactUs" sender:self];
+            
+            [sidebar dismissAnimated:YES completion:nil];
+            break;
+            
+        case 5:
             if ([MFMailComposeViewController canSendMail])
             {
                 NSUUID *id = [[UIDevice currentDevice] identifierForVendor];
@@ -606,7 +616,7 @@
             [sidebar dismissAnimated:YES completion:nil];
             break;
             
-        case 5:
+        case 6:
             [self performSegueWithIdentifier:@"segueToPresentations" sender:self];
             
             [sidebar dismissAnimated:YES completion:nil];
@@ -619,54 +629,60 @@
         NSLog(@"Tapped item at index %lu",(unsigned long)index);
         switch (index) {
             case 0:
+                [self performSegueWithIdentifier:@"segueToSurveys" sender:self];
+                
+                [sidebar dismissAnimated:YES completion:nil];
+                break;
+            
+            case 1:
                 [self performSegueWithIdentifier:@"segueToCECInfo" sender:self];
                 
                 [sidebar dismissAnimated:YES completion:nil];
                 break;
                 
-            case 1:
+            case 2:
                 [self performSegueWithIdentifier:@"segueToExams" sender:self];
                 
                 [sidebar dismissAnimated:YES completion:nil];
                 break;
                 
-            case 2:
+            case 3:
                 [self performSegueWithIdentifier:@"segueToCM" sender:self];
                 
                 [sidebar dismissAnimated:YES completion:nil];
                 break;
                 
-            case 3:
+            case 4:
                 [self performSegueWithIdentifier:@"segueToHotel" sender:self];
                 
                 [sidebar dismissAnimated:YES completion:nil];
                 break;
                 
-            case 4:
+            case 5:
                 [self performSegueWithIdentifier:@"segueToFM" sender:self];
                 
                 [sidebar dismissAnimated:YES completion:nil];
                 break;
                 
-            case 5:
+            case 6:
                 [self performSegueWithIdentifier:@"segueToPresentations" sender:self];
                 
                 [sidebar dismissAnimated:YES completion:nil];
                 break;
                 
-            case 6:
+            case 7:
                 [self performSegueWithIdentifier:@"segueToFAA" sender:self];
                 
                 [sidebar dismissAnimated:YES completion:nil];
                 break;
                 
-            case 7:
+            case 8:
                 [self performSegueWithIdentifier:@"segueToContactUs" sender:self];
                 
                 [sidebar dismissAnimated:YES completion:nil];
                 break;
                 
-            case 8:
+            case 9:
                 if ([MFMailComposeViewController canSendMail])
                 {
                     NSUUID *id = [[UIDevice currentDevice] identifierForVendor];
@@ -832,6 +848,14 @@
         
         ComMeetingsMainViewController *destViewController = segue.destinationViewController;
         destViewController.title = @"Committee Meetings";
+        [[segue destinationViewController] setDelegate:self];
+        
+    }
+    
+    if ([segue.identifier isEqualToString:@"segueToSurveys"]) {
+        
+        SurveysViewController *destViewController = segue.destinationViewController;
+        destViewController.title = @"Surveys";
         [[segue destinationViewController] setDelegate:self];
         
     }

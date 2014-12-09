@@ -21,11 +21,12 @@
 #import "FindAreaActivitiesViewController.h"
 #import "FloorMapsViewController.h"
 #import "ComMeetingsMainViewController.h"
+#import "SurveysViewController.h"
 
 @class MBProgressHUD;
 @class Reachability;
 
-@interface StartPageViewController : UIViewController<RNFrostedSidebarDelegate, HotelWebViewControllerDelegate, ContactUsViewControllerDelegate, CECInfoViewControllerDelegate, ExamsViewControllerDelegate,MFMailComposeViewControllerDelegate, ProgramPDFViewControllerDelegate, FindAreaActivitiesViewControllerDelegate, FloorMapsViewControllerDelegate, ComMeetingsMainViewControllerDelegate>
+@interface StartPageViewController : UIViewController<RNFrostedSidebarDelegate, HotelWebViewControllerDelegate, ContactUsViewControllerDelegate, CECInfoViewControllerDelegate, ExamsViewControllerDelegate,MFMailComposeViewControllerDelegate, ProgramPDFViewControllerDelegate, FindAreaActivitiesViewControllerDelegate, FloorMapsViewControllerDelegate, ComMeetingsMainViewControllerDelegate, SurveysViewControllerDelegate>
 {
     MBProgressHUD *HUD;
     Reachability *internetReach;

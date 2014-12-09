@@ -330,6 +330,8 @@
 		4C9B9AD8183AB2FC00EEE162 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9B9AD7183AB2FC00EEE162 /* AddressBook.framework */; };
 		4CA0720D17F8EB7F007E856B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0720B17F8EB7F007E856B /* MainStoryboard_iPhone.storyboard */; };
 		4CA0720E17F8EB7F007E856B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0720C17F8EB7F007E856B /* MainStoryboard_iPad.storyboard */; };
+		4CA2E1671A374F69002B52EE /* SurveysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA2E1661A374F69002B52EE /* SurveysViewController.m */; };
+		4CA2E16A1A375BFF002B52EE /* surveysW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA2E1691A375BFF002B52EE /* surveysW15_550x550.png */; };
 		4CA605491772108300EC36C2 /* ExhibitHallScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA605481772108300EC36C2 /* ExhibitHallScheduleViewController.m */; };
 		4CA6054C1772126A00EC36C2 /* ExhibitHallScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA6054B1772126A00EC36C2 /* ExhibitHallScheduleCell.m */; };
 		4CA7023D175FCB0600820E7B /* PlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7023C175FCB0600820E7B /* PlistViewController.m */; };
@@ -403,11 +405,6 @@
 		4CD0599619F58FC00062C1EC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599519F58FC00062C1EC /* Parse.framework */; };
 		4CD0599819F58FCB0062C1EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599719F58FCB0062C1EC /* Bolts.framework */; };
 		4CD0599A19F58FF80062C1EC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */; };
-		4CD36C4919F0099E004C2872 /* amazonas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C4419F0099E004C2872 /* amazonas.png */; };
-		4CD36C4A19F0099E004C2872 /* amazonas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C4519F0099E004C2872 /* amazonas@2x.png */; };
-		4CD36C4B19F0099E004C2872 /* amazonas@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C4619F0099E004C2872 /* amazonas@2x~ipad.png */; };
-		4CD36C4C19F0099E004C2872 /* amazonas@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C4719F0099E004C2872 /* amazonas@3x.png */; };
-		4CD36C4D19F0099E004C2872 /* amazonas~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C4819F0099E004C2872 /* amazonas~ipad.png */; };
 		4CD36C5019F00E6A004C2872 /* navigation-btn-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C4E19F00E6A004C2872 /* navigation-btn-menu.png */; };
 		4CD36C5119F00E6A004C2872 /* navigation-btn-menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C4F19F00E6A004C2872 /* navigation-btn-menu@2x.png */; };
 		4CD36C5419F00F6C004C2872 /* tabBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C5219F00F6C004C2872 /* tabBarBackground.png */; };
@@ -417,16 +414,6 @@
 		4CD36C5D19F011DC004C2872 /* billow@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C5819F011DC004C2872 /* billow@2x~ipad.png */; };
 		4CD36C5E19F011DC004C2872 /* billow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C5919F011DC004C2872 /* billow@3x.png */; };
 		4CD36C5F19F011DC004C2872 /* billow~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C5A19F011DC004C2872 /* billow~ipad.png */; };
-		4CD36C6519F023A3004C2872 /* canyon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C6019F023A3004C2872 /* canyon.png */; };
-		4CD36C6619F023A3004C2872 /* canyon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C6119F023A3004C2872 /* canyon@2x.png */; };
-		4CD36C6719F023A3004C2872 /* canyon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C6219F023A3004C2872 /* canyon@2x~ipad.png */; };
-		4CD36C6819F023A3004C2872 /* canyon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C6319F023A3004C2872 /* canyon@3x.png */; };
-		4CD36C6919F023A3004C2872 /* canyon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C6419F023A3004C2872 /* canyon~ipad.png */; };
-		4CD36C6F19F0304D004C2872 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C6A19F0304D004C2872 /* sky.png */; };
-		4CD36C7019F0304D004C2872 /* sky@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C6B19F0304D004C2872 /* sky@2x.png */; };
-		4CD36C7119F0304D004C2872 /* sky@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C6C19F0304D004C2872 /* sky@2x~ipad.png */; };
-		4CD36C7219F0304D004C2872 /* sky@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C6D19F0304D004C2872 /* sky@3x.png */; };
-		4CD36C7319F0304D004C2872 /* sky~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD36C6E19F0304D004C2872 /* sky~ipad.png */; };
 		4CD3ADC418B8699700497309 /* PFNewsAlertsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3ADC318B8699700497309 /* PFNewsAlertsViewController.m */; };
 		4CD40E381796DA71002052FC /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD40E371796DA71002052FC /* NotesViewController.m */; };
 		4CD8DE901937811800A4326C /* cecinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD8DE8F1937811800A4326C /* cecinfo.png */; };
@@ -1172,6 +1159,9 @@
 		4C9B9AD7183AB2FC00EEE162 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		4CA0720B17F8EB7F007E856B /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4CA0720C17F8EB7F007E856B /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4CA2E1651A374F69002B52EE /* SurveysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveysViewController.h; sourceTree = "<group>"; };
+		4CA2E1661A374F69002B52EE /* SurveysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveysViewController.m; sourceTree = "<group>"; };
+		4CA2E1691A375BFF002B52EE /* surveysW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = surveysW15_550x550.png; sourceTree = "<group>"; };
 		4CA605471772108300EC36C2 /* ExhibitHallScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhibitHallScheduleViewController.h; sourceTree = "<group>"; };
 		4CA605481772108300EC36C2 /* ExhibitHallScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhibitHallScheduleViewController.m; sourceTree = "<group>"; };
 		4CA6054A1772126A00EC36C2 /* ExhibitHallScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhibitHallScheduleCell.h; sourceTree = "<group>"; };
@@ -1283,11 +1273,6 @@
 		4CD0599519F58FC00062C1EC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		4CD0599719F58FCB0062C1EC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		4CD0599919F58FF80062C1EC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		4CD36C4419F0099E004C2872 /* amazonas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amazonas.png; sourceTree = "<group>"; };
-		4CD36C4519F0099E004C2872 /* amazonas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amazonas@2x.png"; sourceTree = "<group>"; };
-		4CD36C4619F0099E004C2872 /* amazonas@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amazonas@2x~ipad.png"; sourceTree = "<group>"; };
-		4CD36C4719F0099E004C2872 /* amazonas@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amazonas@3x.png"; sourceTree = "<group>"; };
-		4CD36C4819F0099E004C2872 /* amazonas~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amazonas~ipad.png"; sourceTree = "<group>"; };
 		4CD36C4E19F00E6A004C2872 /* navigation-btn-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation-btn-menu.png"; sourceTree = "<group>"; };
 		4CD36C4F19F00E6A004C2872 /* navigation-btn-menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation-btn-menu@2x.png"; sourceTree = "<group>"; };
 		4CD36C5219F00F6C004C2872 /* tabBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBackground.png; sourceTree = "<group>"; };
@@ -1297,16 +1282,6 @@
 		4CD36C5819F011DC004C2872 /* billow@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "billow@2x~ipad.png"; sourceTree = "<group>"; };
 		4CD36C5919F011DC004C2872 /* billow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "billow@3x.png"; sourceTree = "<group>"; };
 		4CD36C5A19F011DC004C2872 /* billow~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "billow~ipad.png"; sourceTree = "<group>"; };
-		4CD36C6019F023A3004C2872 /* canyon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canyon.png; sourceTree = "<group>"; };
-		4CD36C6119F023A3004C2872 /* canyon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canyon@2x.png"; sourceTree = "<group>"; };
-		4CD36C6219F023A3004C2872 /* canyon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canyon@2x~ipad.png"; sourceTree = "<group>"; };
-		4CD36C6319F023A3004C2872 /* canyon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canyon@3x.png"; sourceTree = "<group>"; };
-		4CD36C6419F023A3004C2872 /* canyon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canyon~ipad.png"; sourceTree = "<group>"; };
-		4CD36C6A19F0304D004C2872 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
-		4CD36C6B19F0304D004C2872 /* sky@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sky@2x.png"; sourceTree = "<group>"; };
-		4CD36C6C19F0304D004C2872 /* sky@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sky@2x~ipad.png"; sourceTree = "<group>"; };
-		4CD36C6D19F0304D004C2872 /* sky@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sky@3x.png"; sourceTree = "<group>"; };
-		4CD36C6E19F0304D004C2872 /* sky~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sky~ipad.png"; sourceTree = "<group>"; };
 		4CD3ADC218B8699700497309 /* PFNewsAlertsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFNewsAlertsViewController.h; sourceTree = "<group>"; };
 		4CD3ADC318B8699700497309 /* PFNewsAlertsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFNewsAlertsViewController.m; sourceTree = "<group>"; };
 		4CD40E361796DA71002052FC /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
@@ -1818,9 +1793,9 @@
 		4C2D69FE174541100053BCC0 /* Fall2014IOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				4CCB78DD1843B65700D9D1C6 /* CEC */,
 				4C9B1DA319E341F3007E0F51 /* Chat */,
 				4C428652194A0B17007A5A11 /* Comments */,
-				4CCB78DD1843B65700D9D1C6 /* CEC */,
 				4CCB78EA1843B90300D9D1C6 /* CommitteeMeetings */,
 				4CCB78E41843B85900D9D1C6 /* ConferenceSchedule */,
 				4CCB78DC1843B62000D9D1C6 /* ContactUs */,
@@ -1849,7 +1824,8 @@
 				4CCB78DA1843B5D700D9D1C6 /* Sponsors */,
 				4CCB78D61843B53500D9D1C6 /* StartPage */,
 				4C2D69FF174541100053BCC0 /* Supporting Files */,
-				4CD8E149193E57F000A4326C /* Surveys */,
+				4CA2E1681A374F77002B52EE /* Surveys */,
+				4CD8E149193E57F000A4326C /* SurveysOld */,
 				4CCB78DF1843B67400D9D1C6 /* Training&Exams */,
 				4CCB78ED1843B99600D9D1C6 /* UnusedViewControllers */,
 			);
@@ -1988,6 +1964,7 @@
 		4C3F576B19EF62DE00998BBA /* Winter_2015_images */ = {
 			isa = PBXGroup;
 			children = (
+				4CA2E1691A375BFF002B52EE /* surveysW15_550x550.png */,
 				4CF74F3E1A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_iphone.png */,
 				4CF74F3F1A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_ipad.png */,
 				4CCFD98D1A05F6A800464E3D /* scenery5-ipad.png */,
@@ -2022,16 +1999,6 @@
 				4C9775FA19F05E1100A1C460 /* button-orange.png */,
 				4C9775FB19F05E1100A1C460 /* button-orange@2x.png */,
 				4C9775ED19F05A6400A1C460 /* Overlay */,
-				4CD36C6A19F0304D004C2872 /* sky.png */,
-				4CD36C6B19F0304D004C2872 /* sky@2x.png */,
-				4CD36C6C19F0304D004C2872 /* sky@2x~ipad.png */,
-				4CD36C6D19F0304D004C2872 /* sky@3x.png */,
-				4CD36C6E19F0304D004C2872 /* sky~ipad.png */,
-				4CD36C6019F023A3004C2872 /* canyon.png */,
-				4CD36C6119F023A3004C2872 /* canyon@2x.png */,
-				4CD36C6219F023A3004C2872 /* canyon@2x~ipad.png */,
-				4CD36C6319F023A3004C2872 /* canyon@3x.png */,
-				4CD36C6419F023A3004C2872 /* canyon~ipad.png */,
 				4CD36C5619F011DC004C2872 /* billow.png */,
 				4CD36C5719F011DC004C2872 /* billow@2x.png */,
 				4CD36C5819F011DC004C2872 /* billow@2x~ipad.png */,
@@ -2041,11 +2008,6 @@
 				4CD36C5319F00F6C004C2872 /* tabBarBackground@2x.png */,
 				4CD36C4E19F00E6A004C2872 /* navigation-btn-menu.png */,
 				4CD36C4F19F00E6A004C2872 /* navigation-btn-menu@2x.png */,
-				4CD36C4419F0099E004C2872 /* amazonas.png */,
-				4CD36C4519F0099E004C2872 /* amazonas@2x.png */,
-				4CD36C4619F0099E004C2872 /* amazonas@2x~ipad.png */,
-				4CD36C4719F0099E004C2872 /* amazonas@3x.png */,
-				4CD36C4819F0099E004C2872 /* amazonas~ipad.png */,
 				4C3F576C19EF62FF00998BBA /* scenery5_568h@2x.png */,
 				4C3F576D19EF62FF00998BBA /* scenery5.png */,
 				4C3F576E19EF62FF00998BBA /* scenery5@2x.png */,
@@ -2578,6 +2540,15 @@
 				4C9B1E4F19E43791007E0F51 /* ProfileView.m */,
 			);
 			name = 3;
+			sourceTree = "<group>";
+		};
+		4CA2E1681A374F77002B52EE /* Surveys */ = {
+			isa = PBXGroup;
+			children = (
+				4CA2E1651A374F69002B52EE /* SurveysViewController.h */,
+				4CA2E1661A374F69002B52EE /* SurveysViewController.m */,
+			);
+			name = Surveys;
 			sourceTree = "<group>";
 		};
 		4CAF0D8C19EDB98700961A3A /* Overlay */ = {
@@ -3267,13 +3238,13 @@
 			name = yelp;
 			sourceTree = "<group>";
 		};
-		4CD8E149193E57F000A4326C /* Surveys */ = {
+		4CD8E149193E57F000A4326C /* SurveysOld */ = {
 			isa = PBXGroup;
 			children = (
 				4CD8E14A193E581C00A4326C /* SurveyViewController.h */,
 				4CD8E14B193E581C00A4326C /* SurveyViewController.m */,
 			);
-			name = Surveys;
+			name = SurveysOld;
 			sourceTree = "<group>";
 		};
 		4CF45E1C1781BF63000F6A5D /* ipad */ = {
@@ -3410,7 +3381,6 @@
 			files = (
 				4C2D6A03174541100053BCC0 /* InfoPlist.strings in Resources */,
 				4C43CE991747421A008AAA9D /* pushio_config.json in Resources */,
-				4CD36C7019F0304D004C2872 /* sky@2x.png in Resources */,
 				4CD8DFAD193781C900A4326C /* speakers_568h@2x.png in Resources */,
 				4C76B09817F91A9A0017E71E /* home_tab_icon_unselected@2x.png in Resources */,
 				4C3FD7AC175BC94100B381AA /* tabbar_selected.png in Resources */,
@@ -3446,7 +3416,6 @@
 				4CD8DF55193781AB00A4326C /* favexhibitorsglow-ipad.png in Resources */,
 				4C1FC0FE1761131700C1C09B /* ipad_72x72.png in Resources */,
 				4CD8E0BC1938F5AA00A4326C /* mic_on.png in Resources */,
-				4CD36C4B19F0099E004C2872 /* amazonas@2x~ipad.png in Resources */,
 				4C76B08D17F91A9A0017E71E /* mybicsi_tab_icon_selected@2x.png in Resources */,
 				4C76B08E17F91A9A0017E71E /* mybicsi_tab_icon_unselected@2x.png in Resources */,
 				4CD8DF58193781AB00A4326C /* floormaps-ipad.png in Resources */,
@@ -3470,7 +3439,6 @@
 				4C9775FE19F05E1100A1C460 /* button-orange.png in Resources */,
 				4CD8DF071937818900A4326C /* email@2x.png in Resources */,
 				4CD36C5D19F011DC004C2872 /* billow@2x~ipad.png in Resources */,
-				4CD36C7319F0304D004C2872 /* sky~ipad.png in Resources */,
 				4CD8DF0A1937818900A4326C /* exhibitorsglow@2x.png in Resources */,
 				4CD8DF081937818900A4326C /* emailglow@2x.png in Resources */,
 				4CD8DF191937818900A4326C /* sessions@2x.png in Resources */,
@@ -3483,7 +3451,6 @@
 				4C6CFCF1197036A900AEB8B2 /* contactus_background_ipad.png in Resources */,
 				4CCFD9831A0540CD00464E3D /* favexhibitors@3x.png in Resources */,
 				4CD8DFD9193781E300A4326C /* cecinfoglow-ipad@2x.png in Resources */,
-				4CD36C6819F023A3004C2872 /* canyon@3x.png in Resources */,
 				4C36C697192F766F0018AB39 /* Images.xcassets in Resources */,
 				4C62A7C419F6A20500B2E9EF /* cecinfoW15@2x.png in Resources */,
 				4CD8DF67193781AB00A4326C /* sponsorsglow-ipad.png in Resources */,
@@ -3557,7 +3524,6 @@
 				4C9B1E4519E34847007E0F51 /* tab_private@2x.png in Resources */,
 				4CD8DFDF193781E300A4326C /* contactusglow-ipad@2x.png in Resources */,
 				4C76B09717F91A9A0017E71E /* home_tab_icon_unselected.png in Resources */,
-				4CD36C4A19F0099E004C2872 /* amazonas@2x.png in Resources */,
 				4C9812041A3245880034E338 /* overlay5@3x.png in Resources */,
 				4C326EB21962F202006D4B76 /* presentations-ipad@2x.png in Resources */,
 				4CD8DED61937816600A4326C /* trainingexams.png in Resources */,
@@ -3576,7 +3542,6 @@
 				4CD8DEC01937816600A4326C /* exhibitors.png in Resources */,
 				4CD8DF65193781AB00A4326C /* speakersglow-ipad.png in Resources */,
 				4CD8DFA7193781C900A4326C /* mynotes_568h@2x.png in Resources */,
-				4CD36C4919F0099E004C2872 /* amazonas.png in Resources */,
 				4C9B1E0519E34387007E0F51 /* bubble_stroked.png in Resources */,
 				4C6CFCEE197036A900AEB8B2 /* training_background_ipad@2x.png in Resources */,
 				4CD8DF4E193781AB00A4326C /* ehschedule-ipad.png in Resources */,
@@ -3593,7 +3558,6 @@
 				4C7EC26E1779DEE400A73C8D /* twitterfeed@2x.png in Resources */,
 				4CD8DFF0193781E300A4326C /* mynotes-ipad@2x.png in Resources */,
 				4CD8DE901937811800A4326C /* cecinfo.png in Resources */,
-				4CD36C7119F0304D004C2872 /* sky@2x~ipad.png in Resources */,
 				4CD8DFDB193781E300A4326C /* committeeglow-ipad@2x.png in Resources */,
 				4CD8DFA3193781C900A4326C /* hotelinfo_568h@2x.png in Resources */,
 				4C9B1E0919E34387007E0F51 /* bubble_tailless.png in Resources */,
@@ -3623,7 +3587,6 @@
 				4C9B1E2B19E34387007E0F51 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 				4C326E901961DB8C006D4B76 /* hotelinfo-ipad.png in Resources */,
 				4CCFD95D19F9557200464E3D /* hotelW15_550x550.png in Resources */,
-				4CD36C4C19F0099E004C2872 /* amazonas@3x.png in Resources */,
 				4CD8DF99193781C900A4326C /* email_568h@2x.png in Resources */,
 				4C3A0D02177C9E3F00DA1D7E /* hotels-json.json in Resources */,
 				4CD8DFB0193781C900A4326C /* sponsorsglow_568h@2x.png in Resources */,
@@ -3672,7 +3635,6 @@
 				4C3F577119EF62FF00998BBA /* scenery5.png in Resources */,
 				4CD8DF92193781C900A4326C /* committeeglow_568h@2x.png in Resources */,
 				4CD8DF5D193781AB00A4326C /* myagendaglow-ipad.png in Resources */,
-				4CD36C6619F023A3004C2872 /* canyon@2x.png in Resources */,
 				4CF45E531781F42A000F6A5D /* facebookpost_ipad@2x.png in Resources */,
 				4CF45E541781F42A000F6A5D /* facebookpost_ipad.png in Resources */,
 				4CC152511936249B00336A3C /* tabbarflatblack.png in Resources */,
@@ -3693,7 +3655,6 @@
 				4CF45E5B1781F6C6000F6A5D /* twitterfeed_ipad@2x.png in Resources */,
 				4C326E981961E300006D4B76 /* cecinfo-ipad.png in Resources */,
 				4C9B1E0219E34387007E0F51 /* bubble_min@2x.png in Resources */,
-				4CD36C7219F0304D004C2872 /* sky@3x.png in Resources */,
 				4C9B1E0119E34387007E0F51 /* bubble_min.png in Resources */,
 				4CF45E5C1781F6C6000F6A5D /* twitterfeed_ipad.png in Resources */,
 				4CD8DFF8193781E300A4326C /* sponsors-ipad@2x.png in Resources */,
@@ -3747,7 +3708,6 @@
 				4C246220178C9A2F00F0165B /* exams.html in Resources */,
 				4C76B09A17F91A9A0017E71E /* home_tab_icon_selected@2x.png in Resources */,
 				4CCFD95F19F9566F00464E3D /* trainingexamsW15_550x550.png in Resources */,
-				4CD36C4D19F0099E004C2872 /* amazonas~ipad.png in Resources */,
 				4CD8DFEE193781E300A4326C /* myagenda-ipad@2x.png in Resources */,
 				4CE1B37C178FA929006EF171 /* beep-beep.aiff in Resources */,
 				4C9B1E4319E34847007E0F51 /* blank_profile@2x.png in Resources */,
@@ -3766,7 +3726,6 @@
 				4C9812091A3245880034E338 /* overlay5@2x.png in Resources */,
 				4CD8DEC81937816600A4326C /* hotelinfo.png in Resources */,
 				4CD8DFAF193781C900A4326C /* sponsors_568h@2x.png in Resources */,
-				4CD36C6F19F0304D004C2872 /* sky.png in Resources */,
 				4C326E9E1961E4A9006D4B76 /* trainingexams-ipad@2x.png in Resources */,
 				4CD8DEBB1937816600A4326C /* contactusglow.png in Resources */,
 				4CF0841F181ECE5800FF6978 /* createuser_button_ipad@2x.png in Resources */,
@@ -3785,12 +3744,12 @@
 				4CA8A0E117ACA54E006957DB /* home_icon@2x.png in Resources */,
 				4CD8DED11937816600A4326C /* sessionsglow.png in Resources */,
 				4C9B1E4619E34847007E0F51 /* tab_profile@2x.png in Resources */,
+				4CA2E16A1A375BFF002B52EE /* surveysW15_550x550.png in Resources */,
 				4C326E941961E055006D4B76 /* contactus-ipad@2x.png in Resources */,
 				4CA8A0E217ACA54E006957DB /* home_icon_selected.png in Resources */,
 				4CC0ADF119E7728200C42CCF /* ProfileView.xib in Resources */,
 				4C97760719F1428700A1C460 /* candela@2x~ipad.png in Resources */,
 				4CA8A0E317ACA54E006957DB /* home_icon_selected@2x.png in Resources */,
-				4CD36C6919F023A3004C2872 /* canyon~ipad.png in Resources */,
 				4C9B1DFF19E34387007E0F51 /* bubble.png in Resources */,
 				4CD8DECA1937816600A4326C /* myagenda.png in Resources */,
 				4CD36C5C19F011DC004C2872 /* billow@2x.png in Resources */,
@@ -3806,8 +3765,6 @@
 				4CD8DFA9193781C900A4326C /* presentations_568h@2x.png in Resources */,
 				4CF08416181ECCCF00FF6978 /* facebook_button_568h@2x.png in Resources */,
 				4C4A456C18E9D7DA003A14C3 /* dsym_upload.sh in Resources */,
-				4CD36C6519F023A3004C2872 /* canyon.png in Resources */,
-				4CD36C6719F023A3004C2872 /* canyon@2x~ipad.png in Resources */,
 				4CD8DF4F193781AB00A4326C /* ehscheduleglow-ipad.png in Resources */,
 				4CD8DEBA1937816600A4326C /* contactus.png in Resources */,
 				4CD8DF9E193781C900A4326C /* favexhibitorsglow_568h@2x.png in Resources */,
@@ -3847,6 +3804,7 @@
 				4C9B1D9919E31F4B007E0F51 /* UIAlertView+AFNetworking.m in Sources */,
 				4C9B1E1B19E34387007E0F51 /* JSQMessagesTimestampFormatter.m in Sources */,
 				4CD8E0841937E42F00A4326C /* OAProblem.m in Sources */,
+				4CA2E1671A374F69002B52EE /* SurveysViewController.m in Sources */,
 				4CC0ADFE19E9E48E00C42CCF /* GroupViewTableViewController.m in Sources */,
 				4CCFD9701A00950D00464E3D /* ExhibitorViewCell.m in Sources */,
 				4CD8E07D1937E42F00A4326C /* OAAttachment.m in Sources */,

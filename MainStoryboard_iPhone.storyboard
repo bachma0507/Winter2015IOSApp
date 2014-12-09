@@ -1981,6 +1981,41 @@
             </objects>
             <point key="canvasLocation" x="529" y="-889"/>
         </scene>
+        <!--Surveys View Controller-->
+        <scene sceneID="x0k-cd-V91">
+            <objects>
+                <viewController id="h1x-Jt-8Zx" customClass="SurveysViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4z8-Lo-JmM">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="kNa-ua-Phq">
+                                <rect key="frame" x="150" y="242" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="billow.png" id="zGa-35-rnI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="454"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" id="26S-fC-e7d">
+                                <rect key="frame" x="0.0" y="72" width="320" height="382"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" id="Ike-x0-BtL"/>
+                    <connections>
+                        <outlet property="activity" destination="kNa-ua-Phq" id="teW-aG-sdo"/>
+                        <outlet property="webView" destination="26S-fC-e7d" id="dxM-pe-CuZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XC7-Vt-itw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4237" y="274"/>
+        </scene>
         <!--BICSI Winter Conference-->
         <scene sceneID="3aB-FB-LMr">
             <objects>
@@ -2279,6 +2314,7 @@
                         <segue destination="24Z-AG-khO" kind="push" identifier="segueToPresentations" id="40o-NH-skY"/>
                         <segue destination="dy6-g4-Jyw" kind="push" identifier="segueToFAA" id="FZy-0j-LtL"/>
                         <segue destination="rfy-JX-O4t" kind="push" identifier="segueToContactUs" id="1Jk-Qv-Z0M"/>
+                        <segue destination="h1x-Jt-8Zx" kind="push" identifier="segueToSurveys" id="OPK-lu-SDS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Gd-tk-mIu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3934,7 +3970,6 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qWp-iT-bqI">
                                 <rect key="frame" x="23" y="405" width="274" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
