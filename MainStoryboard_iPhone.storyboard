@@ -1927,7 +1927,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="9Dk-gF-114">
-                                                    <rect key="frame" x="272" y="41" width="40" height="40"/>
+                                                    <rect key="frame" x="272" y="22" width="40" height="40"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qRi-VS-LVV">
                                                     <rect key="frame" x="15" y="17" width="27" height="16"/>
@@ -4031,11 +4031,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ia9-ZG-dp5"/>
-        <segue reference="94R-k8-XlG"/>
-        <segue reference="Dsf-md-SSX"/>
-        <segue reference="XSx-XV-6K8"/>
         <segue reference="v11-zK-g7b"/>
         <segue reference="9cZ-Dy-QTD"/>
+        <segue reference="TFl-4O-UXk"/>
+        <segue reference="XSx-XV-6K8"/>
+        <segue reference="94R-k8-XlG"/>
+        <segue reference="ia9-ZG-dp5"/>
     </inferredMetricsTieBreakers>
 </document>
