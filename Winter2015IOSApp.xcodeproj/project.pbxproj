@@ -345,6 +345,7 @@
 		4CAE7664179B206D004FF2FE /* CustomPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE7663179B206D004FF2FE /* CustomPagerViewController.m */; };
 		4CAE7667179D86F1004FF2FE /* AllNotesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE7666179D86F1004FF2FE /* AllNotesCell.m */; };
 		4CAF0D9B19EDFCBB00961A3A /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF0D9A19EDFCBB00961A3A /* NSString+MD5.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		4CB2EFC71A3F94BF0066979B /* GGCustomContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2EFC61A3F94BF0066979B /* GGCustomContainerViewController.m */; };
 		4CBCB2C7180878EA008D4522 /* PFAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCB2C6180878EA008D4522 /* PFAlertViewController.m */; };
 		4CBE7298198C05400090DA6E /* Speakers2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE7297198C05400090DA6E /* Speakers2.m */; };
 		4CBE729B198C05530090DA6E /* Speakers3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE729A198C05530090DA6E /* Speakers3.m */; };
@@ -1183,6 +1184,8 @@
 		4CAE7666179D86F1004FF2FE /* AllNotesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllNotesCell.m; sourceTree = "<group>"; };
 		4CAF0D9919EDFCBB00961A3A /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		4CAF0D9A19EDFCBB00961A3A /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		4CB2EFC51A3F94BF0066979B /* GGCustomContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCustomContainerViewController.h; sourceTree = "<group>"; };
+		4CB2EFC61A3F94BF0066979B /* GGCustomContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCustomContainerViewController.m; sourceTree = "<group>"; };
 		4CBCB2C5180878EA008D4522 /* PFAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFAlertViewController.h; sourceTree = "<group>"; };
 		4CBCB2C6180878EA008D4522 /* PFAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFAlertViewController.m; sourceTree = "<group>"; };
 		4CBE7296198C05400090DA6E /* Speakers2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speakers2.h; sourceTree = "<group>"; };
@@ -1793,6 +1796,7 @@
 		4C2D69FE174541100053BCC0 /* Fall2014IOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				4CB2EFC41A3F948C0066979B /* SegmentControlSchedules */,
 				4CCB78DD1843B65700D9D1C6 /* CEC */,
 				4C9B1DA319E341F3007E0F51 /* Chat */,
 				4C428652194A0B17007A5A11 /* Comments */,
@@ -2556,6 +2560,15 @@
 			children = (
 			);
 			name = Overlay;
+			sourceTree = "<group>";
+		};
+		4CB2EFC41A3F948C0066979B /* SegmentControlSchedules */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2EFC51A3F94BF0066979B /* GGCustomContainerViewController.h */,
+				4CB2EFC61A3F94BF0066979B /* GGCustomContainerViewController.m */,
+			);
+			name = SegmentControlSchedules;
 			sourceTree = "<group>";
 		};
 		4CBDD4931848DA47007A9002 /* canada14sponsorimages */ = {
@@ -3837,6 +3850,7 @@
 				4CBE72A4198C057D0090DA6E /* Speakers6.m in Sources */,
 				4CBE729E198C05600090DA6E /* Speakers4.m in Sources */,
 				4C4875A2176CEE8700059E21 /* SpeakersViewController.m in Sources */,
+				4CB2EFC71A3F94BF0066979B /* GGCustomContainerViewController.m in Sources */,
 				4C4875A5176CEF9600059E21 /* City.m in Sources */,
 				4C4875A8176D0B5800059E21 /* SpeakerDetailViewController.m in Sources */,
 				4C4875AB176E11B100059E21 /* Speakers.m in Sources */,

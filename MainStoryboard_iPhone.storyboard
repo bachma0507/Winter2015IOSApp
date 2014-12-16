@@ -277,10 +277,43 @@
             </objects>
             <point key="canvasLocation" x="-4226" y="999"/>
         </scene>
+        <!--Custom Container View Controller-->
+        <scene sceneID="Lup-ka-hYW">
+            <objects>
+                <viewController id="c0I-MH-fSt" customClass="GGCustomContainerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IKl-bD-8hJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="dbb-9w-Gef">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="bar" selectedSegmentIndex="0" id="Dj7-i4-esr">
+                            <rect key="frame" x="69" y="8" width="183" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="All Schedule"/>
+                                <segment title="My Schedule"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentChanged:" destination="c0I-MH-fSt" eventType="valueChanged" id="4OL-6p-uzV"/>
+                            </connections>
+                        </segmentedControl>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="contentView" destination="IKl-bD-8hJ" id="ac9-O9-Sey"/>
+                        <outlet property="segmentControl" destination="Dj7-i4-esr" id="pOF-V7-SCo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rej-P5-cpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3810" y="1090"/>
+        </scene>
         <!--My Schedule Planner-->
         <scene sceneID="eML-0W-fyI">
             <objects>
-                <tableViewController id="3Kb-FE-RsI" customClass="AgendaTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="My Schedule" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3Kb-FE-RsI" customClass="AgendaTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="84" sectionHeaderHeight="22" sectionFooterHeight="22" id="ELe-zc-Ofy">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -979,9 +1012,9 @@
         <!--Conference Schedule-->
         <scene sceneID="xu6-k9-bFH">
             <objects>
-                <tableViewController id="EgS-ga-Z5d" customClass="ConfSchedTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="All Schedule" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EgS-ga-Z5d" customClass="ConfSchedTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="vxc-Zb-46M">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1027,14 +1060,14 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4X-Bg-Y3Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-672" y="-1523"/>
+            <point key="canvasLocation" x="-3307" y="1043"/>
         </scene>
         <!--Conf Sched Detail Table View Controller-->
         <scene sceneID="TIo-d8-YXG">
             <objects>
                 <tableViewController id="0lk-BY-ywI" customClass="ConfSchedDetailTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="84" sectionHeaderHeight="22" sectionFooterHeight="22" id="mrs-ni-bZS">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1927,7 +1960,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="9Dk-gF-114">
-                                                    <rect key="frame" x="272" y="22" width="40" height="40"/>
+                                                    <rect key="frame" x="272" y="39" width="40" height="40"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qRi-VS-LVV">
                                                     <rect key="frame" x="15" y="17" width="27" height="16"/>
@@ -2287,7 +2320,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EgS-ga-Z5d" kind="push" id="dww-vm-4BR"/>
+                                    <segue destination="c0I-MH-fSt" kind="push" id="mLQ-XZ-mwq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -4035,7 +4068,7 @@
         <segue reference="9cZ-Dy-QTD"/>
         <segue reference="TFl-4O-UXk"/>
         <segue reference="XSx-XV-6K8"/>
-        <segue reference="94R-k8-XlG"/>
         <segue reference="ia9-ZG-dp5"/>
+        <segue reference="94R-k8-XlG"/>
     </inferredMetricsTieBreakers>
 </document>
