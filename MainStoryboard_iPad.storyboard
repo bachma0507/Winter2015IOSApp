@@ -535,6 +535,74 @@
             </objects>
             <point key="canvasLocation" x="1450" y="146"/>
         </scene>
+        <!--Custom Container View Controller-->
+        <scene sceneID="yaT-ZT-Tkd">
+            <objects>
+                <viewController id="0yb-PI-rCB" customClass="GGCustomContainerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eas-as-MZ9">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="7bi-RY-jHJ">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="t7l-YN-Tvh">
+                            <rect key="frame" x="231" y="8" width="307" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="All"/>
+                                <segment title="My Schedule"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentChanged:" destination="0yb-PI-rCB" eventType="valueChanged" id="F1l-7n-rlm"/>
+                            </connections>
+                        </segmentedControl>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="contentView" destination="eas-as-MZ9" id="BWj-rA-xZa"/>
+                        <outlet property="segmentControl" destination="t7l-YN-Tvh" id="yp5-90-Km5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e1Y-zs-rqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1597" y="-2074"/>
+        </scene>
+        <!--Surveys View Controller-->
+        <scene sceneID="y3m-cx-B9J">
+            <objects>
+                <viewController id="hDk-yo-KBK" customClass="SurveysViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UK3-uS-CSg">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="billow.png" id="whp-2y-soM">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="979"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" id="myA-2P-xSr">
+                                <rect key="frame" x="0.0" y="59" width="768" height="916"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="2Qz-OU-t1y">
+                                <rect key="frame" x="374" y="573" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" id="eKm-85-SZz"/>
+                    <connections>
+                        <outlet property="activity" destination="2Qz-OU-t1y" id="lMo-pf-Pc6"/>
+                        <outlet property="webView" destination="myA-2P-xSr" id="lcn-dh-Z9X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c0y-0g-b8D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1027" y="-2612"/>
+        </scene>
         <!--2015 BICSI Winter Conference & Exhibition-->
         <scene sceneID="8Ge-6H-E4o">
             <objects>
@@ -586,7 +654,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9wc-aJ-10V" kind="push" id="XlX-TN-xJd"/>
+                                    <segue destination="0yb-PI-rCB" kind="push" id="7pz-5q-Iqw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" text="Sponsors" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wyw-Jm-KL1">
@@ -853,11 +921,12 @@
                         <segue destination="0hh-bX-k90" kind="push" identifier="segueToCECInfo" id="iYl-6x-as2"/>
                         <segue destination="5uK-kc-T2L" kind="push" identifier="segueToExams" id="o2c-47-Hoa"/>
                         <segue destination="A4P-tb-Qo8" kind="push" identifier="segueToPresentations" id="qYo-hT-cbt"/>
+                        <segue destination="hDk-yo-KBK" kind="push" identifier="segueToSurveys" id="NiZ-Wc-qPe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JcM-ru-DVi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-766" y="-2611"/>
+            <point key="canvasLocation" x="-152" y="-2591"/>
         </scene>
         <!--Contact Us-->
         <scene sceneID="Xaf-P2-GsH">
@@ -1316,7 +1385,7 @@
         <!--My Planner-->
         <scene sceneID="xXC-sT-Dot">
             <objects>
-                <tableViewController id="TlJ-KD-jlF" customClass="AgendaTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="My Schedule" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TlJ-KD-jlF" customClass="AgendaTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="84" sectionHeaderHeight="22" sectionFooterHeight="22" id="16d-se-hN3">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1590,7 +1659,7 @@
             <objects>
                 <tableViewController id="3AV-fk-gvd" customClass="ConfSchedDetailTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" id="UOo-dI-uVj">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.062745098040000002" green="0.1137254902" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1660,7 +1729,7 @@
         <!--Conference Schedule-->
         <scene sceneID="oNg-wY-Ylp">
             <objects>
-                <tableViewController id="9wc-aJ-10V" customClass="ConfSchedTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="All Schedule" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9wc-aJ-10V" customClass="ConfSchedTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="vqb-dZ-P4A">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
