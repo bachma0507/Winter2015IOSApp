@@ -425,12 +425,12 @@
     
     NSArray *images = @[
                         [UIImage imageNamed:@"surveysW15_550x550.png"],
+                        [UIImage imageNamed:@"presentationsW15_600x600.png"],
                         [UIImage imageNamed:@"cecinfoW15_550x550.png"],
                         [UIImage imageNamed:@"trainingexamsW15_550x550.png"],
                         [UIImage imageNamed:@"hotelW15_550x550.png"],
                         [UIImage imageNamed:@"contactW15_550x550.png"],
                         [UIImage imageNamed:@"emailW15_550x550.png"],
-                        [UIImage imageNamed:@"presentationsW15_600x600.png"],
 //                        [UIImage imageNamed:@"sponsors"],
 //                        [UIImage imageNamed:@"sessions"],
 //                        [UIImage imageNamed:@"exhibitors"],
@@ -468,12 +468,12 @@
     else{
         NSArray *images = @[
                             [UIImage imageNamed:@"surveysW15_550x550.png"],
+                            [UIImage imageNamed:@"floormapsW15_550x550.png"],
+                            [UIImage imageNamed:@"presentationsW15_600x600.png"],
                             [UIImage imageNamed:@"cecinfoW15_550x550.png"],
                             [UIImage imageNamed:@"trainingexamsW15_550x550.png"],
                             [UIImage imageNamed:@"committeeW15_550x550.png"],
                             [UIImage imageNamed:@"hotelW15_550x550.png"],
-                            [UIImage imageNamed:@"floormapsW15_550x550.png"],
-                            [UIImage imageNamed:@"presentationsW15_600x600.png"],
                             [UIImage imageNamed:@"activitiesW15_550x550.png"],
                             [UIImage imageNamed:@"contactW15_550x550.png"],
                             [UIImage imageNamed:@"emailW15_550x550.png"],
@@ -528,30 +528,36 @@
             break;
             
         case 1:
-            [self performSegueWithIdentifier:@"segueToCECInfo" sender:self];
+            [self performSegueWithIdentifier:@"segueToPresentations" sender:self];
             
             [sidebar dismissAnimated:YES completion:nil];
             break;
             
         case 2:
-            [self performSegueWithIdentifier:@"segueToExams" sender:self];
+            [self performSegueWithIdentifier:@"segueToCECInfo" sender:self];
             
             [sidebar dismissAnimated:YES completion:nil];
             break;
             
         case 3:
-            [self performSegueWithIdentifier:@"segueToHotel" sender:self];
+            [self performSegueWithIdentifier:@"segueToExams" sender:self];
             
             [sidebar dismissAnimated:YES completion:nil];
             break;
             
         case 4:
-            [self performSegueWithIdentifier:@"segueToContactUs" sender:self];
+            [self performSegueWithIdentifier:@"segueToHotel" sender:self];
             
             [sidebar dismissAnimated:YES completion:nil];
             break;
             
         case 5:
+            [self performSegueWithIdentifier:@"segueToContactUs" sender:self];
+            
+            [sidebar dismissAnimated:YES completion:nil];
+            break;
+            
+        case 6:
             if ([MFMailComposeViewController canSendMail])
             {
                 NSUUID *id = [[UIDevice currentDevice] identifierForVendor];
@@ -616,11 +622,6 @@
             [sidebar dismissAnimated:YES completion:nil];
             break;
             
-        case 6:
-            [self performSegueWithIdentifier:@"segueToPresentations" sender:self];
-            
-            [sidebar dismissAnimated:YES completion:nil];
-            break;
         default:
             break;
         }
@@ -635,41 +636,42 @@
                 break;
             
             case 1:
-                [self performSegueWithIdentifier:@"segueToCECInfo" sender:self];
-                
-                [sidebar dismissAnimated:YES completion:nil];
-                break;
-                
-            case 2:
-                [self performSegueWithIdentifier:@"segueToExams" sender:self];
-                
-                [sidebar dismissAnimated:YES completion:nil];
-                break;
-                
-            case 3:
-                [self performSegueWithIdentifier:@"segueToCM" sender:self];
-                
-                [sidebar dismissAnimated:YES completion:nil];
-                break;
-                
-            case 4:
-                [self performSegueWithIdentifier:@"segueToHotel" sender:self];
-                
-                [sidebar dismissAnimated:YES completion:nil];
-                break;
-                
-            case 5:
                 [self performSegueWithIdentifier:@"segueToFM" sender:self];
                 
                 [sidebar dismissAnimated:YES completion:nil];
                 break;
                 
-            case 6:
+            case 2:
                 [self performSegueWithIdentifier:@"segueToPresentations" sender:self];
                 
                 [sidebar dismissAnimated:YES completion:nil];
                 break;
+            
+            case 3:
+                [self performSegueWithIdentifier:@"segueToCECInfo" sender:self];
                 
+                [sidebar dismissAnimated:YES completion:nil];
+                break;
+                
+                
+            case 4:
+                [self performSegueWithIdentifier:@"segueToExams" sender:self];
+                
+                [sidebar dismissAnimated:YES completion:nil];
+                break;
+                
+            case 5:
+                [self performSegueWithIdentifier:@"segueToCM" sender:self];
+                
+                [sidebar dismissAnimated:YES completion:nil];
+                break;
+                
+            case 6:
+                [self performSegueWithIdentifier:@"segueToHotel" sender:self];
+                
+                [sidebar dismissAnimated:YES completion:nil];
+                break;
+            
             case 7:
                 [self performSegueWithIdentifier:@"segueToFAA" sender:self];
                 

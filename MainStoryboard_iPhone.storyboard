@@ -315,7 +315,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="My Schedule" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3Kb-FE-RsI" customClass="AgendaTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="84" sectionHeaderHeight="22" sectionFooterHeight="22" id="ELe-zc-Ofy">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -369,24 +369,18 @@
                         </connections>
                     </tableView>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <navigationItem key="navigationItem" title="My Schedule" id="kVm-tg-S8B">
-                        <barButtonItem key="rightBarButtonItem" title="Import" id="snA-1I-zST">
-                            <connections>
-                                <segue destination="xZl-95-97N" kind="push" id="B0W-sz-nRj"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="My Schedule" id="kVm-tg-S8B"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oBK-fT-gbl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1044" y="184"/>
+            <point key="canvasLocation" x="794" y="274"/>
         </scene>
         <!--Agenda Detail View Controller-->
         <scene sceneID="1vx-zk-eY9">
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="UtQ-mB-Aud" customClass="AgendaDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0ey-UX-qJi">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="sessionIdLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E8m-gg-L0c">
@@ -1412,13 +1406,13 @@
         <!--Submit MemberID View Controller-->
         <scene sceneID="o6C-He-Z2u">
             <objects>
-                <viewController id="xZl-95-97N" customClass="SubmitMemberIDViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SubmitMemberID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xZl-95-97N" customClass="SubmitMemberIDViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dug-8Z-VB8">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ut5-Tc-MAT">
-                                <rect key="frame" x="20" y="129" width="280" height="128"/>
+                                <rect key="frame" x="20" y="129" width="280" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1448,6 +1442,16 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VdS-b1-xcJ">
+                                <rect key="frame" x="129" y="273" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelClicked:" destination="xZl-95-97N" eventType="touchUpInside" id="ybV-sg-yDY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1333333333" green="0.08235294118" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -2286,7 +2290,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Schedule" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rtz-Pf-dea">
-                                <rect key="frame" x="217" y="394" width="94" height="21"/>
+                                <rect key="frame" x="224" y="394" width="83" height="39"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>

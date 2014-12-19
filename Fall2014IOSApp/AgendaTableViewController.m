@@ -194,12 +194,13 @@
         AudioServicesCreateSystemSoundID((__bridge_retained CFURLRef)fileURL,&soundID);
         AudioServicesPlaySystemSound(soundID);
         
-        NSString *message = @"You have not added any items to your planner. Please tap Add to Planner when viewing Schedule or Session details. If you signed up for sessions or other items when you registered, please tap the Import button above or tap the My BICSI icon below and go to My Schedule.";
+        NSString *message = @"You have not added any items to your schedule. Please tap Add to Planner when viewing Schedule or Session details. If you signed up for sessions or other items when you registered, please tap the Import button below to import your sessions.";
         UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Notification"
                                                            message:message
                                                           delegate:self
                                                  cancelButtonTitle:@"Ok"
-                                                 otherButtonTitles:nil,nil];
+                                                 otherButtonTitles:@"Import",nil];
+        alertView.tag = 1;
         [alertView show];
     }
 
@@ -213,6 +214,59 @@
         [self.tableView reloadData];
         
 }
+
+
+-(void)importBtnClick
+{
+    //write your code to prepare popview
+    //[self.navigationController popViewControllerAnimated:YES];
+    
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) /* Device is iPad */
+    {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPad"   bundle:nil];
+    
+    SubmitMemberIDViewController *smi = [storyboard instantiateViewControllerWithIdentifier:@"SubmitMemberID" ];
+    
+    [self presentViewController:smi animated:YES completion:NULL];
+    }
+    else{
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone"   bundle:nil];
+        
+        SubmitMemberIDViewController *smi = [storyboard instantiateViewControllerWithIdentifier:@"SubmitMemberID" ];
+        
+        [self presentViewController:smi animated:YES completion:NULL];
+        
+        
+    }
+}
+
+-(void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    
+    //u need to change 0 to other value(,1,2,3) if u have more buttons.then u can check which button was pressed.
+    if (alertView.tag ==1) {
+        
+        if (buttonIndex == 1) {
+            
+            [self importBtnClick];
+            
+        }
+    }
+}
+
+
+- (void) alertStatus:(NSString *)msg :(NSString *)title :(int) tag
+{
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title
+                                                        message:msg
+                                                       delegate:self
+                                              cancelButtonTitle:@"Ok"
+                                              otherButtonTitles:nil, nil];
+    alertView.tag = tag;
+    [alertView show];
+    
+}
+
+
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     // Return YES if you want the specified item to be editable.

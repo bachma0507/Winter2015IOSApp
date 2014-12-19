@@ -10,6 +10,7 @@
 #import "Functions.h"
 #import <CoreData/CoreData.h>
 
+
 @class MBProgressHUD;
 
 @interface SubmitMemberIDViewController : UIViewController
@@ -28,6 +29,7 @@
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 - (IBAction)loginClicked:(id)sender;
+- (IBAction)cancelClicked:(id)sender;
 
 
 @end

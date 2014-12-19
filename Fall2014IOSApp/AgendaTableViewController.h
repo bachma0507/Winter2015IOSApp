@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "AgendaCell.h"
+#import "SubmitMemberIDViewController.h"
+
 
 
 @interface AgendaTableViewController : UITableViewController
+
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 

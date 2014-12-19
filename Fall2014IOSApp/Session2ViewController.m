@@ -115,10 +115,10 @@
         self.objects = results;
         NSLog(@"Results Count is: %lu", (unsigned long)results.count);
         if (!results || !results.count){
-            [self.agendaButton setTitle:@"Add to Planner" forState:normal];
+            [self.agendaButton setTitle:@"Add to Schedule" forState:normal];
         }
         else{
-            [self.agendaButton setTitle:@"Remove from Planner" forState:normal];
+            [self.agendaButton setTitle:@"Remove from Schedule" forState:normal];
         }
         
 //    } onFailure:^(NSError *error) {
@@ -156,7 +156,7 @@
     
     NSManagedObjectContext *context = [self managedObjectContext];
     
-    if ([self.agendaButton.currentTitle isEqual:@"Add to Planner"]) {
+    if ([self.agendaButton.currentTitle isEqual:@"Add to Schedule"]) {
         NSManagedObject *newManagedObject = [NSEntityDescription insertNewObjectForEntityForName:@"Sessnotes" inManagedObjectContext:context];
         
         [newManagedObject setValue:self.sessionId2 forKey:@"sessionID"];
@@ -179,7 +179,7 @@
 
         
             NSLog(@"You created a new object!");
-            [agendaButton setTitle:@"Remove from Planner" forState:normal];
+            [agendaButton setTitle:@"Remove from Schedule" forState:normal];
         
     }
     else{//start else block
@@ -197,7 +197,7 @@
             self.objects = results;
             NSLog(@"Results Count is: %lu", (unsigned long)results.count);
             if (!results || !results.count){//start nested if block
-                [self.agendaButton setTitle:@"Add to Planner" forState:normal];}
+                [self.agendaButton setTitle:@"Add to Schedule" forState:normal];}
             else{
                 NSManagedObject *object = [results objectAtIndex:0];
                 [object setValue:NULL forKey:@"agenda"];
@@ -210,7 +210,7 @@
 
                 
                     NSLog(@"You updated an object");
-                    [self.agendaButton setTitle:@"Add to Planner" forState:normal];
+                    [self.agendaButton setTitle:@"Add to Schedule" forState:normal];
 
             }
         

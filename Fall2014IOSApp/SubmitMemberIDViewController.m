@@ -11,6 +11,7 @@
 #import "MBProgressHUD.h"
 
 
+
 @interface SubmitMemberIDViewController ()
 
 {
@@ -706,10 +707,16 @@
     
 }
 
+- (IBAction)cancelClicked:(id)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:NULL];
+}
+
 -(void)backBtnClick
 {
     //write your code to prepare popview
-    [self.navigationController popViewControllerAnimated:YES];
+    //[self.navigationController popViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 -(void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
@@ -725,6 +732,12 @@
     }
 }
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    NSLog(@"touchesBegan:withEvent:");
+    [self.view endEditing:YES];
+    [super touchesBegan:touches withEvent:event];
+}
+
 
 - (void) alertStatus:(NSString *)msg :(NSString *)title :(int) tag
 {
@@ -737,5 +750,6 @@
     [alertView show];
     
 }
+
 
 @end

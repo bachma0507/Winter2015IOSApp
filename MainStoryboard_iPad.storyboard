@@ -308,7 +308,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="DUO-uM-PWG">
-                                                    <rect key="frame" x="690" y="17" width="60" height="60"/>
+                                                    <rect key="frame" x="690" y="38" width="40" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -797,7 +797,7 @@
                                     <segue destination="TlJ-KD-jlF" kind="push" id="luQ-r5-Uf8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" text="My Session Planner" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QW0-Tl-hyd">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" text="My Schedule" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QW0-Tl-hyd">
                                 <rect key="frame" x="607" y="620" width="104" height="55"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1432,13 +1432,7 @@
                         </connections>
                     </tableView>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <navigationItem key="navigationItem" title="My Planner" id="I13-th-QNE">
-                        <barButtonItem key="rightBarButtonItem" title="Import" id="EYh-re-lUu">
-                            <connections>
-                                <segue destination="QCg-Sa-Lpb" kind="push" id="hru-aw-w2m"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="My Planner" id="I13-th-QNE"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="frd-c0-Axx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1447,7 +1441,7 @@
         <!--Import Scheduled Items-->
         <scene sceneID="a8P-kN-8k3">
             <objects>
-                <viewController id="QCg-Sa-Lpb" customClass="SubmitMemberIDViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SubmitMemberID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QCg-Sa-Lpb" customClass="SubmitMemberIDViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JVU-q6-jb5">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1487,6 +1481,16 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UET-hK-HX3">
+                                <rect key="frame" x="360" y="508" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelClicked:" destination="QCg-Sa-Lpb" eventType="touchUpInside" id="NO5-Q6-qkH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.63137254899999995" green="0.73333333329999995" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1672,7 +1676,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" text="sessionName" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SiD-iV-wdE">
-                                            <rect key="frame" x="20" y="-5" width="549" height="56"/>
+                                            <rect key="frame" x="20" y="6" width="549" height="56"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1699,7 +1703,7 @@
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="pM0-Z6-YsM">
-                                            <rect key="frame" x="660" y="3" width="80" height="80"/>
+                                            <rect key="frame" x="660" y="25" width="40" height="40"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -2240,7 +2244,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="8wc-Wc-Ohw">
-                                                    <rect key="frame" x="693" y="8" width="60" height="60"/>
+                                                    <rect key="frame" x="693" y="17" width="40" height="40"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -3463,10 +3467,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="xdd-lt-WaI"/>
         <segue reference="SDK-bn-4vP"/>
-        <segue reference="x9l-yO-e2N"/>
         <segue reference="AV2-4O-mek"/>
         <segue reference="Wll-oD-v1N"/>
         <segue reference="Gmd-RU-haQ"/>
         <segue reference="muH-WA-dU8"/>
+        <segue reference="x9l-yO-e2N"/>
     </inferredMetricsTieBreakers>
 </document>
