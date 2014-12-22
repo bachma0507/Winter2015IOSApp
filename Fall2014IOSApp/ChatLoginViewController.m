@@ -61,6 +61,14 @@
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.view.backgroundColor = [UIColor clearColor];
     
+    PFUser *currentUser = [PFUser currentUser];
+    if (currentUser) {
+        // do stuff with the user
+        [self performSegueWithIdentifier:@"LoginSuccesful" sender:self];
+    }
+    //else {
+        // show the signup or login screen
+    //}
 }
 
 - (void)viewDidUnload
