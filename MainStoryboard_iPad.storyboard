@@ -197,7 +197,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="billow.png" id="LtS-DR-UTj">
-                                <rect key="frame" x="0.0" y="24" width="768" height="975"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <color key="backgroundColor" red="0.63137254899999995" green="0.73333333329999995" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.69999999999999996" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="Already have a user account for the Photo Gallery or Chat Rooms? Then sign in below. If not, create a user account." textAlignment="center" selectable="NO" id="GG8-js-SZX">
@@ -576,13 +576,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="billow.png" id="whp-2y-soM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="surveys_background-ipad.png" id="whp-2y-soM">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="979"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <webView contentMode="scaleToFill" id="myA-2P-xSr">
-                                <rect key="frame" x="0.0" y="59" width="768" height="916"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <webView alpha="0.94999999999999996" contentMode="scaleToFill" id="myA-2P-xSr">
+                                <rect key="frame" x="42" y="117" width="684" height="789"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="2Qz-OU-t1y">
@@ -646,11 +646,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="epH-4l-obW">
                                 <rect key="frame" x="43" y="79" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="confsched-ipad.png">
+                                <state key="normal" image="Conference-schedule-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="confschedglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -684,11 +684,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tAo-ch-0kC">
                                 <rect key="frame" x="320" y="79" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="speakers-ipad.png">
+                                <state key="normal" image="SpeakersNew-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="speakersglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -698,11 +698,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Sk9-84-A9Z">
                                 <rect key="frame" x="599" y="79" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="ehschedule-ipad.png">
+                                <state key="normal" image="Exhibit-hall-schedule-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="ehscheduleglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -712,11 +712,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6B9-cQ-T41">
                                 <rect key="frame" x="47" y="293" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="sponsors-ipad.png">
+                                <state key="normal" image="SponsorsNew-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="sponsorsglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -726,11 +726,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sEK-PO-uyY">
                                 <rect key="frame" x="599" y="293" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="exhibitors-ipad.png">
+                                <state key="normal" image="ExhibitorsNew-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="exhibitorsglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -746,11 +746,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b5J-3R-amJ">
                                 <rect key="frame" x="324" y="293" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="sessions-ipad.png">
+                                <state key="normal" image="Concurrent-sessions-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="sessionsglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -766,11 +766,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="K5I-51-Jdh">
                                 <rect key="frame" x="324" y="512" width="120" height="122"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="mynotes-ipad.png">
+                                <state key="normal" image="My-session-notes-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="mynotesglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -786,11 +786,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fgY-8q-MTS">
                                 <rect key="frame" x="599" y="512" width="120" height="121"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="myagenda-ipad.png">
+                                <state key="normal" image="My-schedule-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="myagendaglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -806,11 +806,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TfX-VQ-MZb">
                                 <rect key="frame" x="47" y="739" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="committee-ipad.png">
+                                <state key="normal" image="Committee-meetings-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="committeeglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -820,11 +820,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cl7-tW-gnu">
                                 <rect key="frame" x="324" y="739" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="floormaps-ipad.png">
+                                <state key="normal" image="Ffloor-maps-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="floormapsglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -834,11 +834,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RuV-DF-ZCv">
                                 <rect key="frame" x="599" y="739" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="findactivity-ipad.png">
+                                <state key="normal" image="Find-area-activities-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="findactivityglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -866,11 +866,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mew-uY-Hs8">
                                 <rect key="frame" x="47" y="512" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="favexhibitors-ipad.png">
+                                <state key="normal" image="My-favorite-exhibitors-ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="favexhibitorsglow-ipad.png">
+                                <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -3414,6 +3414,18 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Committee-meetings-ipad.png" width="120" height="120"/>
+        <image name="Concurrent-sessions-ipad.png" width="120" height="120"/>
+        <image name="Conference-schedule-ipad.png" width="120" height="120"/>
+        <image name="Exhibit-hall-schedule-ipad.png" width="120" height="120"/>
+        <image name="ExhibitorsNew-ipad.png" width="120" height="120"/>
+        <image name="Ffloor-maps-ipad.png" width="120" height="120"/>
+        <image name="Find-area-activities-ipad.png" width="120" height="120"/>
+        <image name="My-favorite-exhibitors-ipad.png" width="120" height="120"/>
+        <image name="My-schedule-ipad.png" width="120" height="120"/>
+        <image name="My-session-notes-ipad.png" width="120" height="120"/>
+        <image name="SpeakersNew-ipad.png" width="120" height="120"/>
+        <image name="SponsorsNew-ipad.png" width="120" height="120"/>
         <image name="W15_exhibithall_floorplan_icon_ipad.png" width="446" height="286"/>
         <image name="backbutton-default.png" width="50" height="30"/>
         <image name="backbutton.png" width="50" height="30"/>
@@ -3423,39 +3435,16 @@
         <image name="button-orange.png" width="143" height="41"/>
         <image name="cec_background_ipad.png" width="768" height="1024"/>
         <image name="comm_meetings_icon_ipad.png" width="120" height="120"/>
-        <image name="committee-ipad.png" width="120" height="120"/>
-        <image name="committeeglow-ipad.png" width="120" height="120"/>
-        <image name="confsched-ipad.png" width="120" height="120"/>
-        <image name="confschedglow-ipad.png" width="120" height="120"/>
         <image name="contactus_background_ipad.png" width="768" height="1024"/>
         <image name="createuser_button.png" width="111" height="27"/>
         <image name="createuser_button_ipad.png" width="224" height="66"/>
-        <image name="ehschedule-ipad.png" width="120" height="120"/>
-        <image name="ehscheduleglow-ipad.png" width="120" height="120"/>
-        <image name="exhibitors-ipad.png" width="120" height="120"/>
-        <image name="exhibitorsglow-ipad.png" width="120" height="120"/>
         <image name="facebook_button.png" width="111" height="27"/>
         <image name="facebook_button_ipad.png" width="224" height="66"/>
-        <image name="favexhibitors-ipad.png" width="120" height="120"/>
-        <image name="favexhibitorsglow-ipad.png" width="120" height="120"/>
-        <image name="findactivity-ipad.png" width="120" height="120"/>
-        <image name="findactivityglow-ipad.png" width="120" height="120"/>
-        <image name="floormaps-ipad.png" width="120" height="120"/>
-        <image name="floormapsglow-ipad.png" width="120" height="120"/>
-        <image name="myagenda-ipad.png" width="120" height="120"/>
-        <image name="myagendaglow-ipad.png" width="120" height="120"/>
-        <image name="mynotes-ipad.png" width="120" height="120"/>
-        <image name="mynotesglow-ipad.png" width="120" height="120"/>
         <image name="navigation-btn-menu-ipad.png" width="50" height="35"/>
         <image name="presentation_background_ipad.png" width="768" height="1024"/>
         <image name="reload30x30.png" width="30" height="30"/>
         <image name="scenery5-ipad.png" width="768" height="1024"/>
-        <image name="sessions-ipad.png" width="120" height="120"/>
-        <image name="sessionsglow-ipad.png" width="120" height="120"/>
-        <image name="speakers-ipad.png" width="120" height="120"/>
-        <image name="speakersglow-ipad.png" width="120" height="120"/>
-        <image name="sponsors-ipad.png" width="120" height="120"/>
-        <image name="sponsorsglow-ipad.png" width="120" height="120"/>
+        <image name="surveys_background-ipad.png" width="768" height="1024"/>
         <image name="training_background_ipad.png" width="768" height="1024"/>
         <image name="updatedata_button.png" width="222" height="65"/>
     </resources>
@@ -3465,12 +3454,12 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="xdd-lt-WaI"/>
-        <segue reference="SDK-bn-4vP"/>
         <segue reference="AV2-4O-mek"/>
-        <segue reference="Wll-oD-v1N"/>
+        <segue reference="SDK-bn-4vP"/>
+        <segue reference="34m-OW-Lo0"/>
         <segue reference="Gmd-RU-haQ"/>
         <segue reference="muH-WA-dU8"/>
         <segue reference="x9l-yO-e2N"/>
+        <segue reference="Wll-oD-v1N"/>
     </inferredMetricsTieBreakers>
 </document>

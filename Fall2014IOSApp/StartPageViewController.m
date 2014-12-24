@@ -880,7 +880,7 @@
     
     CGRect statusBarFrame = [[UIApplication sharedApplication] statusBarFrame];
     
-    UIImageView *tutImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlay5-ipad@2x.png"]];
+    UIImageView *tutImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlay6-ipad@2x.png"]];
     [tutImageView setFrame:CGRectMake(0, (-1) * statusBarFrame.size.height, self.view.frame.size.width, self.view.frame.size.height)];
     
     
@@ -907,7 +907,7 @@
         
         CGRect statusBarFrame = [[UIApplication sharedApplication] statusBarFrame];
         
-        UIImageView *tutImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlay5"]];
+        UIImageView *tutImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlay6"]];
         [tutImageView setFrame:CGRectMake(0, (-1) * statusBarFrame.size.height, self.view.frame.size.width, self.view.frame.size.height)];
         
         

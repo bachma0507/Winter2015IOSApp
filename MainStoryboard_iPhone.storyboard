@@ -10,7 +10,7 @@
             <objects>
                 <viewController id="24Z-AG-khO" customClass="ProgramPDFViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iMm-7k-07U">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="billow.png" id="IHO-G3-6Wr">
@@ -69,7 +69,7 @@
             <objects>
                 <viewController id="cFb-9l-ytj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8L7-ea-34N">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QHA-Zq-n4x">
@@ -124,7 +124,7 @@
             <objects>
                 <viewController id="onT-lI-wJz" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3qd-Kv-hvw">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" id="kH2-Hq-wlr">
@@ -228,7 +228,7 @@
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="yOR-dG-9HU" customClass="GooglePlacesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tBI-wS-Bia">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="FBf-Lf-G92">
                                 <rect key="frame" x="0.0" y="107" width="320" height="348"/>
@@ -315,7 +315,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="My Schedule" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3Kb-FE-RsI" customClass="AgendaTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="84" sectionHeaderHeight="22" sectionFooterHeight="22" id="ELe-zc-Ofy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -380,7 +380,7 @@
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="UtQ-mB-Aud" customClass="AgendaDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0ey-UX-qJi">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="sessionIdLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E8m-gg-L0c">
@@ -1311,7 +1311,7 @@
             <objects>
                 <viewController id="rfy-JX-O4t" customClass="ContactUsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TQA-ig-eao">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="billow.png" id="PlW-xd-ots">
@@ -1348,7 +1348,7 @@
             <objects>
                 <viewController id="ofm-aV-PzI" customClass="ComMeetingsMainViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="299-cF-2l8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="64" sectionHeaderHeight="22" sectionFooterHeight="22" id="eV9-nW-wYc">
@@ -2129,9 +2129,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Uap-98-TY9">
-                                <rect key="frame" x="135" y="53" width="50" height="50"/>
+                                <rect key="frame" x="135" y="62" width="50" height="50"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="speakers.png">
+                                <state key="normal" image="SpeakersNew.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2143,9 +2143,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qhN-jT-LoJ">
-                                <rect key="frame" x="243" y="53" width="50" height="50"/>
+                                <rect key="frame" x="239" y="62" width="50" height="50"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="ehschedule.png">
+                                <state key="normal" image="Exhibit-hall-schedule.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2157,9 +2157,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hYj-ea-Wd7">
-                                <rect key="frame" x="23" y="198" width="50" height="50"/>
+                                <rect key="frame" x="23" y="206" width="50" height="50"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="sponsors.png">
+                                <state key="normal" image="SponsorsNew.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2171,9 +2171,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nby-5E-d22">
-                                <rect key="frame" x="243" y="198" width="50" height="50"/>
+                                <rect key="frame" x="242" y="206" width="50" height="50"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="exhibitors.png">
+                                <state key="normal" image="ExhibitorsNew.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2185,9 +2185,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iF5-h5-5hh">
-                                <rect key="frame" x="136" y="198" width="50" height="50"/>
+                                <rect key="frame" x="136" y="206" width="50" height="50"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="sessions.png">
+                                <state key="normal" image="Concurrent-sessions.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2199,9 +2199,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="81H-U4-621">
-                                <rect key="frame" x="135" y="340" width="50" height="50"/>
+                                <rect key="frame" x="135" y="344" width="50" height="50"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="mynotes.png">
+                                <state key="normal" image="My-session-notes.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2213,9 +2213,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rJC-SI-sf8">
-                                <rect key="frame" x="243" y="340" width="50" height="50"/>
+                                <rect key="frame" x="243" y="344" width="50" height="50"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="myagenda.png">
+                                <state key="normal" image="My-schedule.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2227,9 +2227,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wBe-hG-p3N">
-                                <rect key="frame" x="27" y="340" width="50" height="50"/>
+                                <rect key="frame" x="27" y="344" width="50" height="50"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="favexhibitors.png">
+                                <state key="normal" image="My-favorite-exhibitors.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2260,19 +2260,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schedule" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JD3-hF-snM">
-                                <rect key="frame" x="9" y="108" width="81" height="21"/>
+                                <rect key="frame" x="12" y="120" width="81" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Concurrent Sessions" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="msM-M2-y5h">
-                                <rect key="frame" x="118" y="252" width="86" height="39"/>
+                                <rect key="frame" x="118" y="257" width="86" height="39"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exhibit Hall Schedule" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gcu-v6-i9t">
-                                <rect key="frame" x="224" y="107" width="81" height="40"/>
+                                <rect key="frame" x="224" y="112" width="81" height="40"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2296,27 +2296,27 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speakers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8fF-3c-9Vi">
-                                <rect key="frame" x="128" y="108" width="66" height="21"/>
+                                <rect key="frame" x="127" y="120" width="66" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sponsors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MKJ-pW-kNP">
-                                <rect key="frame" x="14" y="251" width="76" height="21"/>
+                                <rect key="frame" x="14" y="257" width="76" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exhibitors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7uM-aV-iTK">
-                                <rect key="frame" x="229" y="251" width="76" height="21"/>
+                                <rect key="frame" x="229" y="257" width="76" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yF3-sx-bIE">
-                                <rect key="frame" x="16" y="46" width="64" height="64"/>
+                                <rect key="frame" x="23" y="62" width="50" height="50"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="confsched.png">
+                                <state key="normal" image="Conference-schedule.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2339,7 +2339,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="updateLabel" destination="3Xw-no-QJ6" id="fxR-JO-y84"/>
                         <segue destination="23E-uc-N9m" kind="modal" identifier="eulaview" animates="NO" id="urM-XD-5Mf"/>
@@ -2422,7 +2421,7 @@
             <objects>
                 <viewController id="h3Z-o4-esA" customClass="HotelWebViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JV6-cA-14Z">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="billow.png" id="ic5-9J-YAU">
@@ -3518,7 +3517,7 @@
             <objects>
                 <viewController id="MFq-Y0-y1Q" customClass="BarViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bEL-LM-WLy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" id="CL3-9v-Xrz">
@@ -3622,7 +3621,7 @@
             <objects>
                 <viewController id="Kxf-xZ-uNI" customClass="ShopViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1A5-BI-KYh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" id="JKt-Z3-T2k">
@@ -3726,7 +3725,7 @@
             <objects>
                 <viewController id="8Yb-3c-qFt" customClass="NightViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WwF-9h-dAm">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" id="Thv-4a-aR2">
@@ -4032,32 +4031,32 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Concurrent-sessions.png" width="50" height="50"/>
+        <image name="Conference-schedule.png" width="50" height="50"/>
+        <image name="Exhibit-hall-schedule.png" width="50" height="50"/>
+        <image name="ExhibitorsNew.png" width="50" height="50"/>
+        <image name="My-favorite-exhibitors.png" width="50" height="50"/>
+        <image name="My-schedule.png" width="50" height="50"/>
+        <image name="My-session-notes.png" width="50" height="50"/>
+        <image name="SpeakersNew.png" width="50" height="50"/>
+        <image name="SponsorsNew.png" width="50" height="50"/>
         <image name="W15_exhibithall_floorplan_icon_iphone.png" width="244" height="156"/>
         <image name="backbutton.png" width="50" height="30"/>
         <image name="backbutton_blue.png" width="50" height="30"/>
         <image name="billow.png" width="320" height="568"/>
         <image name="button-orange-pressed.png" width="143" height="41"/>
         <image name="button-orange.png" width="143" height="41"/>
-        <image name="confsched.png" width="50" height="50"/>
         <image name="createuser_button.png" width="111" height="27"/>
-        <image name="ehschedule.png" width="50" height="50"/>
-        <image name="exhibitors.png" width="50" height="50"/>
         <image name="facebook_button.png" width="111" height="27"/>
-        <image name="favexhibitors.png" width="50" height="50"/>
         <image name="home_tab_icon_unselected.png" width="22" height="22"/>
         <image name="mic_off.png" width="30" height="30"/>
         <image name="mic_on" width="30" height="30"/>
-        <image name="myagenda.png" width="50" height="50"/>
         <image name="mybicsi_tab_icon_unselected.png" width="22" height="22"/>
-        <image name="mynotes.png" width="50" height="50"/>
         <image name="navigation-btn-menu.png" width="24" height="17"/>
         <image name="news_tab_icon_unselected.png" width="22" height="22"/>
         <image name="powered-by-google-on-white.png" width="104" height="16"/>
         <image name="reload30x30.png" width="30" height="30"/>
-        <image name="sessions.png" width="50" height="50"/>
         <image name="social_tab_icon_unselected.png" width="22" height="22"/>
-        <image name="speakers.png" width="50" height="50"/>
-        <image name="sponsors.png" width="50" height="50"/>
         <image name="updatedata_button.png" width="222" height="65"/>
         <image name="view_website_icon.png" width="25" height="25"/>
         <image name="yelp_logo.png" width="102" height="52"/>
