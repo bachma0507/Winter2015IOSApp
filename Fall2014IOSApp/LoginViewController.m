@@ -62,10 +62,10 @@
         [self performSegueWithIdentifier:@"LoginSuccesful" sender:self];
     }
     
-    if ([PFAnonymousUtils isLinkedWithUser:[PFUser currentUser]]) {
-        [PFUser logOut];
-        //PFUser *currentUser = [PFUser currentUser];
-    }
+//    if ([PFAnonymousUtils isLinkedWithUser:[PFUser currentUser]]) {
+//        [PFUser logOut];
+//        //PFUser *currentUser = [PFUser currentUser];
+//    }
     
 }
 
