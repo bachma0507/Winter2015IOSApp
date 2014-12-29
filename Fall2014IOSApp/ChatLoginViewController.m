@@ -69,6 +69,11 @@
     //else {
         // show the signup or login screen
     //}
+    
+    if ([PFAnonymousUtils isLinkedWithUser:[PFUser currentUser]]) {
+        [PFUser logOut];
+        //PFUser *currentUser = [PFUser currentUser];
+    }
 }
 
 - (void)viewDidUnload

@@ -199,6 +199,7 @@
         
         if (succeeded){
             PFUser * user = [PFUser currentUser];
+            
             //Add the image to the object, and add the comments, the user, and the geolocation (fake)
             PFObject *imageObject =
             
@@ -256,6 +257,7 @@
                     [self showErrorView:errorString];
                 }
             }];
+        
         }
         else{
             NSString *errorString = [[error userInfo] objectForKey:@"error"];
@@ -268,8 +270,9 @@
     } progressBlock:^(int percentDone) {
         
     }];
+    
 }
-
+     
 #pragma mark UIImagePicker delegate
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)img editingInfo:(NSDictionary *)editInfo
