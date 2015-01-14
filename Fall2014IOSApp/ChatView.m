@@ -59,6 +59,8 @@
     label.text = NSLocalizedString(@"Chat", @"");
     [label sizeToFit];
     
+    self.inputToolbar.contentView.leftBarButtonItem = nil;
+    
     users = [[NSMutableArray alloc] init];
     messages = [[NSMutableArray alloc] init];
     avatars = [[NSMutableDictionary alloc] init];
