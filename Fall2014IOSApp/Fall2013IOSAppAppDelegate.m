@@ -15,7 +15,6 @@
 #import "MBProgressHUD.h"
 #import "StartPageViewController.h"
 #import <AdSupport/AdSupport.h>
-#import "TestFlight.h"
 #import <ParseFacebookUtils/PFFacebookUtils.h>
 //#import "iRate.h"
 //#import <FYX/FYX.h>
@@ -79,10 +78,10 @@ int iNotificationCounter=0;
     
     // Setup TestFlight
     
-    [TestFlight takeOff:@"216554ba-aef6-4ec1-a079-fb5751c82be6"];
+    
     
     // Use this option to notifiy beta users of any updates
-    [TestFlight setOptions:@{ TFOptionDisableInAppUpdates : @YES }];
+    
     
     [Parse setApplicationId:@"H025T6dVCXIyDm0kVYZEyMjqap5K36iu0ZsgYVai"
                   clientKey:@"7uI3KCMsxUBxkivTAg8WYXI82wJPqFzA3EvOKH72"];

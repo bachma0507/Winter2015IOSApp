@@ -45,7 +45,7 @@
 {
     [super viewDidLoad];
 
-    [TestFlight passCheckpoint:@"ExhbitHallScheduleTable-viewed"];
+    
     
     UIBarButtonItem *backButtonItem = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButtonItem;

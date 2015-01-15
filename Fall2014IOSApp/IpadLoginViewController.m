@@ -44,7 +44,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    [TestFlight passCheckpoint:@"GalleryIpadLoginPage-info-viewed"];
+    
     
     //Delete me
     //self.userTextField.text = @"Antonio";
@@ -94,7 +94,7 @@
 -(IBAction)logInPressed:(id)sender
 {
     
-    [TestFlight passCheckpoint:@"GalleryLoginButton-pressed"];
+    
     
     [PFUser logInWithUsernameInBackground:self.userTextField.text password:self.passwordTextField.text block:^(PFUser *user, NSError *error) {
         if (user) {

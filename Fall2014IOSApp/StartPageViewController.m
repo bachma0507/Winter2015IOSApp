@@ -41,7 +41,7 @@
     
     self.optionIndices = [NSMutableIndexSet indexSetWithIndex:1];
     
-    [TestFlight passCheckpoint:@"StartPage-viewed"];
+    
     
     if(![[NSUserDefaults standardUserDefaults] boolForKey:@"hasSeenTutorial"]){
         NSLog(@"First time run");
@@ -256,7 +256,7 @@
 
 - (IBAction)buttonPressed:(id)sender {
     
-    [TestFlight passCheckpoint:@"updateData-button-pressed"];
+    
     
     UIBarButtonItem *backButtonItem = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButtonItem;

@@ -61,7 +61,7 @@
 {
     [super viewDidLoad];
     
-    [TestFlight passCheckpoint:@"GalleryIpadPics-viewed"];
+    
     
     UIBarButtonItem *backButtonItem = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButtonItem;
@@ -223,7 +223,7 @@
 -(IBAction)logoutPressed:(id)sender
 {
     
-    [TestFlight passCheckpoint:@"GalleryIpadLogoutButton-pressed"];
+    
     
     //TODO
     //If logout succesful:

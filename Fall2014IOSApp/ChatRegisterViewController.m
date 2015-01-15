@@ -53,7 +53,7 @@
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.view.backgroundColor = [UIColor clearColor];
     
-    //[TestFlight passCheckpoint:@"GalleryRegPage-info-viewed"];
+    
 }
 
 - (void)viewDidUnload

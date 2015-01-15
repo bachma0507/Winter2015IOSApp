@@ -47,7 +47,7 @@
 {
     [super viewDidLoad];
     
-    [TestFlight passCheckpoint:@"MyAgendaTable-info-viewed"];
+    
     
     [self.tableView reloadData];
     

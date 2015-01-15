@@ -42,7 +42,7 @@
 {
     [super viewDidLoad];
     
-    [TestFlight passCheckpoint:@"MyFavoriteExhibitorsTable-info-viewed"];
+   
     
     NSLog(@"ViewDidLoad in MyFavoritesViewController started");
 

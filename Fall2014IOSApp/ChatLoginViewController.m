@@ -80,7 +80,7 @@
 {
     [super viewDidUnload];
     
-    [TestFlight passCheckpoint:@"GalleryLoginPage-info-viewed"];
+    
     
     // Release any retained subviews of the main view.
     self.userTextField = nil;
@@ -100,7 +100,7 @@
 //Login button pressed
 -(IBAction)logInPressed:(id)sender
 {
-    //[TestFlight passCheckpoint:@"GalleryLoginButton-pressed"];
+    
     
     NSString *username = _userTextField.text;
     NSString *password = _passwordTextField.text;

@@ -40,7 +40,7 @@
 {
     [super viewDidLoad];
     
-    [TestFlight passCheckpoint:@"ConfScheduleTable-info-viewed"];
+    
     
     UIBarButtonItem *backButtonItem = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStylePlain target:nil action:nil];
     

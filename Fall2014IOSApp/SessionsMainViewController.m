@@ -56,7 +56,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    [TestFlight passCheckpoint:@"SessionsTable-info-viewed"];
+    
     
     
     UIBarButtonItem *backButtonItem = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStylePlain target:nil action:nil];

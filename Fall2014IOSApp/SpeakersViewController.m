@@ -54,7 +54,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    [TestFlight passCheckpoint:@"speakersTable-viewed"];
+    
     
     //[self.navigationController.navigationBar setTranslucent:NO];
     

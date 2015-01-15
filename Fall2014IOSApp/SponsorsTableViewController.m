@@ -51,7 +51,7 @@
 {
     [super viewDidLoad];
     
-    [TestFlight passCheckpoint:@"SponsorsTable-info-viewed"];
+    
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

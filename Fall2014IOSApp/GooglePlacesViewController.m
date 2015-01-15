@@ -21,7 +21,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [TestFlight passCheckpoint:@"AreaActivityMap-viewed"];
+   
     
     //Make this controller the delegate for the map view.
     self.mapView.delegate = self;

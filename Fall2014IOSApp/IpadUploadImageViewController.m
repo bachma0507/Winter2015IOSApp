@@ -44,7 +44,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    [TestFlight passCheckpoint:@"GalleryIpadUploadPics-info-viewed"];
+    
     
     _commentTextField.delegate = self;
     
@@ -91,7 +91,7 @@
 
 -(IBAction)selectPicturePressed:(id)sender
 {
-    [TestFlight passCheckpoint:@"GalleryIpadUploadSelectPhotoButton-pressed"];
+    
     
     //Open a UIImagePickerController to select the picture
     UIImagePickerController *imgPicker = [[UIImagePickerController alloc] init];
@@ -116,7 +116,7 @@
 
 - (IBAction)cameraPressed:(id)sender {
     
-    [TestFlight passCheckpoint:@"GalleryIpadUploadSelectCameraButton-pressed"];
+    
     
     UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
     imagePicker.delegate = self;
@@ -134,7 +134,7 @@
 
 -(IBAction)sendPressed:(id)sender
 {
-    [TestFlight passCheckpoint:@"GalleryIpadUploadSendButton-pressed"];
+    
     
     [self.commentTextField resignFirstResponder];
     

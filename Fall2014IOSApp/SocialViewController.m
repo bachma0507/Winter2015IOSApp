@@ -35,7 +35,7 @@ NSArray *thumbnails;
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    [TestFlight passCheckpoint:@"Social-tab-pressed"];
+    
     
 //    UIEdgeInsets inset = UIEdgeInsetsMake(5, 0, 0, 0);
 //    self.tableView.contentInset = inset;
@@ -123,7 +123,7 @@ NSArray *thumbnails;
     //    NSURL *url = [NSURL URLWithString:myURL];
     //	[[UIApplication sharedApplication] openURL:url];
     
-    [TestFlight passCheckpoint:@"Facebook-button-pressed"];
+    
     
     NSURL *URL = [NSURL URLWithString:@"http://m.facebook.com/bicsi"];
 	SVWebViewController *webViewController = [[SVWebViewController alloc] initWithURL:URL];
@@ -132,7 +132,7 @@ NSArray *thumbnails;
 
 - (IBAction)twitterPressed:(id)sender {
     
-    [TestFlight passCheckpoint:@"twitter-button-pressed"];
+    
     
     NSURL *URL = [NSURL URLWithString:@"http://mobile.twitter.com/bicsi"];
 	SVWebViewController *webViewController = [[SVWebViewController alloc] initWithURL:URL];
@@ -141,7 +141,7 @@ NSArray *thumbnails;
 
 - (IBAction)postTweet:(id)sender {
     
-    [TestFlight passCheckpoint:@"twitter-post-button-pressed"];
+    
     
     SLComposeViewController *socialComposerSheet;
     if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) {
@@ -160,7 +160,7 @@ NSArray *thumbnails;
 
 - (IBAction)postFacebook:(id)sender {
     
-    [TestFlight passCheckpoint:@"facebok-post-button-pressed"];
+    
     
     SLComposeViewController *socialComposerSheet;
     if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {

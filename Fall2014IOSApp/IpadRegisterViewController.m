@@ -43,8 +43,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    [TestFlight passCheckpoint:@"GalleryIpadRegPage-info-viewed"];
-}
+    }
 
 - (void)viewDidUnload
 {
@@ -68,7 +67,7 @@
 ////Sign Up Button pressed
 -(IBAction)signUpUserPressed:(id)sender
 {
-    [TestFlight passCheckpoint:@"GalleryRegButton-pressed"];
+    
     
     PFUser *user = [PFUser user];
     user.username = self.userRegisterTextField.text;

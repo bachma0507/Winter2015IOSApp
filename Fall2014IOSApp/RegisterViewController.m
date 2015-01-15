@@ -49,7 +49,7 @@
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.view.backgroundColor = [UIColor clearColor];
     
-    [TestFlight passCheckpoint:@"GalleryRegPage-info-viewed"];
+    
 }
 
 - (void)viewDidUnload
@@ -74,7 +74,7 @@
 ////Sign Up Button pressed
 -(IBAction)signUpUserPressed:(id)sender
 {
-    [TestFlight passCheckpoint:@"GalleryRegButton-pressed"];
+    
     
     PFUser *user = [PFUser user];
     user.username = self.userRegisterTextField.text;
