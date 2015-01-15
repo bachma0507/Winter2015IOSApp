@@ -292,9 +292,6 @@
 		4C8A8348177B7CC100022E03 /* exhibitors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8347177B7CC100022E03 /* exhibitors.m */; };
 		4C8A834B177B7ECF00022E03 /* ExhibitorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A834A177B7ECF00022E03 /* ExhibitorsViewController.m */; };
 		4C8A834E177B80B800022E03 /* ExhibitorsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A834D177B80B800022E03 /* ExhibitorsDetailViewController.m */; };
-		4C8C95DB192A425100F52D83 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8C95D5192A425100F52D83 /* libTestFlight.a */; };
-		4C8C95DC192A425100F52D83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C8C95D6192A425100F52D83 /* README.md */; };
-		4C8C95DD192A425100F52D83 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C8C95D7192A425100F52D83 /* release_notes.md */; };
 		4C8E885A182C24E2001204D9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8E8859182C24E2001204D9 /* AdSupport.framework */; };
 		4C8F683D18330CD3007D7CA3 /* comm_meetings_icon_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F683C18330CD3007D7CA3 /* comm_meetings_icon_ipad.png */; };
 		4C943183178E61160057CEE0 /* PresentationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C943182178E61160057CEE0 /* PresentationsViewController.m */; };
@@ -1113,12 +1110,6 @@
 		4C8A834A177B7ECF00022E03 /* ExhibitorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhibitorsViewController.m; sourceTree = "<group>"; };
 		4C8A834C177B80B800022E03 /* ExhibitorsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhibitorsDetailViewController.h; sourceTree = "<group>"; };
 		4C8A834D177B80B800022E03 /* ExhibitorsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhibitorsDetailViewController.m; sourceTree = "<group>"; };
-		4C8C95D5192A425100F52D83 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		4C8C95D6192A425100F52D83 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		4C8C95D7192A425100F52D83 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		4C8C95D8192A425100F52D83 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		4C8C95D9192A425100F52D83 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
-		4C8C95DA192A425100F52D83 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		4C8E8859182C24E2001204D9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		4C8F683C18330CD3007D7CA3 /* comm_meetings_icon_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comm_meetings_icon_ipad.png; sourceTree = "<group>"; };
 		4C943181178E61160057CEE0 /* PresentationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationsViewController.h; sourceTree = "<group>"; };
@@ -1701,7 +1692,6 @@
 				4C1B9B1817A2269000267303 /* CoreTelephony.framework in Frameworks */,
 				4C01EEDD17931F1F00D49A99 /* MapKit.framework in Frameworks */,
 				4C3FFAF817650B6700166BD7 /* MessageUI.framework in Frameworks */,
-				4C8C95DB192A425100F52D83 /* libTestFlight.a in Frameworks */,
 				4C3EC0CF1764287D002E7415 /* Social.framework in Frameworks */,
 				4C7459371756802F00A76417 /* MobileCoreServices.framework in Frameworks */,
 				4C7459351756801600A76417 /* CoreData.framework in Frameworks */,
@@ -1832,7 +1822,6 @@
 				4C9B1D5F19E30656007E0F51 /* Constants */,
 				4CD8E08B1937E78300A4326C /* Yelp_API_Request */,
 				4CD8E04C1937E42F00A4326C /* OAuthConsumer */,
-				4C8C95D4192A425100F52D83 /* TestFlightSDK3.0.0 */,
 				4C4A456618E9D7DA003A14C3 /* CrittercismSDK */,
 				4C3A0CFA177C978000DA1D7E /* Resources */,
 				4C48759F176CEDE200059E21 /* classes */,
@@ -2360,19 +2349,6 @@
 				4C894E2A18AD821E00001623 /* HotelWebViewController.m */,
 			);
 			name = hotelWebview;
-			sourceTree = "<group>";
-		};
-		4C8C95D4192A425100F52D83 /* TestFlightSDK3.0.0 */ = {
-			isa = PBXGroup;
-			children = (
-				4C8C95D5192A425100F52D83 /* libTestFlight.a */,
-				4C8C95D6192A425100F52D83 /* README.md */,
-				4C8C95D7192A425100F52D83 /* release_notes.md */,
-				4C8C95D8192A425100F52D83 /* TestFlight+AsyncLogging.h */,
-				4C8C95D9192A425100F52D83 /* TestFlight+ManualSessions.h */,
-				4C8C95DA192A425100F52D83 /* TestFlight.h */,
-			);
-			path = TestFlightSDK3.0.0;
 			sourceTree = "<group>";
 		};
 		4C9775ED19F05A6400A1C460 /* Overlay */ = {
@@ -3785,7 +3761,6 @@
 				4CD8DF54193781AB00A4326C /* favexhibitors-ipad.png in Resources */,
 				4C9B1E4219E34847007E0F51 /* blank_avatar@2x.png in Resources */,
 				4C6CFCEF197036A900AEB8B2 /* cec_background_ipad.png in Resources */,
-				4C8C95DC192A425100F52D83 /* README.md in Resources */,
 				4C3A0D06177CCDA500DA1D7E /* sponsors-json.json in Resources */,
 				4C9B1E0A19E34387007E0F51 /* bubble_tailless@2x.png in Resources */,
 				4CCFD9861A0540CD00464E3D /* sessions@3x.png in Resources */,
@@ -3887,7 +3862,6 @@
 				4C3134971A4A6AEC0076825F /* My-favorite-exhibitors-ipad.png in Resources */,
 				4C326E9C1961E4A2006D4B76 /* trainingexams-ipad.png in Resources */,
 				4C576113178AF65600DB6824 /* view_website_icon@2x.png in Resources */,
-				4C8C95DD192A425100F52D83 /* release_notes.md in Resources */,
 				4C31347D1A4A698B0076825F /* Exhibit-hall-schedule@2x.png in Resources */,
 				4C31346B1A4A68910076825F /* Conference-schedule.png in Resources */,
 				4C9B1E2F19E34387007E0F51 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
@@ -4348,7 +4322,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CrittercismSDK",
-					"$(PROJECT_DIR)/TestFlightSDK3.0.0",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Winter2015IOSApp;
@@ -4375,7 +4348,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CrittercismSDK",
-					"$(PROJECT_DIR)/TestFlightSDK3.0.0",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Winter2015IOSApp;
