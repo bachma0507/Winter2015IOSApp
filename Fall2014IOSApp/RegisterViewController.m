@@ -87,7 +87,8 @@
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             //The registration was succesful, go to the wall
-            [self performSegueWithIdentifier:@"SignupSuccesful" sender:self];
+            //[self performSegueWithIdentifier:@"SignupSuccesful" sender:self];
+            
             
         } else {
             //Something bad has ocurred
